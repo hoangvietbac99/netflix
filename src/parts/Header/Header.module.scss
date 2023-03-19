@@ -1,0 +1,27 @@
+.menu-main{
+    position: relative;
+    height: 68px;
+    padding: 0px 60px;
+    background-color: transparent;
+}
+.logo{
+    position: absolute;
+    height: 60px;
+    display: flex;
+    margin: 0px -12px ;
+    padding-top: 10px ;
+}
+.table_nav{
+    margin-left: 125px;
+    width: 700px;
+    height: 100%;
+    align-items: center;
+    display: flex;
+}
+.tab_nav{
+    display: inline;
+    padding-left: 13px;
+    font-size: 14px;
+    font-weight: 450;
+}
+
