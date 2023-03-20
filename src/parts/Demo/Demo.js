@@ -1,6 +1,14 @@
+import styles from "./Demo.module.scss";
+import classNames from "classnames/bind";
+import images from "~/assets/images";
+
+const cx = classNames.bind(styles);
 function Demo() {
-  return <div>this it demo</div>;
+  return (
+    <div>
+      <img className={cx("poster")} src={images.poster} alt="" />
+    </div>
+  );
 }
 
 export default Demo;
-<div>this it demo</div>;

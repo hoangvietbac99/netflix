@@ -1,27 +1,70 @@
 .menu-main{
     position: relative;
+    position: fixed;
+    width: 100%;
     height: 68px;
     padding: 0px 60px;
     background-color: transparent;
+    background-image: linear-gradient(180deg,rgba(0,0,0,.7) 10%,transparent);
+}
+.menu-left{
+    position: relative;
+    display: block;
+    width: 670px;
+    height: 100%;
 }
 .logo{
     position: absolute;
-    height: 60px;
     display: flex;
+    height: 60px;
     margin: 0px -12px ;
     padding-top: 10px ;
 }
-.table_nav{
+.table-nav{
     margin-left: 125px;
     width: 700px;
     height: 100%;
     align-items: center;
     display: flex;
+    color: var(--text-color);
 }
-.tab_nav{
+.tab-nav{
     display: inline;
     padding-left: 13px;
     font-size: 14px;
-    font-weight: 450;
+    font-weight: 400;
 }
-
+.menu-right{
+    position: absolute;
+    align-items: center;
+    // display: block;
+    display: flex;
+    width: 137px;
+    height: 100%;
+    right: 0px;
+    top: 0px;
+    right: 60px;
+}
+.icon-search{
+    margin-right: 20px;
+    width: 24px;
+    height: 24px;
+    color: var(--text-color);
+}
+.account{
+    display: flex;
+}
+.avatar{
+    height: 32px;
+    width: 32px;
+}
+.icon-up{
+    color: var(--text-color);
+    margin-left: 7px;
+    margin-top: 9px;
+}
+.account:hover .icon-up{
+    transform: rotate(180deg);
+    transform-origin: 50% 50%;
+    transition: transform 367ms cubic-bezier(.21,0,.07,1);
+}

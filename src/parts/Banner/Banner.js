@@ -1,5 +1,9 @@
 function Banner() {
-  return <div>this is banner</div>;
+  return (
+    <div>
+      <div>this is banner</div>
+    </div>
+  );
 }
 
 export default Banner;
