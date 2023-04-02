@@ -1,7 +1,9 @@
+import Slider from "~/component/Slider/Slider/Slider";
+
 function Banner() {
   return (
     <div>
-      <div>this is banner</div>
+      <Slider />
     </div>
   );
 }

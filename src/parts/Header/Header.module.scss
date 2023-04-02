@@ -26,7 +26,6 @@
 }
 ////////
 .table-nav{
-    color: var(--text-color);
     align-items: center;
     display: flex;
     margin-left: 125px;
@@ -34,10 +33,16 @@
     height: 100%;
 }
 .tab-nav{
+    cursor: pointer;
+    color: var(--text-color);
     display: inline;
     padding-left: 13px;
     font-size: 14px;
+    transition: all 0.4s;
     font-weight: 400;
+    &:hover{
+        color: #b3b3b3;
+    }
 }
 ///////////////////////////
 .menu-right{
@@ -49,18 +54,20 @@
     top: 0px;
     right: 60px;
 }
-.icon-nav-main{
+.icon-bell{
+    cursor: pointer;
     color: var(--text-color);
     margin-right: 20px;
-    width: 24px;
-    height: 24px;
+    width: 20px;
+    height: 20px;
 }
 .search{
     display: flex;
 }
-.notification{
+
+.sub-menu{
+    position: fixed;
 }
-/////
 .account{
     display: flex;
 }
@@ -79,9 +86,7 @@
     margin-top: 9px;
 }
 
-.account:hover .icon-up{
-    transition: transform 367ms cubic-bezier(.21,0,.07,1);
+.wrapper-show-menu:hover .icon-up{
+    transition: transform 300ms cubic-bezier(.21,0,.07,1);
     transform: rotate(180deg);
-    transform-origin: 50% 50%;
 }
-///////////////////////

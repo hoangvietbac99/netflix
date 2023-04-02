@@ -1,0 +1,49 @@
+.wrapper-menu-top-film{
+    cursor: pointer;
+    background-color: rgba(0,0,0,.9);
+    position: absolute;
+    max-height: calc(100vh - 280px);
+    min-height: 100px;
+    overflow: auto;
+    width: 408px;
+    right: 20px;
+    top: 15px;
+}
+.top-film-item{
+    border: 1px solid hsla(0,0%,100%,.25);
+    display: flex;
+    width: 100%;
+    min-height: 95px;
+    &:hover {
+        background-color: #000;
+    }
+}
+.picture-item{
+    border-radius: 20px;
+    width: 144px;
+    height: 95px;
+    padding: 16px;
+}
+.content-item{
+    display: block;
+    width: inherit;
+    min-height: 95px;
+    max-height:fit-content;
+    padding: 16px 16px 16px 0px;
+}
+.title-item{
+    color: var(--text-color-menu);
+    font-size: 16px;
+    line-height: 1.2
+}
+.title-more{
+    color: var(--text-color-menu);
+    line-height: 1.2;
+    font-size: 16px;
+
+}
+.relative-time{
+    margin-top: 8px;
+    color: var(--text-color-menu);
+    font-size: 11px;
+}

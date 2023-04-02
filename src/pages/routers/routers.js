@@ -1,10 +1,10 @@
 import Home from "../Home";
 import Profile from "../Profile";
+import SearchPage from "../SearchPage/SearchPage";
 
-const publicRouters = [];
-
-const privateRouters = [
+const pages = [
   { path: "/", component: Home },
   { path: "/profile", component: Profile },
+  { path: "/search", component: SearchPage },
 ];
-export { privateRouters, publicRouters };
+export default pages;

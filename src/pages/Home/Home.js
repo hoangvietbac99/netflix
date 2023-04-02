@@ -1,11 +1,11 @@
 import Header from "~/parts/Header/Header";
-import Demo from "~/parts/Demo/Demo";
+import Poster from "~/parts/BillBoard/Poster/Poster";
 import Banner from "~/parts/Banner/Banner";
 function Home() {
   return (
     <div>
       <Header />
-      <Demo />
+      <Poster />
       <Banner />
     </div>
   );

@@ -1,17 +1,47 @@
+import Notification from "~/component/Notification/Notification";
+import SubMenu from "~/component/SubMenu/SubMenu";
+import SearchInput from "~/component/SearchInput/SearchInput";
 import { useEffect, useState } from "react";
-import classNames from "classnames/bind";
-import styles from "./Header.module.scss";
-import images from "~/assets/images/index.js";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faBell, faCaretUp } from "@fortawesome/free-solid-svg-icons";
-import MenuFilms from "~/component/MenuFilms/MenuFilms";
-import MenuItems from "~/component/SubMenuAccount/SubMenuAccount";
-import InputSearch from "~/component/InputSearch/InputSearch";
+import { faCaretUp } from "@fortawesome/free-solid-svg-icons";
+import Tippy from "@tippyjs/react/headless";
+import icons from "~/assets/svg/icons";
+import styles from "./Header.module.scss";
+import classNames from "classnames/bind";
+import avatar from "~/assets/images/avatarAccounts";
+import logo from "~/assets/images/logo/index.js";
 const cx = classNames.bind(styles);
+const tabNav = [
+  {
+    title: "Trang chủ",
+  },
+  {
+    title: "Phim T.Hình",
+  },
+  {
+    title: "Phim",
+  },
+  {
+    title: "Danh sách của tôi",
+  },
+  {
+    title: "Duyệt tìm theo ngôn ngữ",
+  },
+];
 function Header() {
   const [nav, setNav] = useState(false);
+  ////// render//////
+  const renderNotification = (attrs) => (
+    <div tabIndex="-1" {...attrs}>
+      <Notification />
+    </div>
+  );
+  const renderMenu = (attrs) => (
+    <div tabIndex="-1" {...attrs}>
+      <SubMenu />
+    </div>
+  );
 
-  ///////////////////
   useEffect(() => {
     const changeNavbarColor = () => {
       if (window.scrollY >= 100) {
@@ -30,32 +60,49 @@ function Header() {
       {/* menu left */}
       <div className={cx("menu-left")}>
         <a href="/">
-          <img className={cx("logo")} src={images.logo} alt="" />
+          <img className={cx("logo")} src={logo.netflix} alt="" />
         </a>
         <ul className={cx("table-nav")}>
-          <li className={cx("tab-nav")}>Trang chủ</li>
-          <li className={cx("tab-nav")}>Phim T.Hình</li>
-          <li className={cx("tab-nav")}>Phim</li>
-          <li className={cx("tab-nav")}>Mới & Phổ biến</li>
-          <li className={cx("tab-nav")}>Danh sách của tôi</li>
-          <li className={cx("tab-nav")}>Duyệt tìm theo ngôn ngữ</li>
+          {tabNav.map((tab, index) => (
+            <li key={index} className={cx("tab-nav")}>
+              {tab.title}
+            </li>
+          ))}
         </ul>
       </div>
       {/* menu right */}
-      <div className={cx("menu-right")}>
+      <nav className={cx("menu-right")}>
         <div className={cx("search")}>
-          <InputSearch />
+          <SearchInput />
         </div>
-        <div className={cx("notification")}>
-          <FontAwesomeIcon className={cx("icon-nav-main")} icon={faBell} />
-          {false && <MenuFilms />}
+        {/* Notification */}
+        <Tippy
+          // visible
+          interactive="false"
+          delay={[100, 100]}
+          placement="bottom-end"
+          render={renderNotification}
+        >
+          <div className={cx("icon-bell")}>
+            <img src={icons.iconBell} alt="" />
+          </div>
+        </Tippy>
+        {/* Sub Menu */}
+        <div className={cx("wrapper-show-menu")}>
+          <Tippy
+            // visible
+            interactive="false"
+            delay={[100, 100]}
+            placement="bottom-end"
+            render={renderMenu}
+          >
+            <div className={cx("account")}>
+              <img className={cx("avatar")} src={avatar.avatarBlue} alt="" />
+              <FontAwesomeIcon className={cx("icon-up")} icon={faCaretUp} />
+            </div>
+          </Tippy>
         </div>
-        <div className={cx("account")}>
-          <img className={cx("avatar")} src={images.avatarBlue} alt="" />
-          <FontAwesomeIcon className={cx("icon-up")} icon={faCaretUp} />
-          {false && <MenuItems />}
-        </div>
-      </div>
+      </nav>
     </header>
   );
 }

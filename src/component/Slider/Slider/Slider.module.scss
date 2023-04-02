@@ -1,0 +1,139 @@
+
+/* media scroller */
+
+.media-container {
+  position: relative;
+}
+
+.media-scroller,
+.media-group {
+  display: grid;
+  gap: 0.25rem;
+  grid-auto-flow: column;
+}
+
+.media-scroller {
+  overflow-x: hidden;
+  scroll-behavior:smooth;
+  grid-auto-columns: 100%;
+  padding: 0px 60px;
+  scroll-padding-inline: 60px;
+}
+
+.media-group {
+  grid-auto-columns: 1fr;
+}
+
+.media-element {
+  padding: 3px;
+  border-radius: 0.25rem;
+  overflow: hidden;
+}
+
+.media-element > img {
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  object-fit: cover;
+}
+
+.next,
+.previous {
+  display: none;
+  align-items: center;
+  z-index: 10;
+  position: absolute;
+  width: 60px;
+  padding: 1rem;
+  background: rgb(0 0 0 / 0);
+  opacity: 0;
+}
+
+.previous {
+  left: 0;
+  top: 0;
+  bottom: 0;
+}
+
+.next {
+  right: 0;
+  top: 0;
+  bottom: 0;
+}
+
+.media-group:first-child :where(.next, .previous) {
+  display: flex;
+}
+
+.media-scroller:hover :where(.next, .previous) {
+  opacity: 1;
+}
+
+:where(.next, .previous):hover {
+  background: rgb(0 0 0 / 0.3);
+}
+
+:where(.next, .previous) > svg {
+  transition: transform 75ms linear;
+  transform: scale(1);
+}
+:where(.next, .previous):hover > svg {
+  transform: scale(1.2);
+}
+
+.media-group:target :where(.next, .previous) {
+  display: flex;
+}
+
+.media-scroller:has(:target:not(:first-child))
+  .media-group:first-of-type
+  .next {
+  display: none;
+}
+
+/* navigation indicators */
+
+.navigation-indicators {
+  opacity: 0;
+  position: absolute;
+  display: flex;
+  gap: 1.5px;
+  top: -10px;
+  right: 60px;
+}
+
+.navigation-indicators > * {
+  width: 12px;
+  height: 1.5px;
+  background: white;
+  opacity: 0.5;
+}
+
+.media-scroller:has(.media-group:target)
+  .navigation-indicators> *:nth-child(1) {
+  opacity: 0.5;
+}
+
+.navigation-indicators > *:nth-child(1),
+.media-group:nth-child(1):target ~ .navigation-indicators > *:nth-child(1) {
+  opacity: 1;
+}
+
+.media-group:nth-child(2):target ~ .navigation-indicators > *:nth-child(2) {
+  opacity: 1;
+}
+
+.media-group:nth-child(3):target ~ .navigation-indicators > *:nth-child(3) {
+  opacity: 1;
+}
+
+.media-group:nth-child(4):target ~ .navigation-indicators > *:nth-child(4) {
+  opacity: 1;
+}
+
+.media-scroller:hover .navigation-indicators {
+  opacity: 1;
+}
+.icon{
+  font-size: 30px;
+  color: white;
+}
