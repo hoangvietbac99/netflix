@@ -1,9 +1,14 @@
-import Slider from "~/component/Slider/Slider/Slider";
+import Slide from "~/component/Slide/Slide/Slide";
 
 function Banner() {
   return (
     <div>
-      <Slider />
+      <Slide />
+      <Slide />
+      <Slide />
+      <Slide />
+      <Slide />
+      <Slide />
     </div>
   );
 }

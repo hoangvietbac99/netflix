@@ -11,5 +11,10 @@ const icons = {
   iconPlay: require("~/assets/svg/icons/iconPlay.svg").default,
   iconInfo: require("~/assets/svg/icons/iconInfo.svg").default,
   iconMute: require("~/assets/svg/icons/iconMute.svg").default,
+  iconDisLike: require("~/assets/svg/icons/iconDisLike.svg").default,
+  iconLike: require("~/assets/svg/icons/iconLike.svg").default,
+  iconMoreDown: require("~/assets/svg/icons/iconMoreDown.svg").default,
+  iconDelete: require("~/assets/svg/icons/iconDelete.svg").default,
+  iconPlus: require("~/assets/svg/icons/iconPlus.svg").default,
 };
 export default icons;

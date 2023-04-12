@@ -1,0 +1,30 @@
+.wrapper-small-trailer{
+
+    box-shadow: rgba(0, 0, 0, 0.75) 0px 3px 10px;
+    width: 325px;
+    height: 350px;
+    background-color: bisque;
+    .item-info{
+        padding: 15px;
+        width: 100%;
+        height: initial;
+        color: var(--text-color);
+        .icon{
+            .icon-action{
+                width: 20px;
+                height: 20px;
+            }
+        }
+    }
+    // &:hover{
+    //     position: relative;
+    //     box-shadow: rgba(0, 0, 0, 0.75) 0px 3px 10px;
+    //     width: 325px;
+    //     height: 350px;
+    //     top: -100px;
+    //     img{
+    //         height: fit-content;
+    //         border-radius: 3px 3px 0px 0px;
+    //     }
+    // }
+}

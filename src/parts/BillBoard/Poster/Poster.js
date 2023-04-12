@@ -1,6 +1,6 @@
 import styles from "./Poster.module.scss";
 import classNames from "classnames/bind";
-import SliderTopFilm from "~/component/Slider/SliderTopFilm/SliderTopFilm/SliderTopFilm";
+// import SliderTopFilm from "~/component/Slider/SliderTopFilm/SliderTopFilm/SliderTopFilm";
 import icons from "~/assets/svg/icons";
 import posters from "~/assets/images/posters/Posters";
 import titles from "~/assets/images/posters/titlePoster";
@@ -9,9 +9,7 @@ const cx = classNames.bind(styles);
 function Poster() {
   return (
     <div className={cx("frame-poster")}>
-      <div className={cx("shadow")}>
-        <SliderTopFilm />
-      </div>
+      <div className={cx("shadow")}>{/* <SliderTopFilm /> */}</div>
       <img className={cx("poster")} src={posters.posterMuuCau} alt="" />
       <div className={cx("info-poster")}>
         <img className={cx("title-logo")} src={titles.titleMuuCau} alt="" />

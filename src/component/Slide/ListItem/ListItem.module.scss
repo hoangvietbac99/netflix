@@ -1,0 +1,17 @@
+.list-item{ 
+    position: relative;
+    width: 225px;
+    aspect-ratio: 16/9;
+    margin-right: 5px;
+    cursor: pointer;
+    // overflow: hidden;
+    img{
+        width: 100%;
+        object-fit: cover;
+        border-radius: 3px;
+    }
+    .show-small-video{
+        position: absolute;
+    }
+ 
+}
