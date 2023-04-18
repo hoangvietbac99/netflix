@@ -1,0 +1,43 @@
+.wrapper-footer{
+    position: relative;
+    margin-top: 50px;
+    width: 100%;
+    color: gray;
+    .footer{
+        margin: 20px auto 0;
+        max-width: 980px;
+        .social-network{
+            display: flex;
+            margin-bottom: 20px;
+            .icon-social{
+                margin-right: 15px;
+                width: 36px;
+                height: 24px;
+            }
+        }
+        .member-footer{
+            display: flex;
+            flex-wrap: wrap;
+            flex-direction: row;
+            align-items: flex-start ;
+            .item-member-footer{
+                cursor: pointer;
+                flex-basis: 25%;
+                margin-bottom: 16px;
+            }
+        }
+        .service-footer{
+            margin-bottom: 20px;
+            button{
+                cursor: pointer;
+                color: gray;
+                padding: 5px;
+                border: 1px solid grey;
+                background-color: transparent;
+            }
+        }
+        .coppyright-footer{
+            margin-bottom: 20px;
+        }
+    }
+}

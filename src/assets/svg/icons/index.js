@@ -16,5 +16,11 @@ const icons = {
   iconMoreDown: require("~/assets/svg/icons/iconMoreDown.svg").default,
   iconDelete: require("~/assets/svg/icons/iconDelete.svg").default,
   iconPlus: require("~/assets/svg/icons/iconPlus.svg").default,
+  iconBars: require("~/assets/svg/icons/iconBars.svg").default,
+  iconTable: require("~/assets/svg/icons/iconTable.svg").default,
+  iconFB: require("~/assets/svg/icons/iconFB.svg").default,
+  iconIG: require("~/assets/svg/icons/iconIG.svg").default,
+  iconTW: require("~/assets/svg/icons/iconTW.svg").default,
+  iconYT: require("~/assets/svg/icons/iconYT.svg").default,
 };
 export default icons;

@@ -1,12 +1,15 @@
 import Header from "~/parts/Header/Header";
-import Poster from "~/parts/BillBoard/Poster/Poster";
 import Banner from "~/parts/Banner/Banner";
+import Footer from "~/parts/Footer/Footer";
+import classNames from "classnames/bind";
+import styles from "./Home.module.scss"
+const cx = classNames.bind(styles)
 function Home() {
   return (
-    <div>
-      <Header />
-      <Poster />
+    <div className={cx("wrapper-home-page")}>
+      <Header sub={false} />
       <Banner />
+      <Footer />
     </div>
   );
 }

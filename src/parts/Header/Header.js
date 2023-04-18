@@ -10,6 +10,7 @@ import styles from "./Header.module.scss";
 import classNames from "classnames/bind";
 import avatar from "~/assets/images/avatarAccounts";
 import logo from "~/assets/images/logo/index.js";
+import Category from "~/component/Category/Category";
 const cx = classNames.bind(styles);
 const tabNav = [
   {
@@ -20,7 +21,9 @@ const tabNav = [
   },
   {
     title: "Phim",
+
   },
+  {title: "Mới & Phổ biến"},
   {
     title: "Danh sách của tôi",
   },
@@ -28,7 +31,8 @@ const tabNav = [
     title: "Duyệt tìm theo ngôn ngữ",
   },
 ];
-function Header() {
+
+function Header({sub}) {
   const [nav, setNav] = useState(false);
   ////// render//////
   const renderNotification = (attrs) => (
@@ -56,53 +60,58 @@ function Header() {
     };
   }, []);
   return (
-    <header className={cx("menu-main", nav && "black-nav")}>
-      {/* menu left */}
-      <div className={cx("menu-left")}>
-        <a href="/">
-          <img className={cx("logo")} src={logo.netflix} alt="" />
-        </a>
-        <ul className={cx("table-nav")}>
+    <header className={cx("wrapper-menu", nav && "black-nav")}>
+      <div className={cx("menu-main")}>
+        {/* menu left */}
+        <div className={cx("menu-left")}>
+          <a href="/">
+            <img className={cx("logo")} src={logo.netflix} alt="" />
+          </a>
+          <ul className={cx("table-nav")}>
           {tabNav.map((tab, index) => (
-            <li key={index} className={cx("tab-nav")}>
-              {tab.title}
-            </li>
-          ))}
-        </ul>
-      </div>
-      {/* menu right */}
-      <nav className={cx("menu-right")}>
-        <div className={cx("search")}>
-          <SearchInput />
+              <li key={index} className={cx("tab-nav")}>
+                {tab.title}
+              </li>
+            ))}
+          </ul>
         </div>
-        {/* Notification */}
-        <Tippy
-          // visible
-          interactive="false"
-          delay={[100, 100]}
-          placement="bottom-end"
-          render={renderNotification}
-        >
-          <div className={cx("icon-bell")}>
-            <img src={icons.iconBell} alt="" />
+        {/* menu right */}
+        <nav className={cx("menu-right")}>
+          <div className={cx("search")}>
+            <SearchInput />
           </div>
-        </Tippy>
-        {/* Sub Menu */}
-        <div className={cx("wrapper-show-menu")}>
+          {/* Notification */}
           <Tippy
             // visible
             interactive="false"
             delay={[100, 100]}
             placement="bottom-end"
-            render={renderMenu}
+            render={renderNotification}
           >
-            <div className={cx("account")}>
-              <img className={cx("avatar")} src={avatar.avatarBlue} alt="" />
-              <FontAwesomeIcon className={cx("icon-up")} icon={faCaretUp} />
+            <div className={cx("icon-bell")}>
+              <img src={icons.iconBell} alt="" />
             </div>
           </Tippy>
-        </div>
-      </nav>
+          {/* Sub Menu */}
+          <div className={cx("wrapper-show-menu")}>
+            <Tippy
+              // visible
+              interactive="false"
+              delay={[100, 100]}
+              placement="bottom-end"
+              render={renderMenu}
+            >
+              <div className={cx("account")}>
+                <img className={cx("avatar")} src={avatar.avatarBlue} alt="" />
+                <FontAwesomeIcon className={cx("icon-up")} icon={faCaretUp} />
+              </div>
+            </Tippy>
+          </div>
+        </nav>
+      </div>
+      {sub && <div className={cx("menu-bottom")}>
+        <Category />
+      </div>}
     </header>
   );
 }

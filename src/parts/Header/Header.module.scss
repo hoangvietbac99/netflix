@@ -1,92 +1,95 @@
 //header///////////////////
-.menu-main{
+.wrapper-menu{
     background: linear-gradient(180deg,rgba(0,0,0,.7) 10%,transparent);
     transition: background-color 1s;
     position: fixed;
     padding: 0px 60px;
     width: 100%;
-    height: 68px;
-    z-index: 10;
+    z-index: 10;  
+    height: fit-content;
+    .menu-main{
+        height: 68px;
+        .logo{
+            position: absolute;
+            height: 60px;
+            margin: 0px -12px ;
+            padding-top: 10px ;
+        }
+        .table-nav{
+            position: absolute;
+            margin-left: 125px;
+            width: 700px;
+            height: 100%;
+            padding-top: 25px ;
+            .tab-nav{
+                cursor: pointer;
+                color: var(--text-color);
+                display: inline;
+                padding-left: 13px;
+                font-size: 14px;
+                transition: all 0.4s;
+                font-weight: 400;
+                &:hover{
+                    color: #b3b3b3;
+                }
+            }
+        }
+        .menu-right{
+            position: absolute;
+            display: flex;
+            align-items: center;
+            height: 68px;
+            right: 0px;
+            top: 0px;
+            right: 60px;
+            .icon-bell{
+                cursor: pointer;
+                color: var(--text-color);
+                margin-right: 20px;
+                width: 20px;
+                height: 20px;
+            }
+            .search{
+                display: flex;
+            }
+            .wrapper-show-menu{
+                .account{
+                    display: flex;
+                    .avatar{
+                        cursor: pointer;
+                    
+                        border-radius: 5px;
+                        height: 32px;
+                        width: 32px;
+                    }
+                    .icon-up{
+                        cursor: pointer;
+                        transition: transform 367ms cubic-bezier(.21,0,.07,1);
+                        color: var(--text-color);
+                        margin-left: 7px;
+                        margin-top: 9px;
+                    }
+                }
+                &:hover .icon-up{
+                    transition: transform 300ms cubic-bezier(.21,0,.07,1);
+                    transform: rotate(180deg);
+                }
+                
+            }
+        
+        }
+        // .menu-bottom{
+
+        // } 
+    }  
+         
+    
+    
+ 
 }
 .black-nav{
     transition: background-color 0.4s;
     background-color: rgb(20, 20, 20);
 }
-//////////////////////////
-.menu-left{
-    position: relative;
-    width: 670px;
-    height: 100%;
-}
-.logo{
-    position: absolute;
-    height: 60px;
-    margin: 0px -12px ;
-    padding-top: 10px ;
-}
-////////
-.table-nav{
-    align-items: center;
-    display: flex;
-    margin-left: 125px;
-    width: 700px;
-    height: 100%;
-}
-.tab-nav{
-    cursor: pointer;
-    color: var(--text-color);
-    display: inline;
-    padding-left: 13px;
-    font-size: 14px;
-    transition: all 0.4s;
-    font-weight: 400;
-    &:hover{
-        color: #b3b3b3;
-    }
-}
-///////////////////////////
-.menu-right{
-    position: absolute;
-    display: flex;
-    align-items: center;
-    height: 100%;
-    right: 0px;
-    top: 0px;
-    right: 60px;
-}
-.icon-bell{
-    cursor: pointer;
-    color: var(--text-color);
-    margin-right: 20px;
-    width: 20px;
-    height: 20px;
-}
-.search{
-    display: flex;
-}
 
-.sub-menu{
-    position: fixed;
-}
-.account{
-    display: flex;
-}
-.avatar{
-    cursor: pointer;
 
-    border-radius: 5px;
-    height: 32px;
-    width: 32px;
-}
-.icon-up{
-    cursor: pointer;
-    transition: transform 367ms cubic-bezier(.21,0,.07,1);
-    color: var(--text-color);
-    margin-left: 7px;
-    margin-top: 9px;
-}
-
-.wrapper-show-menu:hover .icon-up{
-    transition: transform 300ms cubic-bezier(.21,0,.07,1);
-    transform: rotate(180deg);
-}

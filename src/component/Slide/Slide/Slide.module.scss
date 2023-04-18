@@ -1,7 +1,7 @@
 .wrapper-slide{
     width: 100%;
     margin-top: 50px;
-    padding: 0px 70px;
+    padding: 0px  70px ;
     .title-slide{
         color: var(--text-color);
         font-size: 20px;
@@ -24,7 +24,8 @@
     .slide{
         position: relative;
         margin-top: 10px;
-        &:hover .directional> .icon{
+        overflow: visible;
+        &:hover .directional{
             display: flex;
         }
         .container{
@@ -32,9 +33,10 @@
             width: max-content;
             transform: translateX(0px);
             transition: all 500ms ease;
+            
         }
         .directional{
-            display: flex;
+            display: none;
             align-items: center;
             position: absolute;
             outline: none;
@@ -46,20 +48,22 @@
             background-color: hsla(0,0%,8%,.5);
             z-index: 4;
             cursor: pointer;
-            .icon{
-                display: none;
-            }
             &:hover .icon{
                 transition: all 150ms ease;
                 transform: scale(1.5);
             }
             &.left{
-                left: -70px;
+                // display: none;
+                left: 0px;
             }
             &.right{
                 top: 0px;
-                right: -70px;
+                right: 0px;
+                
             }
         }
     }
+}
+.slick-list {
+    overflow: visible !important;
 }

@@ -7,23 +7,52 @@ import {
   faChevronRight,
 } from "@fortawesome/free-solid-svg-icons";
 import ListItem from "../ListItem/ListItem";
-import { useRef, useState } from "react";
+import Slider from "react-slick";
+import "slick-carousel/slick/slick.css"; 
+import "slick-carousel/slick/slick-theme.css";
+// import { useState } from "react";
 const cx = classNames.bind(styles);
-
 function Slide() {
-  const slideRef = useRef();
-  const [showArrow, setShowArrow] = useState(false);
-  const handleArrow = (arrow) => {
-    let distance = slideRef.current.getBoundingClientRect().x - 70;
-    if (arrow === "prev" && showArrow) {
-      slideRef.current.style = `transform:translateX(${distance + 1380}px)`;
+  
+  // const [showPrev, setShowPrev] = useState(false)
+  
+  function HandlePrevArrow(props) {
+    
+    const { onClick } = props;
+    return (
+      // showPrev &&  
+      <div
+        className={cx("directional", "left")}
+        onClick={onClick}
+      >
+      <div >
+        <FontAwesomeIcon className={cx("icon")} icon={faChevronLeft} />
+      </div></div>
+    );
+  }
+  function HandleNextArrow(props) {
+    const { onClick } = props;
+    return (
+      <div 
+        className={cx("directional", "right")}
+        onClick={onClick}
+      >
+        <div>
+          <FontAwesomeIcon className={cx("icon")} icon={faChevronRight} />
+        </div>
+      </div>
+    )
+  }
+    const settings ={
+      prevArrow: <HandlePrevArrow />,
+      nextArrow: <HandleNextArrow  />,
+      dots: true,
+      infinite: true,
+      lazyLoad: true,
+      speed: 500,
+      slidesToShow: 6,
+      slidesToScroll: 6,
     }
-    if (arrow === "next") {
-      setShowArrow(true);
-      slideRef.current.style = `transform:translateX(${distance - 1380}px)`;
-    }
-  };
-
   return (
     <div className={cx("wrapper-slide")}>
       <h2 className={cx("title-slide")}>
@@ -39,14 +68,7 @@ function Slide() {
         </a>
       </h2>
       <div className={cx("slide")}>
-        <div
-          onClick={() => handleArrow("prev")}
-          className={cx("directional", "left")}
-          style={{ display: !showArrow && "none" }}
-        >
-          <FontAwesomeIcon className={cx("icon")} icon={faChevronLeft} />
-        </div>
-        <div className={cx("container")} ref={slideRef}>
+        <Slider {...settings} >
           <ListItem />
           <ListItem />
           <ListItem />
@@ -65,13 +87,7 @@ function Slide() {
           <ListItem />
           <ListItem />
           <ListItem />
-        </div>
-        <div
-          onClick={() => handleArrow("next")}
-          className={cx("directional", "right")}
-        >
-          <FontAwesomeIcon className={cx("icon")} icon={faChevronRight} />
-        </div>
+        </Slider>
       </div>
     </div>
   );
