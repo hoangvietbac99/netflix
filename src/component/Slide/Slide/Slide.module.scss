@@ -1,7 +1,7 @@
 .wrapper-slide{
     width: 100%;
     margin-top: 50px;
-    padding: 0px  70px ;
+    padding-left: 60px;
     .title-slide{
         color: var(--text-color);
         font-size: 20px;
@@ -43,7 +43,7 @@
             font-size: 40px;
             padding: 20px;
             color: var(--text-color);
-            width: 70px;
+            width: 60px;
             height: 100%;
             background-color: hsla(0,0%,8%,.5);
             z-index: 4;
@@ -54,7 +54,7 @@
             }
             &.left{
                 // display: none;
-                left: 0px;
+                left: -60px;
             }
             &.right{
                 top: 0px;
@@ -63,7 +63,4 @@
             }
         }
     }
-}
-.slick-list {
-    overflow: visible !important;
 }

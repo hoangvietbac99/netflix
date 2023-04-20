@@ -1,12 +1,12 @@
 import Slide from "~/component/Slide/Slide/Slide";
 import classNames from "classnames/bind";
-import styles from "./Banner.module.scss"
+import styles from "./MainScreen.module.scss"
 import icons from "~/assets/svg/icons";
 import posters from "~/assets/images/posters/Posters";
 import titles from "~/assets/images/posters/titlePoster";
 const cx= classNames.bind(styles)
 
-function Banner() {
+function MainScreen() {
   return (
     <div className={cx("wrapper-main-content")}>
       <div className={cx("wrapper-banner")}>
@@ -49,4 +49,4 @@ function Banner() {
   );
 }
 
-export default Banner;
+export default MainScreen;

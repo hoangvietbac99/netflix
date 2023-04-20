@@ -32,7 +32,7 @@ const tabNav = [
   },
 ];
 
-function Header({sub}) {
+function Header({subNav, onClick}) {
   const [nav, setNav] = useState(false);
   ////// render//////
   const renderNotification = (attrs) => (
@@ -109,8 +109,8 @@ function Header({sub}) {
           </div>
         </nav>
       </div>
-      {sub && <div className={cx("menu-bottom")}>
-        <Category />
+      {subNav && <div className={cx("menu-bottom")}>
+        <Category onClick={onClick} />
       </div>}
     </header>
   );

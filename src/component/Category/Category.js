@@ -80,8 +80,12 @@ const categorys = {
         },
     ]
 }
-function Category(){
+function Category({onClick=("main","sub")}){
     const [showCategory, setShowCategory] = useState(false)
+    const [showIcon, setShowIcon]=useState(false)
+    const handleShowIcon =()=>{
+      setShowIcon(!showIcon)
+    }
     const handleShowCategory =()=> {
         setShowCategory(!showCategory)
 
@@ -111,17 +115,18 @@ function Category(){
                 </div>}
               </div>
             </div>
-            <div className={cx("genre-right")}>
-                <div className={cx("icon")}>
-                    <button className={cx("icon-bar")} >
-                      <img className={cx("icon-")} src={icons.iconBars} alt=""/>
+            <div className={cx("genre-right")} onClick={()=>handleShowIcon()}>
+                <div className={cx("icon")}  onClick={onClick}>
+                    <button className={cx("icon-bar")}>
+                      { showIcon === true ? <img className={cx("icon-")} src={icons.iconBars} alt=""/> :
+                      <img className={cx("icon-")} src={icons.iconTable} alt=""/>}
                     </button>
                 </div>
-                <div className={cx("icon")}>
+                {/* <div className={cx("icon")}  onClick={onClick}>
                     <button className={cx("icon-table")} >
                       <img className={cx("icon-")} src={icons.iconTable} alt=""/>
                     </button>
-                </div>
+                </div> */}
             </div>
     </div>)
 }

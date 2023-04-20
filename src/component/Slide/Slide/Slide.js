@@ -10,36 +10,41 @@ import ListItem from "../ListItem/ListItem";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css"; 
 import "slick-carousel/slick/slick-theme.css";
-// import { useState } from "react";
+import { useState } from "react";
 const cx = classNames.bind(styles);
 function Slide() {
   
-  // const [showPrev, setShowPrev] = useState(false)
-  
+  const [showPrev, setShowPrev] = useState(false)
+  const handleShowArrowLeft = ()=>{
+    setShowPrev(true)
+  }
   function HandlePrevArrow(props) {
-    
     const { onClick } = props;
     return (
-      // showPrev &&  
-      <div
+      <div>
+        { showPrev && (<div
         className={cx("directional", "left")}
         onClick={onClick}
       >
-      <div >
-        <FontAwesomeIcon className={cx("icon")} icon={faChevronLeft} />
-      </div></div>
+        <div >
+          <FontAwesomeIcon className={cx("icon")} icon={faChevronLeft} />
+        </div>
+      </div>)}
+      </div>
     );
   }
   function HandleNextArrow(props) {
     const { onClick } = props;
     return (
-      <div 
+      <div onClick={()=>handleShowArrowLeft()}>
+        <div 
         className={cx("directional", "right")}
         onClick={onClick}
       >
         <div>
           <FontAwesomeIcon className={cx("icon")} icon={faChevronRight} />
         </div>
+      </div>
       </div>
     )
   }
