@@ -1,6 +1,6 @@
 .wrapper-category{
-    display: flex;
     position: relative;
+    display: flex;
     width: 100%;
     .genre-left{
         color: var(--text-color);
@@ -10,7 +10,7 @@
         left: 0px;
         align-items: center;
         .genre-title{
-            font-size: 38px;
+            font-size: 30px;
             font-weight: 500;
             line-height: 38px;
             margin-right: 15px
@@ -63,7 +63,6 @@
     .genre-right{
         position: relative;
         display: flex;
-        right: 5px;
         align-items: center;
         .icon{
             width: 44px;

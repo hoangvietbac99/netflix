@@ -1,7 +1,7 @@
 import Notification from "~/component/Notification/Notification";
 import SubMenu from "~/component/SubMenu/SubMenu";
 import SearchInput from "~/component/SearchInput/SearchInput";
-import { useEffect, useState } from "react";
+import { Fragment, useEffect, useState } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCaretUp } from "@fortawesome/free-solid-svg-icons";
 import Tippy from "@tippyjs/react/headless";
@@ -10,31 +10,41 @@ import styles from "./Header.module.scss";
 import classNames from "classnames/bind";
 import avatar from "~/assets/images/avatarAccounts";
 import logo from "~/assets/images/logo/index.js";
-import Category from "~/component/Category/Category";
+import Category from "~/component/SubNav/Category/Category";
+import { Link } from "react-router-dom";
+import NavFilter from "~/component/SubNav/NavFilter/NavFilter";
+import linkPage from "~/component/LinkPage/LinkPage";
 const cx = classNames.bind(styles);
 const tabNav = [
   {
     title: "Trang chủ",
+    to:"/"
   },
   {
     title: "Phim T.Hình",
+    to: linkPage.tvShow
   },
   {
     title: "Phim",
-
+    to:linkPage.moviePage
   },
-  {title: "Mới & Phổ biến"},
+  {
+    title: "Mới & Phổ biến",
+    to:linkPage.newMovie
+  },
   {
     title: "Danh sách của tôi",
+    to:linkPage.myList
   },
   {
     title: "Duyệt tìm theo ngôn ngữ",
+    to:linkPage.filterMovie
   },
 ];
 
-function Header({subNav, onClick}) {
+function Header({subNav, children, onClick}) {
   const [nav, setNav] = useState(false);
-  ////// render//////
+
   const renderNotification = (attrs) => (
     <div tabIndex="-1" {...attrs}>
       <Notification />
@@ -48,7 +58,8 @@ function Header({subNav, onClick}) {
 
   useEffect(() => {
     const changeNavbarColor = () => {
-      if (window.scrollY >= 100) {
+
+      if (window.scrollY >= 10) {
         setNav(true);
       } else {
         setNav(false);
@@ -60,17 +71,20 @@ function Header({subNav, onClick}) {
     };
   }, []);
   return (
+    <Fragment>
     <header className={cx("wrapper-menu", nav && "black-nav")}>
       <div className={cx("menu-main")}>
         {/* menu left */}
         <div className={cx("menu-left")}>
-          <a href="/">
+          <Link to="/">
             <img className={cx("logo")} src={logo.netflix} alt="" />
-          </a>
+          </Link>
           <ul className={cx("table-nav")}>
           {tabNav.map((tab, index) => (
               <li key={index} className={cx("tab-nav")}>
-                {tab.title}
+                <Link to={tab.to} className={cx("tab-item")} >
+                  {tab.title}
+                </Link>
               </li>
             ))}
           </ul>
@@ -95,7 +109,6 @@ function Header({subNav, onClick}) {
           {/* Sub Menu */}
           <div className={cx("wrapper-show-menu")}>
             <Tippy
-              // visible
               interactive="false"
               delay={[100, 100]}
               placement="bottom-end"
@@ -105,14 +118,19 @@ function Header({subNav, onClick}) {
                 <img className={cx("avatar")} src={avatar.avatarBlue} alt="" />
                 <FontAwesomeIcon className={cx("icon-up")} icon={faCaretUp} />
               </div>
-            </Tippy>
+            </Tippy>  
           </div>
         </nav>
       </div>
-      {subNav && <div className={cx("menu-bottom")}>
+      {subNav ===true && <div className={cx("menu-bottom")}>
         <Category onClick={onClick} />
       </div>}
+      {subNav === false && <div className={cx("menu-bottom")}>
+        <NavFilter />
+      </div>}
     </header>
+    <div className={cx("wrapper-page")} >{children}</div>
+    </Fragment>
   );
 }
 

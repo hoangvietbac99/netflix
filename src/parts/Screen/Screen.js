@@ -1,13 +1,18 @@
 
-import MainScreen from "./MainScreen/MainScreen"
-import SubScreen from "./SubScreen/SubScreen"
+import { Fragment } from "react"
+import ScreenList from "./ScreenList/ScreenList"
+import ScreenItem from "./ScreenItem/ScreenItem"
 
-function Screen ({showScreen}){
- 
+function Screen ({changeScreen, data}){
     return (
-        <div>
-            { showScreen === true ? <MainScreen /> : <SubScreen/>}
-        </div>
+        <Fragment>
+            { changeScreen === true ? <ScreenList data={data} /> : <ScreenItem data={data} />}
+        </Fragment>
     )
 }
 export default Screen
+
+
+
+
+

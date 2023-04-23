@@ -23,14 +23,16 @@
             padding-top: 25px ;
             .tab-nav{
                 cursor: pointer;
-                color: var(--text-color);
                 display: inline;
-                padding-left: 13px;
-                font-size: 14px;
-                transition: all 0.4s;
-                font-weight: 400;
-                &:hover{
-                    color: #b3b3b3;
+                .tab-item{
+                    transition: all 0.4s;
+                    font-size: 14px;
+                    padding-left: 13px;
+                    font-weight: 400;
+                    color: var(--text-color);
+                    &:hover{
+                        color: #b3b3b3;
+                    }
                 }
             }
         }
@@ -82,10 +84,6 @@
 
         // } 
     }  
-         
-    
-    
- 
 }
 .black-nav{
     transition: background-color 0.4s;

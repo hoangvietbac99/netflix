@@ -1,12 +1,12 @@
 import Slide from "~/component/Slide/Slide/Slide";
 import classNames from "classnames/bind";
-import styles from "./MainScreen.module.scss"
+import styles from "./ScreenList.module.scss"
 import icons from "~/assets/svg/icons";
 import posters from "~/assets/images/posters/Posters";
 import titles from "~/assets/images/posters/titlePoster";
 const cx= classNames.bind(styles)
 
-function MainScreen() {
+function ScreenList({data}) {
   return (
     <div className={cx("wrapper-main-content")}>
       <div className={cx("wrapper-banner")}>
@@ -41,7 +41,7 @@ function MainScreen() {
         <div className={cx("shadow")}></div>
       </div>
       <div className={cx("wrapper-slider")}>
-        <Slide />
+        <Slide data={data} />
         <Slide />
       </div>
       </div>
@@ -49,4 +49,4 @@ function MainScreen() {
   );
 }
 
-export default MainScreen;
+export default ScreenList;

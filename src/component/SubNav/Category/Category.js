@@ -80,7 +80,7 @@ const categorys = {
         },
     ]
 }
-function Category({onClick=("main","sub")}){
+function Category({onClick}){
     const [showCategory, setShowCategory] = useState(false)
     const [showIcon, setShowIcon]=useState(false)
     const handleShowIcon =()=>{
@@ -93,7 +93,7 @@ function Category({onClick=("main","sub")}){
   return(
     <div className={cx("wrapper-category")}>
             <div className={cx("genre-left")}>
-              <div className={cx("genre-title")}> Phim abc</div>
+              <h2 className={cx("genre-title")}> Thể Loại Phim</h2>
                 <div className={cx("category")} onClick={()=>handleShowCategory()} >Thể loại
                   <FontAwesomeIcon className={cx("icon-category", showCategory && "rotate-icon" )} icon={faCaretUp} />
                   {showCategory && <div className={cx("list-category")}>
@@ -115,7 +115,7 @@ function Category({onClick=("main","sub")}){
                 </div>}
               </div>
             </div>
-            <div className={cx("genre-right")} onClick={()=>handleShowIcon()}>
+            <div className={cx("genre-right")} onClick={()=>handleShowIcon()}> 
                 <div className={cx("icon")}  onClick={onClick}>
                     <button className={cx("icon-bar")}>
                       { showIcon === true ? <img className={cx("icon-")} src={icons.iconBars} alt=""/> :

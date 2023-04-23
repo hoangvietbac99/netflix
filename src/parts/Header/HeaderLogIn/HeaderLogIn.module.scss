@@ -1,0 +1,50 @@
+.wrapper-header-login{
+    position: relative;
+    width: 1170px;
+    height: 86px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    .logo-netflix{
+        position:absolute;
+        left: -20px;
+        height: 92%;
+    }
+    .menu-right{
+        position: absolute;
+        right: 0px;
+        .wrapper-language{
+            position: relative;
+            width: 148px;
+            height: 32px;
+            background-color: transparent;
+            color: white;
+            border-radius: 2px;
+            .language-item{
+                position: absolute;
+                width: 100%;
+                height: 30px;
+                background-color: black;
+                color: white;
+            }
+        }
+        .btn-sign-in{
+            margin-left: 30px;
+            width: 80px;
+            height: 32px;
+            background-color: #E50914 ;
+            border: none ;
+            border-radius: 5px;
+            &:hover{
+                background-color: #C11119;
+            }
+            .link-sign{
+                text-decoration: none;
+            }
+            span{
+                color: var(--text-color);
+                font-weight: 500;
+            }
+        }
+    }
+}

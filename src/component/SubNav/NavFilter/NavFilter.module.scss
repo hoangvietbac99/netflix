@@ -1,0 +1,33 @@
+.wrappper-nav-filter{
+    color: var(--text-color);
+    display: flex;
+    height: 68px;
+    align-items: center;
+    .genre-title{
+        font-size: 30px;
+        font-weight: 500;
+        line-height: 30px;
+        margin-right: 15px
+    }
+    .wrapper-option-right{
+        position: absolute;
+        display: flex;
+        right: 60px;
+        align-items: center;
+        .sub-option{
+            display: flex;
+        }
+        .language-option{
+            display: flex;
+
+        }
+        .for-you-option{
+            display: flex;
+        }
+    }
+}
+.font-title{
+    display: flex;
+    align-items: center;
+    margin-left: 15px;
+}

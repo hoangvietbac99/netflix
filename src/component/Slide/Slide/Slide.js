@@ -15,8 +15,15 @@ const cx = classNames.bind(styles);
 function Slide() {
   
   const [showPrev, setShowPrev] = useState(false)
+  const [showDots, setShowDots] = useState(false)
   const handleShowArrowLeft = ()=>{
     setShowPrev(true)
+  }
+  const handleShowDots =()=>{
+    setShowDots(true)
+  }
+  const handleHideDots =()=>{
+    setShowDots(false)
   }
   function HandlePrevArrow(props) {
     const { onClick } = props;
@@ -51,13 +58,40 @@ function Slide() {
     const settings ={
       prevArrow: <HandlePrevArrow />,
       nextArrow: <HandleNextArrow  />,
-      dots: true,
+      dots: showDots,
       infinite: true,
       lazyLoad: true,
-      speed: 500,
-      slidesToShow: 6,
+      speed: 750,
+      slidesToShow: 6.25,
       slidesToScroll: 6,
-    }
+      appendDots: dots => (
+      <div
+      className={cx("list-dot")}
+        style={{
+          position: "relative",
+          top: "-140px",
+          right:"-1340px"
+        }}
+      >
+        <ul 
+          className={cx("dots")}
+          style={{
+          
+          
+          }}> {dots} </ul>
+      </div>
+      ),
+      customPaging: () => (
+      <div 
+        className={cx('dot')}
+        style={{
+          
+        }}
+      >
+        {""}
+      </div>
+      )
+    };
   return (
     <div className={cx("wrapper-slide")}>
       <h2 className={cx("title-slide")}>
@@ -72,7 +106,7 @@ function Slide() {
           </div>
         </a>
       </h2>
-      <div className={cx("slide")}>
+      <div onMouseMove={()=>handleShowDots()} onMouseOut={()=>handleHideDots()} className={cx("slide")}>
         <Slider {...settings} >
           <ListItem />
           <ListItem />

@@ -22,7 +22,34 @@ body{
         list-style: none;
     }
 }
-.slick-list {
-    overflow: visible !important;
-    
+
+/////////////////////////////////////////////////////
+.slick-slide{
 }
+.slick-list {
+    padding-left: 60px;
+    overflow: visible ;
+}
+
+.dots{
+    position: absolute;
+    li{
+        width: 10px !important;
+        height: 5px !important;
+        margin: 1px !important;
+    }
+    .slick-active{
+        position: relative;
+        top: -3px;
+        width: 10px !important;
+        height: 2px !important;
+        margin: 1px !important;
+        opacity: 0.3;
+    }
+}
+.dot{
+    width: 10px;
+    height: 2px;
+    background: var(--text-color);
+}
+
