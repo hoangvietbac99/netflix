@@ -1,6 +1,6 @@
 
 const linkPage = {
-    login: "/login",
+    signUp: "/sign-up",
     homeScreen: "/",
     tvShow: "/tv-show",
     moviePage: "/movie",

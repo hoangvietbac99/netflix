@@ -1,0 +1,73 @@
+.wrapper-input-sign-up{
+        position: relative;
+        height: 56px;
+        width: fit-content;
+        justify-content: center;
+        display: flex;
+        margin: auto;
+        span{
+            position: absolute;
+            bottom: -20px;
+            left: 15px;
+            color: #E50914;
+            font-size: 15px;
+            .icon-xmark{
+                position: relative;
+                top: 2px;
+                margin-right: 10px;
+            }
+        }
+        label{
+            position: absolute;
+            left: 15px;
+            top: 19px;
+            font-size: 17px;
+            transition:0.2s ease all; 
+            -moz-transition:0.2s ease all; 
+            -webkit-transition:0.2s ease all;
+            color: rgba(255, 255, 255, 0.7);;
+        }
+        input{
+            color: var(--text-color);
+            font-size: 15px;
+            padding: 20px 15px 5px 15px;
+            border-radius: 5px;
+            border: 1px rgba(128, 128, 128, 0.7) solid;
+            width: 380px;
+            background-color: transparent;
+            background: rgb(0 0 0 / 50%);
+        }
+        input:focus ~ label{
+            font-size: 13px;
+            top: 7px;
+        }
+        input:valid ~ label{
+            font-size: 13px;
+            top: 7px;
+        }
+        .btn-get{
+            border: none;
+            color: var(--text-color);
+            font-size: 25px;
+            font-weight: 700;
+            border-radius: 5px;
+            width: 200px;
+            background-color: #E50914 ;
+            margin-left: 10px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            &:hover{
+                background-color: #C11119;
+            }
+            .icon-arrow-right{
+                width: 20px;
+                height: 20px
+            }
+        }
+        
+}
+
+.is-valid{
+    border: 1px #E50914 solid !important;
+}

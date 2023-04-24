@@ -1,5 +1,5 @@
-import Header from "../../parts/Header/HeaderMain/Header";
-import Footer from "../../parts/Footer/FooterHome/Footer";
+import Header from "../Header/HeaderMain/Header";
+import Footer from "../Footer/FooterHome/Footer";
 import { Fragment } from "react";
 
 

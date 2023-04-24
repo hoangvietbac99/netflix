@@ -13,7 +13,7 @@ import logo from "~/assets/images/logo/index.js";
 import Category from "~/component/SubNav/Category/Category";
 import { Link } from "react-router-dom";
 import NavFilter from "~/component/SubNav/NavFilter/NavFilter";
-import linkPage from "~/component/LinkPage/LinkPage";
+import linkPage from "~/pages/LinkPage/LinkPage";
 const cx = classNames.bind(styles);
 const tabNav = [
   {

@@ -1,0 +1,48 @@
+.wrapper-sign-up{
+    display: block;
+    background: black;
+    .wrapper-head-sign-up{
+        position: relative;
+        display: flex;
+        margin-top: -86px;
+        width: 100%;
+        height: 700px;   
+        overflow: hidden;
+        img{
+            width: 100%;
+        }
+        .dark-img{
+            background: rgb(0 0 0 / 40%);
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            background-image: linear-gradient(to top, rgba(0, 0, 0, 0.8) 0, rgba(0, 0, 0, 0) 60%, rgba(0, 0, 0, 0.8) 100%);
+            align-items: center;
+            .forework{
+                color: var(--text-color);
+                position: relative;
+                h1, h3, p, div{
+                    display: flex;
+                    justify-content: center;
+                    margin-bottom: 20px;
+                    text-align: center;
+                } 
+                h1{
+                    font-size: 45px
+                }
+                p{
+                    font-size: 20px;
+                }
+                h3{
+                    font-size: 20px;
+                    font-weight: 300;
+                }
+                
+            }
+        };
+    
+    }
+    
+}

@@ -1,19 +1,19 @@
 import classNames from "classnames/bind";
-import styles from "./HeaderLogIn.module.scss"
+import styles from "./HeaderSignUp.module.scss"
 import logo from "../../../assets/images/logo/index"
 import { Link } from "react-router-dom";
-import linkPage from "~/component/LinkPage/LinkPage";
+import linkPage from "~/pages/LinkPage/LinkPage";
 const cx=classNames.bind(styles)
 
-function HeaderLogIn(){
+function HeaderSignUp(){
     return (
         <header className={cx("wrapper-header-login")}>
             <img src={logo.netflix} alt="" className={cx("logo-netflix")} />
             <div className={cx("menu-right")}>
                 <select className={cx("wrapper-language")}>
                     Tiếng Việt
-                    <option className={cx("language-item")}>Tiếng Việt</option>
-                    <option className={cx("language-item")}>EngLish</option>
+                    <option lang="vi" className={cx("language-item")}>Tiếng Việt</option>
+                    <option lang="en" className={cx("language-item")}>EngLish</option>
                 </select>
                 <button className={cx("btn-sign-in")}>
                     <Link to={linkPage.homeScreen} className={cx("link-sign")}>
@@ -24,4 +24,4 @@ function HeaderLogIn(){
         </header>
     )
 }
-export default HeaderLogIn;
+export default HeaderSignUp;

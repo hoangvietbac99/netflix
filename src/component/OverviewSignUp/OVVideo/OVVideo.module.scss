@@ -1,0 +1,20 @@
+.wrapper-video{
+    position: relative;
+    right: 0px;
+    display: flex;
+    margin: auto 0;
+    align-items: center;
+    justify-content: center;
+    .frame-video{
+        width: 579px;
+        margin-top: 40px;
+        z-index: 1;
+    }
+    .movie{
+        position: absolute;
+        left: 79px;
+        top: 90px;
+        width: 480px;
+        height: 270px;
+    }
+}

@@ -5,6 +5,7 @@
     margin: 0 auto;
     display: flex;
     align-items: center;
+    z-index: 10;
     .logo-netflix{
         position:absolute;
         left: -20px;
@@ -20,6 +21,7 @@
             background-color: transparent;
             color: white;
             border-radius: 2px;
+            align-items: center;
             .language-item{
                 position: absolute;
                 width: 100%;

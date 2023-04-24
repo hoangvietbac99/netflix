@@ -1,9 +1,11 @@
 import classNames from "classnames/bind";
+import { Link } from "react-router-dom";
 import styles from "./SubMenu.module.scss";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCaretUp } from "@fortawesome/free-solid-svg-icons";
 import icons from "~/assets/svg/icons";
 import avatar from "~/assets/images/avatarAccounts";
+import linkPage from "../../pages/LinkPage/LinkPage";
 const cx = classNames.bind(styles);
 const accounts = [
   {
@@ -71,7 +73,7 @@ function SubMenu() {
           </ul>
         </div>
         <div className={cx("log-out")}>
-          <span className={cx("log-out-now")}>Đăng xuất khỏi Netflix</span>
+          <Link to={linkPage.signUp} className={cx("log-out-now")}>Đăng xuất khỏi Netflix</Link>
         </div>
       </div>
     </div>

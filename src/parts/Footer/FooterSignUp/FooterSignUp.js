@@ -1,9 +1,9 @@
 import classNames from "classnames/bind";
-import styles from "./FooterLogIn.module.scss"
+import styles from "./FooterSignUp.module.scss"
 const cx=classNames.bind(styles)
-function FooterLogIn(){
+function FooterSignUp(){
     return (<footer className={cx("wrapper-footer-login")}>
-        FooterLogIn
+        FooterSignUp
     </footer>)
 }
-export default FooterLogIn
+export default FooterSignUp

@@ -1,7 +1,7 @@
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
 import { pages } from './pages/routers/routers';
-import HomeScreen from './pages/HomeScreen/HomeScreen';
+import HomeScreen from './parts/HomeScreen/HomeScreen';
 import { useState } from 'react';
 
 function App() {
