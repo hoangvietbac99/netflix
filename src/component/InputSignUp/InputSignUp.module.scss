@@ -1,10 +1,15 @@
 .wrapper-input-sign-up{
+   width: 100%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+    .wrapper-input{
         position: relative;
         height: 56px;
         width: fit-content;
         justify-content: center;
         display: flex;
-        margin: auto;
+        // margin: auto;
         span{
             position: absolute;
             bottom: -20px;
@@ -25,7 +30,7 @@
             transition:0.2s ease all; 
             -moz-transition:0.2s ease all; 
             -webkit-transition:0.2s ease all;
-            color: rgba(255, 255, 255, 0.7);;
+            color: rgba(255, 255, 255, 0.7);
         }
         input{
             color: var(--text-color);
@@ -66,8 +71,8 @@
             }
         }
         
+    }
 }
-
 .is-valid{
     border: 1px #E50914 solid !important;
 }

@@ -38,6 +38,7 @@
         .directional{
             display: none;
             align-items: center;
+            justify-content: center;
             position: absolute;
             outline: none;
             font-size: 40px;
@@ -54,7 +55,6 @@
                 transform: scale(1.5);
             }
             &.left{
-                // display: none;
                 left: -60px;
             }
             &.right{

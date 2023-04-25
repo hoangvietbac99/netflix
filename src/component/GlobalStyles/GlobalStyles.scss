@@ -18,11 +18,14 @@ body{
     font-size: 1.3rem;
     background-color: #141414;
     overflow-x: hidden;
+    -webkit-user-select: none;
+    user-select: none;
     ul{
         list-style: none;
     }
-    -webkit-user-select: none;
-    user-select: none;
+    // Link{
+    //     text-decoration: none
+    // }
 }
 
 /////////////////////////////////////////////////////
@@ -54,4 +57,7 @@ body{
     height: 2px;
     background: var(--text-color);
 }
-
+.rotate-icon{
+    transition: transform 250ms cubic-bezier(.21,0,.07,1);
+    transform: rotate(180deg);
+}

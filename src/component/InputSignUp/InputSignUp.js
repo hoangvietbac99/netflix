@@ -2,7 +2,7 @@ import classNames from "classnames/bind";
 import styles from "./InputSignUp.module.scss"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {  faChevronRight } from "@fortawesome/free-solid-svg-icons";
-import { useState } from "react";
+import {  useState } from "react";
 import { faCircleXmark } from "@fortawesome/free-regular-svg-icons";
 const cx =classNames.bind(styles)
 function InputSignUp(){
@@ -18,15 +18,19 @@ function InputSignUp(){
     }
     return (
         <div className={cx("wrapper-input-sign-up")}>
+            
+            <div className={cx("wrapper-input")}>
                 <input type="text" className={cx( valid && "is-valid")} required placeholder="" onBlur={e=>handleValue(e)} />
-                <label>Địa chỉ Email ...</label>
+                <label className={cx("label")}>Địa chỉ Email ...</label>
                 <button className={cx("btn-get")} >Get Started
                     <FontAwesomeIcon className={cx("icon-arrow-right")} icon={faChevronRight}/>
                 </button>
                 <span style={valid === true ? {display : "block"} : {display: "none" }}>
                     <FontAwesomeIcon className={cx("icon-xmark")} icon={faCircleXmark} />
-                        Bạn cần nhập Email
+                    Bạn cần nhập Email
                 </span>
+            </div>
+
         </div>
     )
 }

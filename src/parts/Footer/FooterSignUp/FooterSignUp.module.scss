@@ -1,0 +1,36 @@
+.wrapper-footer-sign-up{
+    padding: 100px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .wrapper-footer{
+        display: block;
+        padding: auto;
+        width: fit-content;
+        .question-contact{  
+            font-size: 16px;  
+            color: #FFFFFFB3;
+        }
+        .footer-list{
+            margin: 30px 0;
+            display: flex;
+            flex-wrap: wrap;
+            flex-direction: row;
+            align-items: flex-end ;
+            width: 1170px;
+            .item-footer{
+                font-size: 14px;
+                cursor: pointer;
+                flex-basis: 33%;
+                margin-bottom: 16px;
+                .item{
+                    color: #FFFFFFB3;
+                }
+            }
+        }
+        span{
+            color: #FFFFFFB3;
+            font-size: 14px;
+        }
+    }
+}

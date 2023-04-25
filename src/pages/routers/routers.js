@@ -1,4 +1,4 @@
-import SignUpScreen from "../SignUpScreen/SignUpScreen";
+import SignUpScreen from "../../parts/SignUpScreen/SignUpScreen";
 import HomeScreen from "../../parts/HomeScreen/HomeScreen";
 import FilterPage from "../FilterPage/FilterPage";
 import TVShow from "../TVShow/TVShow";
@@ -7,10 +7,13 @@ import HomePage from "../HomePage/HomePage";
 import MoviePage from "../MoviePage/MoviePage";
 import NewMovie from "../NewMovie/NewMovie";
 import MyListPage from "../MyListPage/MyListPage";
-import SignUp from "~/parts/Screen/SignUp/SignUp";
+import SignUp from "~/pages/SignUp/SignUp";
+import SignIn from "../SignIn/SignIn";
+import SignInScreen from "~/parts/SignInScreen/SignInScreen";
 
 const pages = [
   { path: linkPage.signUp, component: SignUp , layout:SignUpScreen },
+  { path: linkPage.signIn, component: SignIn , layout: SignInScreen },
   { path: linkPage.homeScreen, component: HomePage , layout:HomeScreen, subNav: null },
   { path: linkPage.tvShow, component: TVShow, layout:HomeScreen, subNav:true },
   { path: linkPage.moviePage, component: MoviePage, layout:HomeScreen, subNav:true },

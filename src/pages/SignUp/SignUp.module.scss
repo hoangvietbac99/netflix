@@ -1,29 +1,27 @@
 .wrapper-sign-up{
     display: block;
-    background: black;
     .wrapper-head-sign-up{
         position: relative;
         display: flex;
         margin-top: -86px;
         width: 100%;
-        height: 700px;   
-        overflow: hidden;
+        height: 700px;
         img{
             width: 100%;
         }
         .dark-img{
-            background: rgb(0 0 0 / 40%);
             position: absolute;
             width: 100%;
             height: 100%;
             display: flex;
             justify-content: center;
+            background: rgb(0 0 0 / 40%);
             background-image: linear-gradient(to top, rgba(0, 0, 0, 0.8) 0, rgba(0, 0, 0, 0) 60%, rgba(0, 0, 0, 0.8) 100%);
             align-items: center;
             .forework{
+                display: block;
                 color: var(--text-color);
-                position: relative;
-                h1, h3, p, div{
+                h1,h3, p, div{
                     display: flex;
                     justify-content: center;
                     margin-bottom: 20px;
@@ -38,11 +36,27 @@
                 h3{
                     font-size: 20px;
                     font-weight: 300;
-                }
-                
+                }   
             }
         };
     
     }
-    
+    .wrapper-question-answer{
+        position: relative;
+        display: block;
+        margin: auto;
+    }
+    .wrapper-sign-up-2{
+        margin-top: 50px;
+        display: flex;
+        justify-content: center;
+       .aaa{
+            h3{
+                color: var(--text-color);
+                font-size: 20px;
+                font-weight: 300;
+                margin-bottom: 20px;
+            }
+       }
+    }
 }

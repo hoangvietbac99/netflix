@@ -7,7 +7,7 @@ const cx=classNames.bind(styles)
 
 function HeaderSignUp(){
     return (
-        <header className={cx("wrapper-header-login")}>
+        <header className={cx("wrapper-header-sign-up")}>
             <img src={logo.netflix} alt="" className={cx("logo-netflix")} />
             <div className={cx("menu-right")}>
                 <select className={cx("wrapper-language")}>
@@ -16,7 +16,7 @@ function HeaderSignUp(){
                     <option lang="en" className={cx("language-item")}>EngLish</option>
                 </select>
                 <button className={cx("btn-sign-in")}>
-                    <Link to={linkPage.homeScreen} className={cx("link-sign")}>
+                    <Link to={linkPage.signIn} className={cx("link-sign")}>
                         <span>Sign In</span>
                     </Link>
                 </button>

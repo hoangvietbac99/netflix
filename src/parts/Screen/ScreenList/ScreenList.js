@@ -41,7 +41,7 @@ function ScreenList({data}) {
         <div className={cx("shadow")}></div>
       </div>
       <div className={cx("wrapper-slider")}>
-        <Slide data={data} />
+        <Slide />
         <Slide />
       </div>
       </div>

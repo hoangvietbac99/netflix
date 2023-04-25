@@ -1,4 +1,4 @@
-.wrapper-header-login{
+.wrapper-header-sign-up{
     position: relative;
     width: 1170px;
     height: 86px;
@@ -41,6 +41,13 @@
                 background-color: #C11119;
             }
             .link-sign{
+                cursor: pointer;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                position: relative;
+                width: 100%;
+                height: 100%;
                 text-decoration: none;
             }
             span{
