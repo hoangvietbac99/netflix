@@ -5,7 +5,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCaretUp } from "@fortawesome/free-solid-svg-icons";
 import icons from "~/assets/svg/icons";
 import avatar from "~/assets/images/avatarAccounts";
-import linkPage from "../../pages/LinkPage/LinkPage";
+import linkPage from "../../pages/LinkPage/linkPage";
 const cx = classNames.bind(styles);
 const accounts = [
   {

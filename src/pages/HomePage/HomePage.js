@@ -1,13 +1,11 @@
-import Screen from "~/parts/Screen/Screen";
+import Screen from "~/parts/Screen/TypeScreen/Screen";
 import { Fragment } from "react";
 
-function HomePage({changeScreen}){
-
+function HomePage({ changeScreen }) {
     return (
-    <Fragment>
-        <Screen changeScreen={changeScreen} />
-    </Fragment>
-    )
+        <Fragment>
+            <Screen changeScreen={true} />
+        </Fragment>
+    );
 }
-export default HomePage
-;
+export default HomePage;

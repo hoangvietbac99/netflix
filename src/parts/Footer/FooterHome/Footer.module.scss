@@ -24,6 +24,13 @@
                 cursor: pointer;
                 flex-basis: 25%;
                 margin-bottom: 16px;
+                .link-{
+                    text-decoration: none;
+                    color: gray;
+                    &:hover{
+                        text-decoration: underline;
+                    }
+                }
             }
         }
         .service-footer{

@@ -2,7 +2,7 @@ import classNames from "classnames/bind";
 import styles from "./HeaderSignUp.module.scss"
 import logo from "../../../assets/images/logo/index"
 import { Link } from "react-router-dom";
-import linkPage from "~/pages/LinkPage/LinkPage";
+import linkPage from "~/pages/LinkPage/linkPage";
 const cx=classNames.bind(styles)
 
 function HeaderSignUp(){

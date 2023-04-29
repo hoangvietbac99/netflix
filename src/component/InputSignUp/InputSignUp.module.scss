@@ -31,6 +31,7 @@
             -moz-transition:0.2s ease all; 
             -webkit-transition:0.2s ease all;
             color: rgba(255, 255, 255, 0.7);
+            pointer-events: none;
         }
         input{
             color: var(--text-color);
@@ -64,6 +65,15 @@
             justify-content: center;
             &:hover{
                 background-color: #C11119;
+            }
+            .link-{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                width: 100%;
+                height: 100%;
+                text-decoration: none;
+                color: #FFFFFF;
             }
             .icon-arrow-right{
                 width: 20px;

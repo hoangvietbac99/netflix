@@ -1,11 +1,11 @@
-import { Fragment } from "react"
-import Screen from "~/parts/Screen/Screen"
+import { Fragment } from "react";
+import Screen from "~/parts/Screen/TypeScreen/Screen";
 
-function TVShow({changeScreen}){
+function TVShow({ changeScreen }) {
     return (
         <Fragment>
-            <Screen changeScreen={changeScreen}/>
+            <Screen changeScreen={changeScreen} />
         </Fragment>
-    )
+    );
 }
-export default TVShow
+export default TVShow;

@@ -4,6 +4,8 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {  faChevronRight } from "@fortawesome/free-solid-svg-icons";
 import {  useState } from "react";
 import { faCircleXmark } from "@fortawesome/free-regular-svg-icons";
+import { Link } from "react-router-dom";
+import linkPage from "~/pages/LinkPage/linkPage";
 const cx =classNames.bind(styles)
 function InputSignUp(){
     const [valid, setValid] = useState(false)
@@ -22,8 +24,11 @@ function InputSignUp(){
             <div className={cx("wrapper-input")}>
                 <input type="text" className={cx( valid && "is-valid")} required placeholder="" onBlur={e=>handleValue(e)} />
                 <label className={cx("label")}>Địa chỉ Email ...</label>
-                <button className={cx("btn-get")} >Get Started
-                    <FontAwesomeIcon className={cx("icon-arrow-right")} icon={faChevronRight}/>
+                <button className={cx("btn-get")}>
+                    <Link className={cx("link-")} to={linkPage.signIn}>
+                        Get Started
+                        <FontAwesomeIcon className={cx("icon-arrow-right")} icon={faChevronRight}/>
+                    </Link>
                 </button>
                 <span style={valid === true ? {display : "block"} : {display: "none" }}>
                     <FontAwesomeIcon className={cx("icon-xmark")} icon={faCircleXmark} />

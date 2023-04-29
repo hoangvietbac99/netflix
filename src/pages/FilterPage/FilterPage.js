@@ -1,9 +1,11 @@
-import Screen from "~/parts/Screen/Screen";
+import Screen from "~/parts/Screen/TypeScreen/Screen";
 
 function FilterPage() {
-  return <div>
-    <Screen changeScreen={false}/>
-  </div>;
+    return (
+        <div>
+            <Screen changeScreen={false} />
+        </div>
+    );
 }
 
 export default FilterPage;

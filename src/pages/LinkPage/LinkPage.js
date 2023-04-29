@@ -1,8 +1,8 @@
 
 const linkPage = {
-    signUp: "/sign-up",
+    signUp: "/",
     signIn: "/sign-in",
-    homeScreen: "/",
+    home: "/home",
     tvShow: "/tv-show",
     moviePage: "/movie",
     filterMovie:"/filter-movie",

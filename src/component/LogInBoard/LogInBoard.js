@@ -2,7 +2,7 @@ import classNames from "classnames/bind";
 import styles from "./LogInBoard.module.scss"
 import { useState } from "react";
 import { Link } from "react-router-dom";
-import linkPage from "~/pages/LinkPage/LinkPage";
+import linkPage from "~/pages/LinkPage/linkPage";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCheck, faEye, faEyeSlash } from "@fortawesome/free-solid-svg-icons";
 const cx=classNames.bind(styles)
@@ -13,6 +13,7 @@ function LogInBoard (){
     const [eye, showEye] = useState(true)
     const [type,setType] = useState("password")
     const [remember, setRemember] = useState(true)
+    const [span, setSpan] = useState (true)
     const handleValue =(e)=>{
         let a = e.target.value
         let validEmail = /\S+@\S+\.\S+/.test(a)
@@ -41,6 +42,9 @@ function LogInBoard (){
     const handleRMB=()=>{
         setRemember(!remember)
     }
+    const handleShowSpan =()=>{
+        setSpan(!span)
+    }
     return(
         <div className={cx("wrapper-log-in-board")}>
             <h1>Đăng nhập</h1>
@@ -59,7 +63,7 @@ function LogInBoard (){
             </div>
             <div className={cx("complete")}>
                 <button>
-                    <Link className={cx("link-")} to={linkPage.homeScreen}>
+                    <Link className={cx("link-")} to={linkPage.home}>
                         Đăng nhập
                     </Link>
                 </button>
@@ -71,15 +75,21 @@ function LogInBoard (){
                 </div>
                 <div className={cx("help")}>
                     <Link className={cx("link")} to={linkPage.signUp}>
-                        Bạn cẩn trợ giúp
+                        Bạn cẩn trợ giúp?
                     </Link>
                 </div>
             </div>
             <div className={cx("register")}>
-                Bạn mới tham gia?
+                Bạn mới tham gia Netflix?
                 <Link className={cx("link-")} to={linkPage.signUp}>Đăng ký ngay.</Link>
                 <div className={cx("info-")}>
-                    
+                    <p>Trang này được Google reCAPTCHA bảo vệ để đảm bảo bạn không phải là robot.<button className={cx("more",span===false? "show":undefined)} onClick={()=>handleShowSpan()}>Tìm hiểu thêm</button></p>
+                    <span className={span === true ? cx("show"):undefined} >Thông tin do Google reCAPTCHA thu thập sẽ tuân theo 
+                        <a target = "_ blank" href="https://policies.google.com/privacy">Chính sách Quyền riêng tư</a> 
+                            và 
+                        <a target = "_ blank" href="https://policies.google.com/terms">Điều khoản dịch vụ của Google</a>
+                            , được dùng để cung cấp, duy trì và cải thiện dịch vụ reCAPTCHA cũng như các mục đích bảo mật nói chung (thông tin này không được dùng để cá nhân hóa quảng cáo của Google).
+                        </span>
                 </div>
             </div>
         </div>
