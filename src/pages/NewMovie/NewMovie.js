@@ -1,14 +1,29 @@
 import classNames from "classnames/bind";
-import styles from "./NewMovie.module.scss"
+import styles from "./NewMovie.module.scss";
 import Slide from "~/component/Slide/Slide/Slide";
+import { useEffect, useState } from "react";
 
-const cx=classNames.bind(styles)
+const cx = classNames.bind(styles);
 
-function NewMovie (){
+function NewMovie() {
+    const [items, setItems] = useState([]);
+
+    useEffect(() => {
+        const fetchUserData = () => {
+            fetch("http://localhost:3001/demo")
+                .then((response) => {
+                    return response.json();
+                })
+                .then((data) => {
+                    return setItems(data);
+                });
+        };
+        fetchUserData();
+    }, []);
     return (
         <div className={cx("wrapper-new-movie-page")}>
-            <Slide />
+            <Slide data={items} />
         </div>
-    )
+    );
 }
-export default NewMovie
+export default NewMovie;

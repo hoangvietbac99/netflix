@@ -90,6 +90,10 @@ const categorys = [
 ];
 function Category({ onClick }) {
     const [showIcon, setShowIcon] = useState(true);
+    const [r, setR] = useState(false);
+    const handleRotate = () => {
+        setR(!r);
+    };
     const handleShowIcon = () => {
         setShowIcon(!showIcon);
     };
@@ -107,10 +111,14 @@ function Category({ onClick }) {
             <div className={cx("genre-left")}>
                 <h2 className={cx("genre-title")}>Thể loại phim</h2>
                 <div className={cx("category")}>
-                    <label htmlFor="show-2" className={cx("btn-toggle")}>
+                    <label
+                        htmlFor="show-2"
+                        onClick={() => handleRotate()}
+                        className={cx("btn-toggle")}
+                    >
                         <span>Thể loại</span>
                         <FontAwesomeIcon
-                            className={cx("icon-category")}
+                            className={cx("icon-category", r && "rotate-icon")}
                             icon={faCaretUp}
                         />
                     </label>

@@ -6,7 +6,10 @@
     width: 100%;
     z-index: 10;  
     top: 0px;
-    
+    transform: translateY(0%);
+}
+.trans{
+    transform: translateY(-50%);
 }
 .black-nav{
     transition: background-color 0.4s;
@@ -15,15 +18,15 @@
 
 // 70%pc
 @media screen and ( min-width: 64em) and (max-width: 81.25em) {
-    .menu-main{
-        width: 32px;
-    }
-    
+
 }
 ///tablet
 @media screen and (min-width: 46.25em) and (max-width:63.9375em ) {
     
 }
 @media screen and (max-width:46.1875em ) {
-    
+    .wrapper-menu{
+        // height: 100%;
+
+    }
 }

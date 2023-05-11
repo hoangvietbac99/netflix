@@ -1,11 +1,35 @@
 .wrapper-main-content{
     display: block;
-
     .wrapper-slider{
         position: relative;
         margin-top: -250px;
     }
 }
+// 70%pc
+@media screen and ( min-width: 64em) and (max-width: 81.25em) {
+    .wrapper-main-content{
+        .wrapper-slider{
+            margin-top: -200px;
+        }
+    }
+    
+}
+///tablet
+@media screen and (min-width: 46.25em) and (max-width:63.9375em ) {
+    .wrapper-main-content{
+        .wrapper-slider{
+            margin-top: -150px;
+        }
+    }
+}
+@media screen and (max-width:46.1875em ) {
+    .wrapper-main-content{
+        .wrapper-slider{
+            margin-top: -100px;
+        }
+    }
+}
+
 
 
 

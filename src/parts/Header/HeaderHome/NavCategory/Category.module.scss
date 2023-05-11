@@ -58,6 +58,7 @@
                 opacity: 1;
                 // display: block;
             }
+            
             .list-category{
                 transition: all .5s;
                 position:absolute;
@@ -155,7 +156,7 @@
             }
             .list-category{
                 top: 27px;
-                width: 650px;
+                width: 700px;
                 .list-category-conlumn{
                     li{
                         height: 24px;
@@ -200,11 +201,11 @@
                     top: 27px;
                     width: 500px;
                     .list-category-conlumn{
-                        li{
+                        .item{
                             height: 20px;
                             flex-basis: 50%;
                             .item-category{
-                                font-size: 10px;
+                                font-size: 12px;
                             }
                         }
                     }
@@ -241,14 +242,14 @@
                     }
                 }
                 .list-category{
-                    top: 27px;
-                    width: 500px;
+                    top: 24px;
+                    width: 450px;
                     .list-category-conlumn{
-                        li{
-                            height: 20px;
+                        .item{
                             flex-basis: 50%;
+                            height: 20px;
                             .item-category{
-                                font-size: 10px;
+                                font-size: 11px;
                             }
                         }
                     }

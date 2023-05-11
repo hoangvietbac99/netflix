@@ -1,10 +1,24 @@
 import Screen from "~/parts/Screen/TypeScreen/Screen";
-import { Fragment } from "react";
+import { Fragment, useEffect, useState } from "react";
 
-function HomePage({ changeScreen }) {
+function HomePage({ onClick }) {
+    const [items, setItems] = useState([]);
+
+    useEffect(() => {
+        const fetchUserData = () => {
+            fetch("http://localhost:3001/demo")
+                .then((response) => {
+                    return response.json();
+                })
+                .then((data) => {
+                    return setItems(data);
+                });
+        };
+        fetchUserData();
+    }, []);
     return (
         <Fragment>
-            <Screen changeScreen={true} />
+            <Screen data={items} changeScreen={true} />
         </Fragment>
     );
 }

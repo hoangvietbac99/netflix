@@ -1,21 +1,38 @@
 .wrapper-slide{
     width: 100%;
     margin-top: 50px;
-    padding-left: 60px;
+    padding:0 60px;
     .title-slide{
-        font-size: 20px;
-        font-weight: 500;
+        margin-bottom: -10px;
         a{
+            height: 30px;
+            text-decoration: none;
             display: flex;
             color: var(--text-color);   
+            .header-title{
+                font-size: 20px;
+                font-weight: 500;
+            }
+            &:hover .header-more-title{
+                opacity: 1;
+            }
+            &:hover .header-more-title .icon-see-link{
+                transform: translateX(0%);
+            }
             .header-more-title{
                 display: flex;
-                height: 15px;
+                justify-content: center;
+                align-items: center;
                 margin: 5px;
+                opacity: 0;
+                transition: opacity .7s ease;
                 .see-link{
                     font-size: 15px;
                 }
                 .icon-see-link{
+                    transition: all .4s ease;
+                    transform: translateX(-500%);
+                    margin-left: 3px;
                     font-size: 10px;
                 }
             }
@@ -31,7 +48,6 @@
         .container{
             display: flex;
             width: max-content;
-            transform: translateX(0px);
             transition: all 500ms ease;
             
         }
@@ -44,11 +60,11 @@
             font-size: 40px;
             padding: 20px;
             color: var(--text-color);
-            width: 54px;
+            width: 55px;
             border-radius: 3px;
             height: 100%;
             background-color: hsla(0,0%,8%,.5);
-            z-index: 4;
+            z-index: 1;
             cursor: pointer;
             &:hover .icon{
                 transition: all 150ms ease;
@@ -59,10 +75,77 @@
             }
             &.right{
                 top: 0px;
-                right: 0px;
+                right: -60px;
                 
             }
         }
     }
 }
 
+@media screen and ( min-width: 64em) and (max-width: 81.25em) {
+   .wrapper-slide{
+        .title-slide{
+            a{
+                height: 28px;
+                .header-title{
+                    font-size: 18px;
+
+                }
+                .header-more-title{
+                    .see-link{
+                        font-size: 13px;
+                    }
+                    .icon-see-link{
+                        font-size: 8px;
+                    }
+                }
+            }
+        }
+
+   }
+    
+}
+///tablet
+@media screen and (min-width: 46.25em) and (max-width:63.9375em ) {
+    .wrapper-slide{
+        .title-slide{
+            a{
+                height: 25px;
+                .header-title{
+                    font-size: 16px;
+
+                }
+                .header-more-title{
+                    .see-link{
+                        font-size: 12px;
+                    }
+                    .icon-see-link{
+                        font-size: 7px;
+                    }
+                }
+            }
+        }
+    }
+}
+@media screen and (max-width:46.1875em ) {
+    .wrapper-slide{
+        .title-slide{
+            a{
+                height: 22px;
+                .header-title{
+                    font-size: 14px;
+
+                }
+                .header-more-title{
+                    .see-link{
+                        font-size: 11px;
+                    }
+                    .icon-see-link{
+                        font-size: 6px;
+                    }
+                }
+            }
+        }
+        
+    }
+}

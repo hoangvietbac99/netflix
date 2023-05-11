@@ -8,8 +8,19 @@ const cx = classNames.bind(styles);
 
 function Header({ subNav, children, onClick }) {
     const [nav, setNav] = useState(false);
-
     useEffect(() => {
+        const hide = () => {
+            if (subNav === false || subNav === true) {
+                const main = document.getElementsByClassName(
+                    cx("wrapper-menu")
+                );
+                if (window.scrollY >= 10) {
+                    main[0].classList.add(cx("trans"));
+                } else if (window.scrollY >= -100) {
+                    main[0].classList.remove(cx("trans"));
+                }
+            }
+        };
         const changeNavbarColor = () => {
             if (window.scrollY >= 10) {
                 setNav(true);
@@ -17,17 +28,17 @@ function Header({ subNav, children, onClick }) {
                 setNav(false);
             }
         };
+        window.addEventListener("scroll", hide);
         window.addEventListener("scroll", changeNavbarColor);
         return () => {
+            window.removeEventListener("scroll", hide);
             window.removeEventListener("scroll", changeNavbarColor);
         };
-    }, []);
+    }, [subNav]);
     return (
         <Fragment>
             <header className={cx("wrapper-menu", nav && "black-nav")}>
-                <div className={cx("header-top")}>
-                    <HeaderMain />
-                </div>
+                <HeaderMain />
                 {subNav === true && (
                     <div className={cx("menu-bottom")}>
                         <Category onClick={onClick} />

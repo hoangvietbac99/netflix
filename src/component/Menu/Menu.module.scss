@@ -3,15 +3,19 @@
     color: var(--text-color);
     background-color: #000;
     margin-left: 15px;
-    &:hover{
-        background-color: hsla(0,0%,100%,.1);
+    
+    &:hover .icon-menu{
+        transition: transform 250ms cubic-bezier(.21,0,.07,1);
+        transform: rotate(180deg);
     }
     .menu{
+        z-index: 1;
         align-items: center;
         width: max-content;
         display: flex;
         border: 1px solid hsla(0,0%,100%,.9);
         height: 29px;
+        position: relative;
         .title-menu{
             font-weight: 500;
             font-size: 15px;
@@ -24,19 +28,87 @@
             transition: transform 250ms cubic-bezier(.21,0,.07,1);
         }
     }
+    &:hover .drop-down{
+        visibility: visible;
+        transform: translateY(0%);
+    }
     .drop-down{
+        display: inline;
+        visibility: hidden;
+        transition: all .1s ease;
+        transform: translateY(-5%);
         width: 100%;
         position: absolute;
         border: 1px solid hsla(0,0%,100%,.15);
         background-color: #000;
         align-items: center;
-        padding: 0 10px;
+        // display: inline;
+       
         .drop-down-item{
-            margin: 3px 0px;
             display: flex;
-            align-items: center;
+            padding: 0 10px;
+            margin: 3px 0px;
+            font-size: 13px;
             height: 26px;
-            line-height: 24px;
+            align-items: center;
+            color: #666;
+            &:hover{
+                color: #FFFFFF;
+                text-decoration: underline;
+                // background-color: #101010;
+            }
+        }
+        
+    }
+}
+// 70%pc w1024-1300px
+@media screen and ( min-width: 64em) and (max-width: 81.25em) {
+    .wrapper-menu{
+        .menu{
+            height: 25px;
+            .title-menu{
+                font-size: 14px;
+            }
+        }
+        .drop-down{
+            .drop-down-item{
+                font-size: 13px;
+                height: 24px;
+            }
+        }
+    }
+}
+  ///tablet 740-1023px
+@media screen and (min-width: 46.25em) and (max-width:63.9375em ) {
+    .wrapper-menu{
+        .menu{
+            height: 22px;
+            .title-menu{
+                font-size: 11px;
+            }
+        }
+        .drop-down{
+            .drop-down-item{
+                font-size: 11px;
+                height: 22px;
+            }
+        }
+    }
+}
+  
+@media screen and (max-width:46.1875em ) {
+    .wrapper-menu{
+        .menu{
+            height: 20px;
+            .title-menu{
+                font-size: 9px;
+            }
+        }
+        .drop-down{
+            .drop-down-item{
+                font-size: 9px;
+                height: 19px;
+            }
         }
     }
 }

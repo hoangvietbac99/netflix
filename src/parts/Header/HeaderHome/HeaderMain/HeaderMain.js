@@ -15,14 +15,13 @@ import {
     faList,
     faNewspaper,
     faSearch,
-    faTimes,
     faVideo,
 } from "@fortawesome/free-solid-svg-icons";
 import Tippy from "@tippyjs/react/headless";
 import icons from "~/assets/svg/icons";
 import { Link } from "react-router-dom";
 import linkPage from "~/pages/LinkPage/linkPage";
-import { useEffect, useRef, useState } from "react";
+import { Fragment, useEffect, useRef, useState } from "react";
 const cx = classNames.bind(styles);
 const tabNav = [
     {
@@ -57,6 +56,8 @@ const tabNav = [
     },
 ];
 function HeaderMain() {
+    const [addressPage, setAddressPage] = useState();
+    const [valueInput, setValueInput] = useState("");
     const renderNotification = (attrs) => (
         <div tabIndex="-1" {...attrs}>
             <Notification />
@@ -67,26 +68,33 @@ function HeaderMain() {
             <SubMenu />
         </div>
     );
-    const [addressPage, setAddressPage] = useState();
-    const [valueInput, setValueInput] = useState("");
+    const renderNavMobie = (attrs) => (
+        <div tabIndex="-1" {...attrs}>
+            <div className={cx("wrapper-nav-mobie")}>
+                <ul className={cx("container")}>
+                    {tabNav.map((item, index) => (
+                        <li key={index} className={cx("item")}>
+                            <Link className={cx("link")} to={item.to}>
+                                <FontAwesomeIcon
+                                    className={cx("icon")}
+                                    icon={item.icon}
+                                />
+                                <span className={cx("title")}>
+                                    {item.title}
+                                </span>
+                            </Link>
+                        </li>
+                    ))}
+                </ul>
+            </div>
+        </div>
+    );
 
     useEffect(() => {
         const remove = document.getElementsByClassName(cx("active"));
         const activeURL = document.URL.slice(21); // baseurl
-        //mobie
-        const titlePage = document.getElementsByClassName(cx("nav-item"));
-        const small = document.getElementById("show");
-        for (let i = 0; i < titlePage.length; i++) {
-            const linkSmall = titlePage[i].attributes.href.value;
-            titlePage[i].addEventListener("click", function () {
-                small.checked = false;
-            });
-            const address = titlePage[i].innerHTML;
-            if (linkSmall === activeURL) {
-                setAddressPage(address);
-            }
-        }
         //active link page
+        const titlePage = document.getElementsByClassName(cx("nav-item"));
         for (var i = 0; i < titlePage.length; i++) {
             titlePage[i].addEventListener("click", function () {
                 remove[0].classList.remove(cx("active"));
@@ -124,37 +132,58 @@ function HeaderMain() {
         setValueInput(value);
     };
     return (
-        <div className={cx("wrapper-header-main")}>
-            {/* menu left */}
-            <nav className={cx("nav-left")}>
-                <Link className={cx("logo-link")} to={linkPage.home}>
-                    <img className={cx("logo-f")} src={logo.netflix} alt="" />
-                </Link>
-                <label htmlFor="show" className={cx("arrow-nav")}>
-                    <FontAwesomeIcon className={cx("nav-bars")} icon={faBars} />
-                </label>
-                <input
-                    type="checkbox"
-                    className={cx("show-mobie-nav")}
-                    id="show"
-                />
-                <label htmlFor="show" className={cx("layout-overlay")}></label>
-                <nav className={cx("small-nav")}>
-                    <div className={cx("exit")}>
-                        <label htmlFor="show">
+        <Fragment>
+            <div className={cx("wrapper-header-main")}>
+                {/* menu left */}
+                <nav className={cx("nav-left")}>
+                    <Link className={cx("logo-link")} to={linkPage.home}>
+                        <img
+                            className={cx("logo-f")}
+                            src={logo.netflix}
+                            alt=""
+                        />
+                    </Link>
+                    <Tippy
+                        interactive="false"
+                        delay={[100, 100]}
+                        placement="left-end"
+                        render={renderNavMobie}
+                    >
+                        <div htmlFor="show" className={cx("arrow-nav")}>
                             <FontAwesomeIcon
-                                className={cx("icon")}
-                                icon={faTimes}
-                            />
-                        </label>
-                        <div className={cx("logo-small-nav")}>
-                            <img
-                                className={cx("logo")}
-                                src={logo.netflix}
-                                alt=""
+                                className={cx("nav-bars")}
+                                icon={faBars}
                             />
                         </div>
+                    </Tippy>
+                    <nav className={cx("small-nav")}>
+                        <div className={cx("wrapper-list")}>
+                            <div className={cx("list-small-nav")}>
+                                {tabNav.map((tab, index) => (
+                                    <li className={cx("link-page")} key={index}>
+                                        <FontAwesomeIcon
+                                            className={cx("icon")}
+                                            icon={tab.icon}
+                                        />
+                                        <Link
+                                            onClick={(e) => handlechange(e)}
+                                            to={tab.to}
+                                            className={cx("nav-item")}
+                                        >
+                                            {tab.title}
+                                        </Link>
+                                    </li>
+                                ))}
+                            </div>
+                        </div>
+                    </nav>
+                    <div className={cx("address-page")}>
+                        <span>{addressPage}</span>
                     </div>
+                    {/*  */}
+                </nav>
+                {/* menu right */}
+                <nav className={cx("nav-right")}>
                     <div className={cx("search-small-nav")}>
                         <input
                             className={cx("show-3")}
@@ -181,71 +210,45 @@ function HeaderMain() {
                             </label>
                         </div>
                     </div>
-                    <div className={cx("wrapper-list")}>
-                        <div className={cx("list-small-nav")}>
-                            {tabNav.map((tab, index) => (
-                                <li className={cx("link-page")} key={index}>
-                                    <FontAwesomeIcon
-                                        className={cx("icon")}
-                                        icon={tab.icon}
-                                    />
-                                    <Link
-                                        onClick={(e) => handlechange(e)}
-                                        to={tab.to}
-                                        className={cx("nav-item")}
-                                    >
-                                        {tab.title}
-                                    </Link>
-                                </li>
-                            ))}
-                        </div>
-                    </div>
-                </nav>
-                <div className={cx("address-page")}>
-                    <span>{addressPage}</span>
-                </div>
-                {/*  */}
-            </nav>
-            {/* menu right */}
-            <nav className={cx("nav-right")}>
-                <Tippy
-                    // visible
-                    interactive="false"
-                    delay={[100, 100]}
-                    placement="bottom-end"
-                    render={renderNotification}
-                >
-                    <div>
-                        <img
-                            className={cx("icon-bell")}
-                            src={icons.iconBell}
-                            alt=""
-                        />
-                    </div>
-                </Tippy>
-                {/* Sub Menu */}
-                <div className={cx("wrapper-menu-account")}>
                     <Tippy
+                        // visible
                         interactive="false"
                         delay={[100, 100]}
                         placement="bottom-end"
-                        render={renderMenu}
+                        render={renderNotification}
                     >
-                        <div className={cx("account")}>
+                        <div>
                             <img
-                                className={cx("avatar")}
-                                src={avatar.avatarBlue}
+                                className={cx("icon-bell")}
+                                src={icons.iconBell}
                                 alt=""
-                            />
-                            <FontAwesomeIcon
-                                className={cx("icon-up")}
-                                icon={faCaretUp}
                             />
                         </div>
                     </Tippy>
-                </div>
-            </nav>
-        </div>
+                    {/* Sub Menu */}
+                    <div className={cx("wrapper-menu-account")}>
+                        <Tippy
+                            interactive="false"
+                            delay={[100, 100]}
+                            placement="bottom-end"
+                            render={renderMenu}
+                        >
+                            <div className={cx("account")}>
+                                <img
+                                    className={cx("avatar")}
+                                    src={avatar.avatarBlue}
+                                    alt=""
+                                />
+                                <FontAwesomeIcon
+                                    className={cx("icon-up")}
+                                    icon={faCaretUp}
+                                />
+                            </div>
+                        </Tippy>
+                    </div>
+                </nav>
+            </div>
+        </Fragment>
     );
 }
 export default HeaderMain;

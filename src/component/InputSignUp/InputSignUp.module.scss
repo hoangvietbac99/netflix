@@ -33,7 +33,7 @@
             color: rgba(255, 255, 255, 0.7);
             pointer-events: none;
         }
-        input{
+        .input{
             color: var(--text-color);
             font-size: 15px;
             padding: 20px 15px 5px 15px;
@@ -54,26 +54,26 @@
         .btn-get{
             border: none;
             color: var(--text-color);
-            font-size: 25px;
-            font-weight: 700;
             border-radius: 5px;
             width: 200px;
             background-color: #E50914 ;
             margin-left: 10px;
             display: flex;
-            align-items: center;
-            justify-content: center;
+            position: relative;
             &:hover{
                 background-color: #C11119;
             }
             .link-{
+                font-size: 25px;
+                position: absolute;
+                font-weight: 700;
+                color: #FFFFFF;
                 display: flex;
                 justify-content: center;
                 align-items: center;
-                width: 100%;
+                width: 200px;
                 height: 100%;
                 text-decoration: none;
-                color: #FFFFFF;
             }
             .icon-arrow-right{
                 width: 20px;

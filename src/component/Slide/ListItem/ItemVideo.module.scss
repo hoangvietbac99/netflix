@@ -1,0 +1,21 @@
+.list-item{ 
+    position: relative;
+    overflow-x: visible;
+    width: 98%;
+    max-width: 230px;
+    cursor: pointer;
+    aspect-ratio: 16/9;
+    img{
+        width: 100%;
+        object-fit: cover;
+        border-radius: 3px;
+        
+    }
+    .show-trailer{
+        visibility: hidden;
+    }
+    
+}
+.list-item:hover  .show-trailer{
+    visibility: visible;
+}
