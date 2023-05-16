@@ -6,7 +6,7 @@ function HomePage({ onClick }) {
 
     useEffect(() => {
         const fetchUserData = () => {
-            fetch("http://localhost:3001/demo")
+            fetch("http://localhost:3001/movies")
                 .then((response) => {
                     return response.json();
                 })
@@ -18,7 +18,7 @@ function HomePage({ onClick }) {
     }, []);
     return (
         <Fragment>
-            <Screen data={items} changeScreen={true} />
+            <Screen data={items} changeScreen={true} onClick={onClick} />
         </Fragment>
     );
 }

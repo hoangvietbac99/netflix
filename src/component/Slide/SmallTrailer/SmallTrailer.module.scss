@@ -10,6 +10,7 @@
     .player{
         width: 100%;
         .pic-vi{
+            cursor: pointer;
             border-radius: 3px;
             width: 100%;
             height: fit-content;
@@ -25,6 +26,7 @@
             .btn-left{
                 display: flex;
                 .btn-circle{
+                    cursor: pointer;
                     margin-right: 5px;
                     display: flex;
                     justify-content: center;
@@ -48,6 +50,7 @@
                 position: absolute;
                 right: 10px;
                 .btn-circle{
+                    cursor: pointer;
                     width: 45px;
                     height: 45px;
                     border-radius: 50%;
@@ -106,6 +109,7 @@
                 color: #fff;
                 font-size: 16px;
                 margin-right: 10px;
+                cursor:text;
             }
         }
     }

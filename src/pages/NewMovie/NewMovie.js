@@ -5,12 +5,12 @@ import { useEffect, useState } from "react";
 
 const cx = classNames.bind(styles);
 
-function NewMovie() {
+function NewMovie({ onClick }) {
     const [items, setItems] = useState([]);
 
     useEffect(() => {
         const fetchUserData = () => {
-            fetch("http://localhost:3001/demo")
+            fetch("http://localhost:3001/movies")
                 .then((response) => {
                     return response.json();
                 })
@@ -22,7 +22,7 @@ function NewMovie() {
     }, []);
     return (
         <div className={cx("wrapper-new-movie-page")}>
-            <Slide data={items} />
+            <Slide data={items} onClick={onClick} />
         </div>
     );
 }

@@ -12,7 +12,7 @@ import "slick-carousel/slick/slick-theme.css";
 import { useState } from "react";
 import ItemVideo from "../ListItem/ItemVideo";
 const cx = classNames.bind(styles);
-function Slide({ data }) {
+function Slide({ data, onClick }) {
     const [showDots, setShowDots] = useState(false);
 
     const handleShowDots = () => {
@@ -62,8 +62,8 @@ function Slide({ data }) {
     const settings = {
         prevArrow: <HandlePrevArrow />,
         nextArrow: <HandleNextArrow />,
-        dots: showDots,
         infinite: true,
+        dots: showDots,
         speed: 750,
         slidesToShow: 6,
         slidesToScroll: 6,
@@ -90,7 +90,7 @@ function Slide({ data }) {
             {
                 breakpoint: 1300,
                 settings: {
-                    slidesToShow: 5.25,
+                    slidesToShow: 5,
                     slidesToScroll: 5,
                     infinite: true,
                     dots: true,
@@ -99,7 +99,7 @@ function Slide({ data }) {
             {
                 breakpoint: 1024,
                 settings: {
-                    slidesToShow: 3.75,
+                    slidesToShow: 3,
                     slidesToScroll: 3,
                     infinite: true,
                     dots: true,
@@ -124,7 +124,11 @@ function Slide({ data }) {
             <div className={cx("slide")}>
                 <Slider {...settings}>
                     {data.map((item) => (
-                        <ItemVideo key={item.id} data={item} />
+                        <ItemVideo
+                            key={item.id}
+                            data={item}
+                            onClick={onClick}
+                        />
                     ))}
                 </Slider>
             </div>

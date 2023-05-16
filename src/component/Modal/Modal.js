@@ -5,11 +5,11 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faXmark } from "@fortawesome/free-solid-svg-icons";
 import { useEffect, useState } from "react";
 const cx = classNames.bind(styles);
-function ModalTrailer({ id }) {
+function ModalTrailer({ idMovie, onClick }) {
     const [modal, setModal] = useState([]);
     useEffect(() => {
-        const fetchUserData = () => {
-            fetch(`http://localhost:3001/demo/${5}`)
+        const fetchMovieData = () => {
+            fetch(`http://localhost:3001/movies/${idMovie}`)
                 .then((response) => {
                     return response.json();
                 })
@@ -17,10 +17,10 @@ function ModalTrailer({ id }) {
                     return setModal(data);
                 });
         };
-        fetchUserData();
-    }, []);
+        fetchMovieData();
+    }, [idMovie]);
     return (
-        <div className={cx("wrapper-modal")}>
+        <div className={cx("wrapper-modal")} onClick={onClick}>
             <div className={cx("container")}>
                 <div className={cx("trailer")}>
                     <div className={cx("movie")}>
@@ -87,7 +87,7 @@ function ModalTrailer({ id }) {
                 <div className={cx("intro")}>
                     <div className={cx("intro-movie")}>
                         <h2>{modal.name}</h2>
-                        <button className={cx("exit")}>
+                        <button className={cx("exit")} onClick={onClick}>
                             <FontAwesomeIcon icon={faXmark} />
                         </button>
                         <div className={cx("author-actor")}>

@@ -1,108 +1,5 @@
 {
-  "billBoard": [
-    {
-      "id": 1,
-      "name": "Poynyo",
-      "rate": "7+",
-      "trailer": "https://imdb-video.media-imdb.com/vi3605017/1434659607842-pgv4ql-1616203155006.mp4?Expires=1683093589&Signature=g-zwvm5Q69CADwaX3VAVHZIHyqjdNt2LqqsfK8ClRFIGsMcQgKPE8TNE9If72jKnKvC5XfS0F3zjNsx8qBpLm~0zVutYRZiKXR-vkEy6vDsr06hha~XW84KR-NoSXT5pqtUXToFYTsxCg7FaIHiaBBzn6tuV5s28eA4zNzojOBI0FtTAErDgQc73zKaE4u~wcoKrBjExtXkjW22MtLPpPLDvaDlEv~wLR39l-0SA1EX1rAbSulEf7dNb3fSrTPIfQ0mAkuJWjHlq9g6waaRk7yY426VQLiaDoNAJv0c4OuJHv7DoPNi5m9pGNpcPYh~28sLalOwBf8Hd8VKlBUnZ7g__&Key-Pair-Id=APKAIFLZBVQZ24NQH3KA",
-      "content": "Cậu bé năm tuổi Sosuke làm bạn với Ponyo cô công chúa cá vàng tha thiết muốn trở thành con người.",
-      "title": "https://occ-0-325-58.1.nflxso.net/dnm/api/v6/LmEnxtiAuzezXBjYXPuDgfZ4zZQ/AAAABfZg1ifOO0FGbCOAspD7ZO4jp2UGe9o5e2wuvk2Md60ibG2nI6aceoLWkB2gVAtujWVilquj1mMrzL7pTtJsl_374eIMeVLvnQ70Ili0WW6y.webp?r=9a5",
-      "picture": "https://occ-0-58-325.1.nflxso.net/dnm/api/v6/6gmvu2hxdfnQ55LZZjyzYR4kzGk/AAAABZefMee1MtjGkLQlRGQ40PuHkzFhrH__RSNlfYZz5hngoxoUPXXazcwECeiJoWKr2RGAIgNIO-92dYj2j9ZPh6ZGmhkBtcnBP5s.webp?r=628",
-      "poster": "https://occ-0-325-58.1.nflxso.net/dnm/api/v6/6AYY37jfdO6hpXcMjf9Yu5cnmO0/AAAABXx1VB5L9c83Us_zoTM64_hRJXYC2s5nGfHS4tRDjbmNKDhYLZqsK90hFGUqQBjNZlTynSp30zU11hrFIeEIqYsCBT3yYwJATWqF.webp?r=732"
-    },
-    {
-      "id": 2,
-      "name": "Lính bắn tỉa: Hồi kết sát thủ",
-      "rate": "18+",
-      "trailer": "https://imdb-video.media-imdb.com/vi87539225/1434659607842-pgv4ql-1591117439452.mp4?Expires=1683094126&Signature=K-hnZqP8MvDYWNrVg44d5f3ibWg5SoXPL8MVfE92CZbVNAYAgK-kkTtPMybrD0oLpo~SXuk-nbD9LqP1yrZOmHoN~cJ-TuLYuue0Anali7Wq7rwn2EQ-PtuxF6vMnajBuKuVAjrtBykqmmxrRh41CsMfLBaypjNrkptPX3GRsjLffDO8ZTSpVO24f-~IqNYOeXYAvhjvN4nwnfGaqJXNvuNMEmB1k0-Qq0EvVrLN6V8kPN5t27~Wgfq~K1fevV0~apcMQIBOjexl0MsNmnhOSaNLtnhY3caE45r4NcEqooMwkiYp0AyizyDyhq332q51oMiVe58abAgUo9SbEGWLFw__&Key-Pair-Id=APKAIFLZBVQZ24NQH3KA",
-      "content": "Bị đổ oan tội ám sát, một quân nhân đặc nhiệm nhờ bố mình là một tay súng bắn tỉa huyền thoại giúp tìm ra thủ phạm giết người thực sự.",
-      "title": "https://occ-0-58-325.1.nflxso.net/dnm/api/v6/LmEnxtiAuzezXBjYXPuDgfZ4zZQ/AAAABZis8j_WbL8CJYVmdzmCEiyDPC8c1BYzZsZi9-Jvg5V49HtZEJDVW2kBjKRts7UINE4ZXXV85fJFx_FC7003vBJysH-expUHQx5wXpOQOAMv.webp?r=093",
-      "picture": "https://occ-0-58-325.1.nflxso.net/dnm/api/v6/6gmvu2hxdfnQ55LZZjyzYR4kzGk/AAAABUBkZhtbCkTPGIbGGqHQZBfUp0zqfZHgp4ezZu0vHs-5-XbcRDjv5nRl0O3LpRcJbCvgq16iPC63jGcK2Ag_V38jijpHU1nb0rM.webp?r=19f",
-      "poster": "https://occ-0-58-325.1.nflxso.net/dnm/api/v6/6AYY37jfdO6hpXcMjf9Yu5cnmO0/AAAABfhciIz6cV3NhQXoSmKppJ2yk_IBC_T5khGcg6IjSS_dtLkmg-Cd2m_IZ7jCzjdn_RNOww99JCi4cjlHhRuOCIkGm4Q_nTZ3aQZD.webp?r=d24"
-    },
-    {
-      "id": 3,
-      "name": "KungFu Panda 3",
-      "rate": "7+",
-      "trailer": "https://imdb-video.media-imdb.com/vi3597971993/1434659607842-pgv4ql-1450714147471.mp4?Expires=1683093760&Signature=rP5tXF4O~vGIEVjSlGZ-UDn5y1fjzFjdsvE6xF81gUiV14H3I1I0xtUShdqQtsKRgvTWpWMok23uu5K6eejq62NrHaOLqDIlQ6FQopBjLLm~V6gc-WylFmCF5kQirr5mTusBIyo~J2LU812kFt2UuZjGf66VNArmgVl6OkuFLop4HcWalUn5jvZMfyw61z4MyyG3B84zhU3q00wZYrJjBzcSum2G83WO0qWX0UGM~-T-BgL3Vbrr-wWTuBF~IlfyG0Ef-oVgNtGQiNjv0rY~3ixD3z5mbxE0DbdLcLOp6R~nkUexJ~5eHx4wL~DRK06hVflZZBBb1xB5EaYk2GBfHA__&Key-Pair-Id=APKAIFLZBVQZ24NQH3KA",
-      "title": "https://occ-0-58-325.1.nflxso.net/dnm/api/v6/LmEnxtiAuzezXBjYXPuDgfZ4zZQ/AAAABT6HiypzFjLYhSNkPuvTT7IMTGDNW-SHSexgXxhHsQAZwQMGEN0C8TE5Z21Lrl6WKr6bqhvbBzdImXo_jRllR9RL6DlvsS8IjOnx2QjepfAd.webp?r=a7e",
-      "picture": "https://occ-0-58-325.1.nflxso.net/dnm/api/v6/6gmvu2hxdfnQ55LZZjyzYR4kzGk/AAAABc0O3F9VRFlPNbiMi5mS_bLlUx3N7hZ3X8oEgsgsDxJSrykN5NFpQV3c0vit8xfzb9rOOHDyNPBxJCazHSwJUsRguP5nrqDlClg.webp?r=202",
-      "content": "Trong khi Po và bố đến ngôi làng gấu trúc bí mật, một linh hồn xấu xa đe dọa toàn xứ Thần Châu, buộc cậu phải thành lập một đội quân chắp vá để chống trả.",
-      "poster": "https://occ-0-58-325.1.nflxso.net/dnm/api/v6/6AYY37jfdO6hpXcMjf9Yu5cnmO0/AAAABYn3Frd0JcyNvuOeL1VHNY5g20svjZ333Nm_Kjq-JXCUOLcCpK60fDePHq4bdza_VEfrvVIm_hGjnFGgIpZ7XbiO3bsYglVdDRZC.webp?r=8dd"
-    },
-    {
-      "name": "Pan và vùng đất NeverLand",
-      "picture": "https://occ-0-325-58.1.nflxso.net/dnm/api/v6/6gmvu2hxdfnQ55LZZjyzYR4kzGk/AAAABZJEfvOQ0DAngihoENZuK_wju7JZwFm7DPFGe7W1oW20LNxYYc4HS4ne7IzT1f9BXRrSjhhjM1FCY9mUIypCyecYO4VgWfeXuks.webp?r=d04",
-      "trailer": "https://imdb-video.media-imdb.com/vi1081787417/1434659607842-pgv4ql-1682437385502.mp4?Expires=1683093356&Signature=VAjWc3jSPGtFSxXUd9GLyqobyTmDlRMH1sqhGWOihz3i7rt4KF7H8Q2SgRX3ki4zQUbxIq-f35h9tjXdiDYS7kOnSyxWzR1UNvDCLCBv1OTtlrer8C8LePUs83I5ItdAFZJnqVNSu7WJ~Uy~7PKXSVglwjoLkYHmmiP97mZAvudWvKf1QraE3BJoPg~~7xv9ouKPBsHIBaEVdXuHaMATXbAc-8bWq8BEYdLRJuXkCzbiStNguVZxkmXBNt6Xl1HzxSeWvNF1j~Mk6u-Djn9NxcS090fGxwwP7ybbpancGuDj68EerHdREhHQD8lrcrCsfvH5A48-pOPWDz0hfD8fmg__&Key-Pair-Id=APKAIFLZBVQZ24NQH3KA",
-      "title": "https://occ-0-58-325.1.nflxso.net/dnm/api/v6/LmEnxtiAuzezXBjYXPuDgfZ4zZQ/AAAABYrORc1Q8sQ1mXu7tznf4jVuJ97IdcBB02dFNO0u01Db2Dk8pv3PHbH03hePqXAIFkcJ9VhcICfNMvahGKycqsoxhQa0NR8XxYXs2QlM5jdH.webp?r=b96",
-      "poster": "https://occ-0-58-325.1.nflxso.net/dnm/api/v6/6AYY37jfdO6hpXcMjf9Yu5cnmO0/AAAABan44V2YdtmqkTxTgSHpyOUzIuryZ4O0GgGUIEOD3FxGdi1Cqyz_IRrV2VnPbidXo21Yru2FmAwwgddMA0o4dmTOdHx7TZFkj3l9.webp?r=2b3",
-      "content": "Cuộc phiêu lưu mở ra khi một cậu bé mồ côi nổi loạn được chuyển đến hòn đảo thần tiên Neverland và phát hiện ra định mệnh đích thực của mình.",
-      "id": 4,
-      "rate": "7+"
-    },
-    {
-      "name": "Bridgerton",
-      "rate": "18+",
-      "picture": "https://occ-0-325-58.1.nflxso.net/dnm/api/v6/6gmvu2hxdfnQ55LZZjyzYR4kzGk/AAAABWsud0-Es4oeZgXAXa4ngQH_NDw4NmvOtLVO8z8pTbK2rgSiPHox6ViYMN7eQG8X4QXM4VoEqYF-Nk1dSV75o9xg7_q920Puk5V_F3Ad0hnE1_XalVPvZD-kBdTqY_2_2w8X.jpg?r=45d",
-      "trailer": "https://imdb-video.media-imdb.com/vi1817821977/1434659607842-pgv4ql-1646837710255.mp4?Expires=1683093721&Signature=KHAbseCuF-9qP0WqixxSHUVGzoKus1SpnJRmQCfIXo4510wGtUmyxpFCNeqJlaZ6hB7Jrw48SmHXxrwmJNQy6BuoiU7IctXmzg72xJ1aXe-QqHRZlJIu~bqi6QdT6hgpn~OZcLkZYFfPwmu7s6XVxRtI~Ybi8KhHUY5CPyzqD8-U3U7Wv0QDdCY8pAfEccz5A4ADeuj1wu3oWgi3QllW5Latb9-ji7sLS9f4VXz8OQCH1nzybcx5Xi-bC2NEBAuKfQPlzSmJcTbEFoErD1YOZBa5yhsJDvYsF5fIbls~31Vkmx9gpa0-FUjHI2VbwHO4LdmdFgKVXE-VricUHQwI7Q__&Key-Pair-Id=APKAIFLZBVQZ24NQH3KA",
-      "title": "https://occ-0-58-325.1.nflxso.net/dnm/api/v6/LmEnxtiAuzezXBjYXPuDgfZ4zZQ/AAAABfFYAuF6oqq6EGW8LvOt9At6vEJJ8Kgz-I9PcJRhrpfBC7pvnk8PcBI_vZMmIXfjxEobtzq3ILz101Yz2936Eqv_vj0r4NEQaZ_dLhI8k5-J6PYYwH4yZCZUVP7i-Bi_jJ6jRyrzzE_pMTTAAWttYdS79FWsWyEkr5v1AK6u65A1R-wVa2wCdg.webp?r=84d",
-      "poster": "https://occ-0-58-325.1.nflxso.net/dnm/api/v6/6AYY37jfdO6hpXcMjf9Yu5cnmO0/AAAABXdThZr7OoGNh8Tt0qvY5sX2X-IeEWmivEqaI2OwXy5JwzAnMdrm6PV5J3x_uBhqigCUO3aryLfO3pbuUK4wLnHD-Q9prEyEkSAg.webp?r=fe1",
-      "content": "Tám anh chị em thân thiết của gia đình Bridgerton tìm kiếm tình yêu và hạnh phúc trong xã hội thượng lưu London. Lấy cảm hứng từ bộ tiểu thuyết bán chạy của Julia Quinn.",
-      "id": 5
-    },
-    {
-      "name": "Chú bé mang Pyiama sọc",
-      "rate": "13+",
-      "picture": "https://occ-0-325-58.1.nflxso.net/dnm/api/v6/6gmvu2hxdfnQ55LZZjyzYR4kzGk/AAAABSf9m2-Glm_jIQ9RQK8RfwArJyiio9q9tpZ7iz6tfnbkaFKw7wurAM9RUhzyka8MTHEcPC1zrV7_KlD5sMdQ-dBQN0B2PmGwtcM.webp?r=0c5",
-      "trailer": "https://imdb-video.media-imdb.com/vi751566873/1434659607842-pgv4ql-1616202484343.mp4?Expires=1683093900&Signature=g~E2RpnBNIqT7m3w4VBsmpkswUaw3ZSkS1YNiBPq8eoRi34ZSXLIF~SeMuLd-eSPioBnchZJmEe8nxx8sfAHUKthyrfW6dZU6Lqy-2nuE-DkzTx2IVfXfZsXD8z8rZPBZYUV-TZFFMGh1tzrRddQtstU50bAuCMHoQmA43PXZ2xypEi0niFpvZC-OHSaMpvhSZaSVJ~wctivSELrHsCM4PhWVQ7nizqu0elt95gOotBPlDlUclkaPTc3vT~dK9zHZDgeNSYDB4gFQav0IoMss-xk5mTIwY0t19Nh~EtO2CkNF0IIbs4yrQadKIVgoE~vaCgLRMHpYL4x6ZY5VTMZYA__&Key-Pair-Id=APKAIFLZBVQZ24NQH3KA",
-      "title": "https://occ-0-325-58.1.nflxso.net/dnm/api/v6/LmEnxtiAuzezXBjYXPuDgfZ4zZQ/AAAABclMdRbNONvkgTv-fEGM4kmUgjFjg8jRACcurrY-djNughdw5_k4ueJIu05hteB93PYEDgMlmdXokOX6wriERLE8-Hd4xSFM7wUfJfj7HMQo.webp?r=6b4",
-      "poster": "https://occ-0-325-58.1.nflxso.net/dnm/api/v6/6AYY37jfdO6hpXcMjf9Yu5cnmO0/AAAABarDo2qIdvYZF4PWoSIefcdPRZg0OGZHLaqkrDdkQBoERsycVxeDHlZNgzzfYg2z_koAdht_tB86jg99gQux6X-NvVKjd6YqXA_S.webp?r=a71",
-      "content": "Khi gia đình chuyển từ Berlin đến Ba Lan, cậu bé nọ kết bạn với một cậu bé ở phía bên kia hàng rào mà không biết rằng người bạn ấy là một tù nhân Do Thái.",
-      "id": 6
-    },
-    {
-      "name": "Gia đình Crood",
-      "rate": "7+",
-      "picture": "https://occ-0-325-58.1.nflxso.net/dnm/api/v6/6gmvu2hxdfnQ55LZZjyzYR4kzGk/AAAABYixfAUbfRDYmEvFzxazym1C8xAbGuHdjxkbEe1aCWi5vttilMHchofwLxG566fuvFyFbCh71GkBaUY6W-y1kPgCnyX4NDh7uFM.webp?r=885",
-      "trailer": "https://imdb-video.media-imdb.com/vi1294975257/1434659607842-pgv4ql-1608136646988.mp4?Expires=1683094035&Signature=e0xFFRuO6G0D45Bw61iwpKdPYV4kr0zRepeke3zRiz-48-Wy4HcG65r5ONRMLDM6o8-gPtRCcQaQmjLJMnmpN04SL4fshuBUMTLnfnwcEwKaT-XZqlzUi3bl66kpicPNN3tmksl03xhG7dg3oOYyuAnp5hpWxtC~-z3xGPtqgExuW3HyF2NORJdXM5t9H23vad~aG8-QiJ9q4XfE7JLjTyjSEsEN2AreNiLevZLCO8jllN3dusVu520AKKawO7YOtwo4aoVLAlGvrPs4eq2UMUmdBzZ9pp1bynrhRcQkSZTZ~XB8QpkshlKspJxoB~iw-C0~Z5xvl3RyZxLV6Zayew__&Key-Pair-Id=APKAIFLZBVQZ24NQH3KA",
-      "title": "https://occ-0-325-58.1.nflxso.net/dnm/api/v6/LmEnxtiAuzezXBjYXPuDgfZ4zZQ/AAAABcarqUVv75ydTcJpTX50jWYKvjpiVDYxqB9yCTheR-uf5FZ_20WQWtzI0wzh1qJJOQeZp5Z7YI46rYMpjB-7H5KuIQ7pPZMVpgb79MJTP1rR.webp?r=301",
-      "poster": "https://occ-0-325-58.1.nflxso.net/dnm/api/v6/6AYY37jfdO6hpXcMjf9Yu5cnmO0/AAAABTgKfSATIuh_VowciT5Gh5G6_LpP8iWLh4mgTlnKKPwHIidqqzXAFBjTaF-JzuTnAdv-aPeBQVESwqFK1ZnsW21PX5v5B5C1SMY5.webp?r=e1a",
-      "content": "Khi trận động đất xóa sổ hang động mình nương náu, gia đình gà mờ thời tiền sử buộc phải bôn ba qua những vùng đất lạ lẫm, mong muốn kiếm tìm mái nhà mới.",
-      "id": 7
-    },
-    {
-      "name": "Biệt đội cánh cụt vùng madagascar",
-      "rate": "7+",
-      "picture": "https://occ-0-58-325.1.nflxso.net/dnm/api/v6/6gmvu2hxdfnQ55LZZjyzYR4kzGk/AAAABT6L5g9DbJ06dwGg8BTqpc13_FBriRRaWiJFwunibjR_15bciUS31NG4zatcRroTLqNdwjVmxEFwaiYq6gPS0K_4j-RI4PLi7IU.webp?r=3be",
-      "title": "https://occ-0-58-325.1.nflxso.net/dnm/api/v6/tx1O544a9T7n8Z_G12qaboulQQE/AAAABXr84Hg9oyiAISV0pM0n0oQBYS6oMad07HYvVHdVVPp-IqyhXKBkkjIHM7p58f-i7sg6crANUi-1SF2RXuuAbdFZxPKsC--0SbfAnKm95Q8.webp?r=ae3",
-      "poster": "https://occ-0-58-325.1.nflxso.net/dnm/api/v6/E8vDc_W8CLv7-yMQu8KMEC7Rrr8/AAAABWiwYS2e-SY-cY82e_72sPKpY2VdH8VX5Io3Ai2qCA09_JhtfOiu54COk5Tq9ZdJDG4CQhpX7nWOWJZimRef7E-_VNV8W5fqgvtW.webp?r=942",
-      "content": "Các điệp viên chim cánh cụt ưu tú Skipper, Kowalski, Rico và Private bắt tay với các đặc vụ khéo léo của Gió phương Bắc để hạ thiên tài cuồng quyền lực Trùm Xúc Tu Biển.",
-      "trailer": "https://imdb-video.media-imdb.com/vi1959767833/MV5BMjc4OWQ5ZTctYTM0ZC00NDBmLTlhZDctYjg2NjY0NmYxNmM0XkExMV5BbXA0XkFpbWRiLWV0cy10cmFuc2NvZGU@.mp4?Expires=1683094527&Signature=AHevWrSRNhYvrZoaXp5Do2VN-m7-4bscctjVusuwWt2xy~PwAZstWVIXGA7yLIRpFsDX2GteHxL17vhER6I-IQy9gu15Nt--ta2jecbXyqa9Lsy1L6RWGddC-H9CoUHQc1h9LNe2j-bqSDXtf9kTybGRja5FoltUgQmBfRoVcVn7LruIYk7u88ApRmbkHIThG7srd~lhMjnC-mJMKfHHuhLiKkboyaXAxN5NegusgUedvSN9v19TOVDboFAYnxRNQtQM5JT63gGhj2WnNohBDxgcJ4GS6LdwL8Sbs-PTcact66IdcKQp3LUqPswQADOeBQLOL-05850FxoBvMiM7-g__&Key-Pair-Id=APKAIFLZBVQZ24NQH3KA",
-      "id": 8
-    },
-    {
-      "name": "Chuyến tàu tốc hành Bắc Cực",
-      "rate": "7+",
-      "picture": "https://occ-0-58-325.1.nflxso.net/dnm/api/v6/6gmvu2hxdfnQ55LZZjyzYR4kzGk/AAAABdtez4Cm6n3ANuuUFbFaPeGVH1qp5r228FpXp9XjYShBVXt2IN8GLmgs3lmMKG44lEsp-Xo02Jylhy4x-H6kqqyLPNcYSNTkc9s.webp?r=69c",
-      "title": "https://occ-0-58-325.1.nflxso.net/dnm/api/v6/tx1O544a9T7n8Z_G12qaboulQQE/AAAABWeXySPhDrRgqAhCKYTQOtioDq-lEJOm3_6RnLUniyTQIweuYkNEtsC0gyV6qO4224lK1pulRtJRZP7fHxyBzieJZrbnOksv68olWElIgq8.webp?r=faa",
-      "poster": "https://occ-0-2567-2774.1.nflxso.net/dnm/api/v6/E8vDc_W8CLv7-yMQu8KMEC7Rrr8/AAAABVKwJ0s7AlIp9zmbLIvUoaIokBHmr6nDrkWNG3DSLxn0-vux24S3h9LLHSEx4NMBNIMicnvmk4RF5SXO_cc8jDzvXebLJ5akmiZF.jpg?r=052",      
-      "content": "Bộ phim là câu chuyện ấm lòng về chuyến du hành bằng tàu hỏa đến Bắc Cực trong đêm Giáng Sinh và niềm tin vào ngày lễ được thắp sáng trở lại của một cậu bé.",
-      "trailer": "https://imdb-video.media-imdb.com/vi2324349977/1434659607842-pgv4ql-1677528569215.mp4?Expires=1683285779&Signature=sP8ETPOBq47bOEW3Ij60sM9SeI~Ca9m-5vBldz7MypQGS0n~XA7i11JmbKoI63bDFmnLu71973zEvkatEANy-NuXbbTl3OXet8NP2OG-obXz92yMbQzEuirXNIGhWzdFpPwwUXa5016J8iae6hA6e0hkZbZnlwgwKgN~tCFMJoKaVmC6PTR4OxvKncRIF1qymIBr7Lg~QfpT~RNOnmsX0ERYRjt1y-T1I6GztDiHbRy69vxl6iCkagH5h15Yj3ZDJ8c4gIJ9SllKejWrW9JJwViKdjbI5iKqmEAy7SkhCvBca21gGYxvgO55oUmmWKQjsyv7nSqHRMZ9rzMS2PPCkA__&Key-Pair-Id=APKAIFLZBVQZ24NQH3KA",
-      "id": 9
-    },
-    {
-      "name": "Stand by me 2",
-      "rate": "7+",
-      "picture": "https://occ-0-58-325.1.nflxso.net/dnm/api/v6/6gmvu2hxdfnQ55LZZjyzYR4kzGk/AAAABXQcl6LyIH22X9hB23CtSFtHK79A0STrTX7Pkzf-VhSUr1Qg0tkX0m16savnWjecLFrHgko82QbeZ4ybLkPfMunAhBNB30WZO1M.webp?r=b57",
-      "title": "https://occ-0-58-325.1.nflxso.net/dnm/api/v6/tx1O544a9T7n8Z_G12qaboulQQE/AAAABenEbvTjI1dkEu_K3g-rPbiw3IYun4EWSuMrMcsSqBaqirEJ6mZmFOMBhZrz5TV7N9OGK-sxfYdWZwhC1OofoVkJNZ0j_rNB8MB9qfBqXiY.webp?r=5fc",
-      "content": "Nobita đến tương lai để giới thiệu vị hôn thê với bà song Nobita trưởng thành thì đã chạy trốn khỏi đám cưới. Liệu cậu có thể là người chồng tốt của Shizuka?",
-      "trailer": "https://imdb-video.media-imdb.com/vi3057435417/1434659607842-pgv4ql-1641506164336.mp4?Expires=1683095161&Signature=LL3wYyUX2u2Ox2tSqjfUufOqpkCRdcwn7pjzO6FeGILboc70MKr~-avr~cMNtP3eTIwE83zsEsC~jub28KIF8RbixB3s-Hrs06EmyQQ2-7NDGA3~8aBe5d21hh2UN7PikVe5Ewo5wW2QXAflfMj3vESLeP4K6oAK47zoBC8U7q3DlCiH-kSDmfJtKlcJ1UFIbHzMZb-Uhj7unr9sTYYo1A1z09ElVPaaSkQXoOc4fQl0YW2KdMpcYGhxis1hfzoiNk9yNBxw4Hs3B2qkmIVGCpNiEB0c0AL5JQdMgK72x6YAI0TLfO~v7zigAqweQW8yM72Io0v~yJhcPQhbA2DEqg__&Key-Pair-Id=APKAIFLZBVQZ24NQH3KA",
-      "id": 10,
-      "poster": "https://i.pinimg.com/originals/b3/52/48/b3524800c333a7c003df62331f183ec2.png"
-
-    }
-  ],
-  "demo": [
+  "movies": [
     {
       "name": "Lời hồi đáp 1988",
       "picture": "https://occ-0-58-325.1.nflxso.net/dnm/api/v6/6gmvu2hxdfnQ55LZZjyzYR4kzGk/AAAABZTwHKI8-ta8kPwcC2SJ6wrWFiwuXLae6SDHSOkw3-GDzviCnQWQ5qZrfIS_Xbs_e7SSXHUZ5Em8nQhhYu7f2oZ1Ed6cYyzJpEg.webp?r=efd",
@@ -114,7 +11,7 @@
       "actor": "Le Hyeri, Park Bo Gum, Ryu Jun Yeol, Ko Kyung Pyo, Lee Dong Hwi, Ryu Hye Young, Sung Dong II, Lee II Hwa",
       "category": "Phim truyền hình chính kịch lãng mạn, Phim truyền hình chính kịch , Hàn Quốc, Phim truyền hình, Phim truyền hình lãng mạn",
       "rate": "13+",
-      "poster": "https://occ-0-325-58.1.nflxso.net/dnm/api/v6/6gmvu2hxdfnQ55LZZjyzYR4kzGk/AAAABfcmfapf5W-z9NmmLC4tgdC4fz0CLhuClpZ5ThStdUdBDLgqueg6J8owcd4G8er2VDmmV9Eu6Df_fAYZHZC5-SjLjZ_Qz7OAtYMk.webp?r=efd",
+      "poster":"https://occ-0-58-325.1.nflxso.net/dnm/api/v6/E8vDc_W8CLv7-yMQu8KMEC7Rrr8/AAAABcWQhJK9VmwozoIL1_1-s0HdDeOe9Z818W7Ht4Q1SN6pnXCIhjOhBsCm4LukCmQ2XWV3M--AXBC3TpWuBRT-DHtzPZIsbraF8DHp.webp?r=751",
       "id": 1
     },
     {
@@ -137,13 +34,13 @@
       "trailer": "https://imdb-video.media-imdb.com/vi1081787417/1434659607842-pgv4ql-1682437385502.mp4?Expires=1683093356&Signature=VAjWc3jSPGtFSxXUd9GLyqobyTmDlRMH1sqhGWOihz3i7rt4KF7H8Q2SgRX3ki4zQUbxIq-f35h9tjXdiDYS7kOnSyxWzR1UNvDCLCBv1OTtlrer8C8LePUs83I5ItdAFZJnqVNSu7WJ~Uy~7PKXSVglwjoLkYHmmiP97mZAvudWvKf1QraE3BJoPg~~7xv9ouKPBsHIBaEVdXuHaMATXbAc-8bWq8BEYdLRJuXkCzbiStNguVZxkmXBNt6Xl1HzxSeWvNF1j~Mk6u-Djn9NxcS090fGxwwP7ybbpancGuDj68EerHdREhHQD8lrcrCsfvH5A48-pOPWDz0hfD8fmg__&Key-Pair-Id=APKAIFLZBVQZ24NQH3KA",
       "nature": "Yêu đời, cảm động",
       "poster": "https://i.pinimg.com/originals/b3/52/48/b3524800c333a7c003df62331f183ec2.png",
-      "content": "https://occ-0-58-325.1.nflxso.net/dnm/api/v6/9pS1daC2n6UGc3dUogvWIPMR_OU/AAAABT2KOAqq5nc4c1N3DnEwdcqQeSx_nBaIDsqn242Z_uULtI_ql8LbjAZR4aPCwreqqCqp4z4XDlyMegpbdN-PFZap3q9qNlEsoFxMJrrdweL5fbitRtUI8D0x9A.webp?r=c01",
       "title": "https://occ-0-58-325.1.nflxso.net/dnm/api/v6/tx1O544a9T7n8Z_G12qaboulQQE/AAAABenEbvTjI1dkEu_K3g-rPbiw3IYun4EWSuMrMcsSqBaqirEJ6mZmFOMBhZrz5TV7N9OGK-sxfYdWZwhC1OofoVkJNZ0j_rNB8MB9qfBqXiY.webp?r=5fc",
       "author": "Ragi Ryuichi, Yamataki Tamashi",
       "actor": "Mizuta Wasabi, Oohara Megumi,Kakazu Yumi, Kimura Subaru",
       "category": "Phim gia đình, Phim trẻ em và gia đình, Phim Nhật, Phim Anime",
       "rate": "7+",
-      "id": 3
+      "id": 3,
+      "content":"Nobita đến tương lai để giới thiệu vị hôn thê với bà song Nobita trưởng thành thì đã chạy trốn khỏi đám cưới. Liệu cậu có thể là người chồng tốt của Shizuka?"
     },
     {
       "id": 4,
@@ -320,8 +217,8 @@
       "nature": "Lãng mạn",
       "content": "Một ảo thuật gia tài ba nhưng nhát cáy trình diễn ảo thuật kinh dị với một người phụ nữ có thể nhìn thấy ma. Nhưng khi lời nguyền của cô trở nên tệ hơn, liệu tình yêu có cứu rỗi?",
       "title": "https://occ-0-325-58.1.nflxso.net/dnm/api/v6/tx1O544a9T7n8Z_G12qaboulQQE/AAAABYm4k0iTZGPdjLvBFvxLfkhroZ0ueJOGtgG2DxTtg46l3GN67fEVK8KUl_p3k3do3JmspjabyFUeyDSP6DMVjP1xNkoT0OR9IBDtt72W4lw.webp?r=301",
-      "author": "Steven Knight",
-      "actor": "Dwayne Johnson,Ryan Reynolds,Gal Gadot, Ritu Arya, Chris Diamantopoulos,Dwayne Johnson,Ryan Reynolds,Gal Gadot, Ritu Arya, Chris Diamantopoulos,Dwayne Johnson,Ryan Reynolds,Gal Gadot, Ritu Arya, Chris Diamantopoulos",
+      "author": "Stephane Gauger",
+      "actor":"Ngô Kiến Huy, Nhã Phương, Kiều Minh Tuấn, Puka, Ái Phương, Cao Thái Hà, Lê Hạ Anh,Công Dương",
       "category": "Hài hước, Phim Việt Nam",
       "rate": "13+",
       "poster": "https://occ-0-325-58.1.nflxso.net/dnm/api/v6/E8vDc_W8CLv7-yMQu8KMEC7Rrr8/AAAABS2KiNIt3GXtY6OeKdQLsFJDFhG-Odb_vWhdnXPOzC2WpQ0MBccyOjuZW563NyHrdeSChtZqYVHMAybClbzKI4DZVjn5kKB7qI9i.webp?r=0d2",

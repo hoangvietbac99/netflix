@@ -3,14 +3,12 @@ import styles from "./SmallTrailer.module.scss";
 import icons from "~/assets/svg/icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faChevronDown } from "@fortawesome/free-solid-svg-icons";
+import { memo } from "react";
 
 const cx = classNames.bind(styles);
 
-function SmallTrailer({ data }) {
+function SmallTrailer({ data, onClick }) {
     const nature = data.nature.split(",");
-    const getData = (id) => {
-        console.log(id);
-    };
     return (
         <>
             <div className={cx("wrapper-trailer-item")}>
@@ -51,7 +49,7 @@ function SmallTrailer({ data }) {
                         <div className={cx("btn-right")}>
                             <button
                                 className={cx("btn-circle")}
-                                onClick={() => getData(data.id)}
+                                onClick={() => onClick(data.id)}
                             >
                                 <FontAwesomeIcon
                                     className={cx("icon-r")}
@@ -78,7 +76,7 @@ function SmallTrailer({ data }) {
                         <ul className={cx("list-")}>
                             {nature.map((item, index) => (
                                 <li className={cx("-item")} key={index}>
-                                    {item}
+                                    &diams;{` ${item}`}
                                 </li>
                             ))}
                         </ul>
@@ -89,4 +87,4 @@ function SmallTrailer({ data }) {
     );
 }
 
-export default SmallTrailer;
+export default memo(SmallTrailer);

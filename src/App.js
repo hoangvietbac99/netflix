@@ -2,9 +2,19 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 import { pages } from "./pages/routers/routers";
 import { useState } from "react";
+import ModalTrailer from "./component/Modal/Modal";
 
 function App() {
     const [changeScreen, setChangeScreen] = useState(true);
+    const [md, setMd] = useState(false);
+    const [idMovie, setIdMovie] = useState();
+    const handleShowMd = (id) => {
+        setMd(true);
+        setIdMovie(id);
+    };
+    const handleHideMd = () => {
+        setMd(false);
+    };
     const handleChangeScreen = () => {
         setChangeScreen(!changeScreen);
     };
@@ -32,7 +42,20 @@ function App() {
                                             subNav={subNav}
                                             onClick={() => handleChangeScreen()}
                                         >
-                                            <Page changeScreen={changeScreen} />
+                                            <Page
+                                                changeScreen={changeScreen}
+                                                onClick={(id) =>
+                                                    handleShowMd(id)
+                                                }
+                                            />
+                                            {md && (
+                                                <ModalTrailer
+                                                    idMovie={idMovie}
+                                                    onClick={() =>
+                                                        handleHideMd()
+                                                    }
+                                                />
+                                            )}
                                         </Layout>
                                     }
                                 />

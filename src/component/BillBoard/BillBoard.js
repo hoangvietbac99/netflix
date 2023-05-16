@@ -3,12 +3,12 @@ import styles from "./BillBoard.module.scss";
 import icons from "~/assets/svg/icons";
 import { useEffect, useState } from "react";
 const cx = classNames.bind(styles);
-function BillBoard() {
+function BillBoard({ onClick }) {
     const [items, setItems] = useState([]);
 
     useEffect(() => {
         const fetchUserData = () => {
-            fetch("http://localhost:3001/billBoard")
+            fetch("http://localhost:3001/movies")
                 .then((response) => {
                     return response.json();
                 })
@@ -46,7 +46,10 @@ function BillBoard() {
                             />
                             <span className={cx("title-play")}>Phát</span>
                         </button>
-                        <button className={cx("information")}>
+                        <button
+                            className={cx("information")}
+                            onClick={() => onClick(items.id)}
+                        >
                             <img
                                 className={cx("icon-info")}
                                 src={icons.iconInfo}

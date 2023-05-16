@@ -1,7 +1,7 @@
 .wrapper-slide{
     width: 100%;
     margin-top: 50px;
-    padding:0 60px;
+    padding: 0 60px;
     .title-slide{
         margin-bottom: -10px;
         a{
@@ -42,6 +42,7 @@
         position: relative;
         margin-top: 10px;
         overflow: visible;
+        z-index: 1;
         &:hover .directional{
             display: flex;
         }
@@ -52,7 +53,7 @@
             
         }
         .directional{
-            display: none;
+            opacity: 0;
             align-items: center;
             justify-content: center;
             position: absolute;
@@ -64,8 +65,12 @@
             border-radius: 3px;
             height: 100%;
             background-color: hsla(0,0%,8%,.5);
-            z-index: 1;
             cursor: pointer;
+            z-index: 2;
+            &:hover{
+                opacity: 1;
+                
+            }
             &:hover .icon{
                 transition: all 150ms ease;
                 transform: scale(1.5);

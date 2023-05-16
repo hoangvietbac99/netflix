@@ -5,13 +5,14 @@ import BillBoard from "~/component/BillBoard/BillBoard";
 
 const cx = classNames.bind(styles);
 
-function ScreenList({ data }) {
+function ScreenList({ data, onClick }) {
     return (
         <div className={cx("wrapper-main-content")}>
-            <BillBoard />
+            <BillBoard onClick={onClick} />
             <div className={cx("wrapper-slider")}>
-                <Slide data={data} />
-                <Slide data={data} />
+                <Slide data={data} onClick={onClick} />
+                <Slide data={data} onClick={onClick} />
+                <Slide data={data} onClick={onClick} />
             </div>
         </div>
     );

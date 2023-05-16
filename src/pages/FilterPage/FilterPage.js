@@ -1,11 +1,11 @@
 import Screen from "~/parts/Screen/TypeScreen/Screen";
 import { useState, useEffect } from "react";
-function FilterPage() {
+function FilterPage({ onClick }) {
     const [items, setItems] = useState([]);
 
     useEffect(() => {
         const fetchUserData = () => {
-            fetch("http://localhost:3001/demo")
+            fetch("http://localhost:3001/movies")
                 .then((response) => {
                     return response.json();
                 })
@@ -17,7 +17,7 @@ function FilterPage() {
     }, []);
     return (
         <div>
-            <Screen data={items} changeScreen={false} />
+            <Screen data={items} changeScreen={false} onClick={onClick} />
         </div>
     );
 }

@@ -3,9 +3,9 @@
     overflow-x: visible;
     width: 98%;
     max-width: 230px;
-    cursor: pointer;
     aspect-ratio: 16/9;
     img{
+        cursor: pointer;
         width: 100%;
         object-fit: cover;
         border-radius: 3px;

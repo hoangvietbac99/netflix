@@ -1,12 +1,12 @@
 import { Fragment, useState, useEffect } from "react";
 import Screen from "~/parts/Screen/TypeScreen/Screen";
 
-function TVShow({ changeScreen }) {
+function TVShow({ changeScreen, onClick }) {
     const [items, setItems] = useState([]);
 
     useEffect(() => {
         const fetchUserData = () => {
-            fetch("http://localhost:3001/demo")
+            fetch("http://localhost:3001/movies")
                 .then((response) => {
                     return response.json();
                 })
@@ -18,7 +18,11 @@ function TVShow({ changeScreen }) {
     }, []);
     return (
         <Fragment>
-            <Screen data={items} changeScreen={changeScreen} />
+            <Screen
+                data={items}
+                changeScreen={changeScreen}
+                onClick={onClick}
+            />
         </Fragment>
     );
 }
