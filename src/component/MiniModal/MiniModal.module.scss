@@ -1,19 +1,23 @@
 .wrapper-trailer-item{
-    position: absolute;
     width: 300px;
-    z-index: 1;
-    left: -35px;
-    top: -100px;
     background-color:#141414;;
     box-shadow: rgba(0, 0, 0, 0.75) 0px 3px 10px;
     border-radius: 3px;
     .player{
         width: 100%;
-        .pic-vi{
+        position: relative;
+        .picture{
             cursor: pointer;
             border-radius: 3px;
             width: 100%;
-            height: fit-content;
+            object-fit: cover;
+        }
+        .shadow{
+            position: absolute;
+            width: 100%;
+            height: 10px;
+            bottom: 0;
+            background-image: linear-gradient(180deg,hsla(0,0%,8%,0) 0,hsla(0,0%,8%,.15) 15%,hsla(0,0%,8%,.35) 29%,hsla(0,0%,8%,.58) 44%,#141414 68%,#141414);
         }
     }
     .player-info{

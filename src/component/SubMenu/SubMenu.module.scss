@@ -8,7 +8,6 @@
     color: var(--text-color);
 }
 .menu-account{
-    cursor: pointer;
     border: 1px solid hsla(0,0%,100%,.25);
     position: absolute;
     background-color: rgba(0,0,0,.9);
@@ -35,6 +34,9 @@
     color: var(--text-color);
     margin-left: 10px;
     line-height: 32px;
+    &:hover{
+        text-decoration: underline;
+    }
 }
 .wrapper-sub-menu{
     padding: 0px 0px 10px;
@@ -44,6 +46,7 @@
     height: 42px;
     list-style: none;
     display: flex;
+    
 }
 .icon-sub-menu{
     width: 45px;
@@ -54,6 +57,9 @@
 .content-sub-menu{
     color: var(--text-color);
     line-height: 32px;
+    &:hover{
+        text-decoration: underline;
+    }
 }
 .log-out{
     border-top: 1px solid hsla(0,0%,100%,.25);

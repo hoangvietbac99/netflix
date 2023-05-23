@@ -4,7 +4,7 @@ import { useState } from "react";
 import { Link } from "react-router-dom";
 import linkPage from "~/pages/LinkPage/linkPage";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faCheck, faEye, faEyeSlash } from "@fortawesome/free-solid-svg-icons";
+import { faEye, faEyeSlash } from "@fortawesome/free-solid-svg-icons";
 const cx = classNames.bind(styles);
 
 function LogInBoard() {
@@ -13,9 +13,8 @@ function LogInBoard() {
     const [password, setPassword] = useState(false);
     const [eye, showEye] = useState(true);
     const [type, setType] = useState("password");
-    const [remember, setRemember] = useState(true);
     const [span, setSpan] = useState(true);
-    const handleValue = (e) => {
+    const handleValueEmail = (e) => {
         let a = e.target.value;
         let validEmail = /\S+@\S+\.\S+/.test(a);
         if (validEmail === false) {
@@ -40,18 +39,14 @@ function LogInBoard() {
             setType("password");
         }
     };
-    const handleRMB = () => {
-        setRemember(!remember);
-    };
-    const handleShowSpan = () => {
-        setSpan(!span);
-    };
-    const handleChange = (e) => setPw(e.target.value);
+
+    const handleChangePW = (e) => setPw(e.target.value);
     const handleDelete = () => {
         if (password === true) {
             setPw("");
         }
     };
+    const handleSubmit = () => {};
     return (
         <div className={cx("wrapper-log-in-board")}>
             <h1>Đăng nhập</h1>
@@ -59,7 +54,7 @@ function LogInBoard() {
                 <input
                     className={cx(valid && "is-valid")}
                     required
-                    onBlur={(e) => handleValue(e)}
+                    onBlur={(e) => handleValueEmail(e)}
                     type="text"
                 />
                 <label className={cx("title")}>Email hoặc số điện thoại</label>
@@ -75,7 +70,7 @@ function LogInBoard() {
                     required
                     onBlur={(e) => handlePW(e)}
                     type={type}
-                    onChange={(e) => handleChange(e)}
+                    onChange={(e) => handleChangePW(e)}
                     onFocus={() => handleDelete()}
                     value={pw}
                 />
@@ -93,7 +88,7 @@ function LogInBoard() {
                 )}
             </div>
             <div className={cx("complete")}>
-                <button>
+                <button onClick={handleSubmit()}>
                     <Link className={cx("link-")} to={linkPage.home}>
                         Đăng nhập
                     </Link>
@@ -101,9 +96,7 @@ function LogInBoard() {
             </div>
             <div className={cx("remember-help")}>
                 <div className={cx("remember")}>
-                    <button onClick={() => handleRMB()}>
-                        {remember && <FontAwesomeIcon icon={faCheck} />}
-                    </button>
+                    <input type="checkbox" className={cx("rmb")} />
                     <span>Ghi nhớ đăng nhập</span>
                 </div>
                 <div className={cx("help")}>
@@ -126,7 +119,7 @@ function LogInBoard() {
                                 "more",
                                 span === false ? "show" : undefined
                             )}
-                            onClick={() => handleShowSpan()}
+                            onClick={() => setSpan(!span)}
                         >
                             Tìm hiểu thêm
                         </button>

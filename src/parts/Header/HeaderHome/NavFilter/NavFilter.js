@@ -1,7 +1,6 @@
 import classNames from "classnames/bind";
 import styles from "./NavFilter.module.scss";
-import Menu from "~/component/Menu/Menu";
-// import { useState, useEffect } from "react";
+import Menu from "~/component/Dropdown/Dropdown";
 
 const cx = classNames.bind(styles);
 const translate = [

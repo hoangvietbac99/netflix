@@ -93,6 +93,10 @@
             display: flex;
             justify-content: center;
             align-items: center;
+            .rmb{
+                width: 15px;
+                height: 15px;
+            }
             button{
                 cursor:pointer;
                 width: 15px;

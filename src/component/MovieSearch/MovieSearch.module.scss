@@ -1,0 +1,42 @@
+.wrapper-movie-search{
+    margin: 5px 0;
+    border-bottom:solid 1px gray ;
+    &:hover{
+        background-color: rgba(48, 47, 47, 0.9);
+    }
+    &:hover .container .content .content-movie{
+        color: #fff;
+    }
+    .container{
+        display: flex;
+        .picture{
+            width: 160px;
+            border-radius: 3px;
+            margin-right: 5px;
+        }
+        .content{
+            display: block;
+            margin: 5px;
+            .name-movie{
+                margin-bottom: 5px;
+                h2{
+                    font-size: 17px;
+                    color: rgb(255, 255, 255);
+                    .rate{
+                        width: 25px;
+                        height: 17px;
+                        font-size: 13px;
+                        border: 1px solid gray;
+                        display: flex;
+                        justify-content: center;
+                    }
+                }
+                
+            }
+            .content-movie{
+                font-size: 14px;
+                color: rgb(138, 138, 138);
+            }
+        }
+    }
+}

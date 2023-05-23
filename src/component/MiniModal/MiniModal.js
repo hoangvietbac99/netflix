@@ -1,35 +1,37 @@
 import classNames from "classnames/bind";
-import styles from "./SmallTrailer.module.scss";
+import styles from "./MiniModal.module.scss";
 import icons from "~/assets/svg/icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faChevronDown } from "@fortawesome/free-solid-svg-icons";
-import { memo } from "react";
+import { Link } from "react-router-dom";
+import linkPage from "~/pages/LinkPage/linkPage";
 
 const cx = classNames.bind(styles);
 
-function SmallTrailer({ data, onClick }) {
+function MiniModal({ data, onClick }) {
     const nature = data.nature.split(",");
     return (
         <>
             <div className={cx("wrapper-trailer-item")}>
                 <div className={cx("player")}>
-                    <video
-                        autoPlay
-                        className={cx("pic-vi")}
-                        poster={data.picture}
-                        // src={data.trailer}
-                    />
+                    <img className={cx("picture")} alt="" src={data.picture} />
+                    <div className={cx("shadow")}></div>
                 </div>
                 <div className={cx("player-info")}>
                     <div className={cx("btn-direc")}>
                         <div className={cx("btn-left")}>
-                            <button className={cx("btn-circle", "-play")}>
-                                <img
-                                    className={cx("icon-l")}
-                                    src={icons.iconPlay}
-                                    alt=""
-                                />
-                            </button>
+                            <Link to={linkPage.watchMovie}>
+                                <button
+                                    className={cx("btn-circle", "-play")}
+                                    onClick={() => onClick(data.id)}
+                                >
+                                    <img
+                                        className={cx("icon-l")}
+                                        src={icons.iconPlay}
+                                        alt=""
+                                    />
+                                </button>
+                            </Link>
                             <button className={cx("btn-circle")}>
                                 <img
                                     className={cx("icon-l")}
@@ -87,4 +89,4 @@ function SmallTrailer({ data, onClick }) {
     );
 }
 
-export default memo(SmallTrailer);
+export default MiniModal;

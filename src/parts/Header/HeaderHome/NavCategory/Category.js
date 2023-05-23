@@ -113,8 +113,8 @@ function Category({ onClick }) {
                 <div className={cx("category")}>
                     <label
                         htmlFor="show-2"
-                        onClick={() => handleRotate()}
                         className={cx("btn-toggle")}
+                        onClick={() => handleRotate()}
                     >
                         <span>Thể loại</span>
                         <FontAwesomeIcon
@@ -144,7 +144,7 @@ function Category({ onClick }) {
                 </div>
             </div>
             <div className={cx("genre-right")}>
-                <div className={cx("icon")} onClick={onClick}>
+                <div className={cx("icon")} onClick={() => onClick("type")}>
                     <button
                         className={cx("icon-bar")}
                         onClick={() => handleShowIcon()}

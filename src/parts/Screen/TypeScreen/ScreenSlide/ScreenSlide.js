@@ -1,4 +1,4 @@
-import Slide from "~/component/Slide/Slide/Slide";
+import Slide from "~/component/Slider/Slider";
 import classNames from "classnames/bind";
 import styles from "./ScreenSlide.module.scss";
 import BillBoard from "~/component/BillBoard/BillBoard";

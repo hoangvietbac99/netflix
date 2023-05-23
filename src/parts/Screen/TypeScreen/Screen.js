@@ -1,10 +1,10 @@
 import { Fragment } from "react";
 import ScreenItem from "./ScreenItem/ScreenItem";
 import ScreenList from "./ScreenSlide/ScreenSlide";
-function Screen({ changeScreen, data, onClick }) {
+function Screen({ typeScreen, data, onClick }) {
     return (
         <Fragment>
-            {changeScreen === true ? (
+            {typeScreen === true ? (
                 <ScreenList data={data} onClick={onClick} />
             ) : (
                 <ScreenItem data={data} onClick={onClick} />

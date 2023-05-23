@@ -1,8 +1,7 @@
 import classNames from "classnames/bind";
-import styles from "./Slide.module.scss";
+import styles from "./Slider.module.scss";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
-    faAnglesRight,
     faChevronLeft,
     faChevronRight,
 } from "@fortawesome/free-solid-svg-icons";
@@ -10,7 +9,7 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import { useState } from "react";
-import ItemVideo from "../ListItem/ItemVideo";
+import ItemVideo from "../CardMovie/CardMovie";
 const cx = classNames.bind(styles);
 function Slide({ data, onClick }) {
     const [showDots, setShowDots] = useState(false);
@@ -110,16 +109,7 @@ function Slide({ data, onClick }) {
     return (
         <div className={cx("wrapper-slide")}>
             <div className={cx("title-slide")}>
-                <a href="/">
-                    <div className={cx("header-title")}>Title</div>
-                    <div className={cx("header-more-title")}>
-                        <div className={cx("see-link")}>Show all</div>
-                        <FontAwesomeIcon
-                            className={cx("icon-see-link")}
-                            icon={faAnglesRight}
-                        />
-                    </div>
-                </a>
+                <div className={cx("header-title")}>Title</div>
             </div>
             <div className={cx("slide")}>
                 <Slider {...settings}>

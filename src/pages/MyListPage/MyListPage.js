@@ -19,8 +19,10 @@ function MyListPage({ onClick }) {
         fetchUserData();
     }, []);
     return (
-        <div className={cx("wrapper-my-list-page")}>
-            <ScreenItem data={items} onClick={onClick} />
+        <div className={cx("wrapper-mylist-page")}>
+            <div className={cx("container")}>
+                <ScreenItem data={items} onClick={onClick} />
+            </div>
         </div>
     );
 }

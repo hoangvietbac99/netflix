@@ -1,7 +1,7 @@
 import { Fragment, useState, useEffect } from "react";
 import Screen from "~/parts/Screen/TypeScreen/Screen";
 
-function TVShow({ changeScreen, onClick }) {
+function TVShow({ typeScreen, onClick }) {
     const [items, setItems] = useState([]);
 
     useEffect(() => {
@@ -18,11 +18,7 @@ function TVShow({ changeScreen, onClick }) {
     }, []);
     return (
         <Fragment>
-            <Screen
-                data={items}
-                changeScreen={changeScreen}
-                onClick={onClick}
-            />
+            <Screen data={items} typeScreen={typeScreen} onClick={onClick} />
         </Fragment>
     );
 }

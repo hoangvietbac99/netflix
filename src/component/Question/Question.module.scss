@@ -31,6 +31,10 @@
                         top: 5px;
                         transition: transform 300ms cubic-bezier(.21,0,.07,1);
                     }
+                    .rotate-icon{
+                        transition: transform 300ms cubic-bezier(.21,0,.07,1);
+                        transform: rotate(180deg);
+                    }
                 }
                 
             }

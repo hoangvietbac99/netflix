@@ -1,0 +1,85 @@
+.wrapper-input-search{
+    .search-result{
+        color: #FFFFFF;
+        position: relative;
+        .result{
+            position: relative;
+            border: 1px solid gray;
+            border-radius: 5px;
+            top: 10px;
+            width: 450px;
+            padding: 10px;
+            min-height: fit-content;
+            transition: all .4s ease;
+            max-height: 600px;
+            overflow-y: hidden;
+            overflow-y: scroll;
+            background-color: rgba(0,0,0,0.9);
+            &::-webkit-scrollbar {
+                display: none;
+            }
+        }
+    }
+    .container{
+        .show-3{
+            display: none;
+        }
+        .show-3:checked ~ .search {
+            width: 300px;
+            border: 2px solid rgb(209, 207, 207);
+        }
+        .show-3:checked ~ .search .show-search .icon-search{
+            width: 17.5px;
+            height: 17.5px;
+        }
+        .show-3:checked ~ .search .input-search{
+            display: block;
+        }
+        .show-3:checked ~ .search .clear{
+            display: block;
+        }
+        .search{
+            position: relative;
+            display: flex;
+            align-items: center;
+            transition: all .15s linear;
+            width: 40px;
+            height: 40px;
+            border-radius: 20px;
+            border: none;
+            .show-search{
+                cursor: pointer;
+                position: absolute;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                width: 35px;
+                height: 35px;
+                .icon-search{
+                    position: absolute;
+                    width: 25px;
+                    height: 25px;
+                    color:var(--text-color);
+                }
+            }
+            .input-search{
+                padding: 3px 0px 3px 32px;
+                display: none;
+                border: none;
+                outline: none;
+                width: 100%;
+                height: 100%;
+                font-size: 15px;
+                background-color: transparent;
+                color: #FFFFFF; 
+            }   
+            .clear{
+                cursor: pointer;
+                display: none;
+                color: var(--text-color);
+                font-size: 20px;
+                margin: 7px 12px;
+            }
+        }
+    }
+}

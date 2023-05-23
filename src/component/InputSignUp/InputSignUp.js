@@ -20,13 +20,6 @@ function InputSignUp() {
             setNextPage(true);
         }
     };
-    // const handleGetValue = () => {
-    //     const valueEM = document.getElementsByClassName(cx("input"))[0].value;
-    //     const value = document.getElementsByClassName(cx("input"))[0];
-    //     const valuea = !!valueEM;
-    //     if (!!valuea === false) {
-    //     }
-    // };
     return (
         <div className={cx("wrapper-input-sign-up")}>
             <div className={cx("wrapper-input")}>

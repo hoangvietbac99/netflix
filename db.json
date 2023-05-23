@@ -1,9 +1,26 @@
 {
+  "account":[
+    {
+      "avatar":"https://upload.wikimedia.org/wikipedia/commons/0/0b/Netflix-avatar.png" ,
+      "name": "Hoàng Việt Bắc"
+    },
+  {
+    "avatar":"https://i.pinimg.com/originals/61/54/76/61547625e01d8daf941aae3ffb37f653.png" ,
+    "name": "Hoàng Đức Giang"
+  },
+  {
+    "avatar":"https://avatars.githubusercontent.com/u/6759280?v=4" ,
+    "name": "Hoàng Anh Lập"
+  },
+  {
+    "avatar":"https://netflix-bootcamp-db.netlify.app/static/media/profileIcon1.b36331ae.jpg" ,
+    "name": "Phạm Thanh Huyền"
+  }],
   "movies": [
     {
       "name": "Lời hồi đáp 1988",
+      "trailer":"https://imdb-video.media-imdb.com/vi2095757337/1434659607842-pgv4ql-1517012548728.mp4?Expires=1684757491&Signature=boCA4LMV7KPguCynmhxiFfWDLYN1fQ-f22OUJD5QQTjxyZyzR7kFIjoOJJoAuiEsdfM7wNqToV86z1jZaWo7zeHti4NFZKNpnYCzDwiGI3OvBlxW9CnD1JKu0cowfqztxo6PkAlO~k6QKXOjWnSV1cjKgKbMHh6Dk3gAMEfmJWPkAcDHut9AQWRwdqqxaMb2y7v1P4SHcLppMjnNN8T2fNaGiB~j6CpOfro39cqRCutFJhsIKAC0-l7ALAikUXku39aYU-rzeZ8MuQkqbsgTnthw5ZVQgEkw2aSfI5WvvoZP-l31LjGeBz2WVRAKhfyssJ3sPjb0AsrUWEm-NZJTew__&Key-Pair-Id=APKAIFLZBVQZ24NQH3KA",
       "picture": "https://occ-0-58-325.1.nflxso.net/dnm/api/v6/6gmvu2hxdfnQ55LZZjyzYR4kzGk/AAAABZTwHKI8-ta8kPwcC2SJ6wrWFiwuXLae6SDHSOkw3-GDzviCnQWQ5qZrfIS_Xbs_e7SSXHUZ5Em8nQhhYu7f2oZ1Ed6cYyzJpEg.webp?r=efd",
-      "trailer": "https://imdb-video.media-imdb.com/vi726122521/1434659607842-pgv4ql-1630086261495.mp4?Expires=1683087858&Signature=X8Y3FW6WYH36MEtvotztxxx2Ys2cS6XMZb6jLiiBQiGKj~F6XRgblLNEw76WOE~hZzMVJhxM8sxYfA87xGhRnyi-AdE55wwlIKZrXrr2IcWnTQZoyoZrOLkNVZCuY10zQLjiAn5SzHKozlP~75SpO2rtLTB~26PwXzBxNLMBs3hvUENZXV-jSnQAqKr0n1OTTSp6Z~b3PrXKuNpcpXve1vs~EKGq6imxqPyCqzfGNjf0XH9Py38JGnfjiwIADGlfXEnfdnrVNwXyaoheLA0RluHUXA8isZ6RdHfisidXF4Ua0RKw~qcm0z5wEk~UV8hbZ2fPor6RUbtH~SbGCD9grA__&Key-Pair-Id=APKAIFLZBVQZ24NQH3KA",
       "nature": "Hoài cổ, Cảm động, Tuổi trẻ",
       "content": "Một bộ phim hoài niệm về cuối những năm 1980, xoay quanh cảnh đời của năm gia đình cùng năm cô cậu bé sống tại một khu phố nhỏ ở Seoul.",
       "title": "https://occ-0-58-325.1.nflxso.net/dnm/api/v6/tx1O544a9T7n8Z_G12qaboulQQE/AAAABfrnxc850f3LX_bTnEcCg_-k2NsaiXvJaoL-RxXuUvJQuMLLoL3-w-0BKv047FSojkV1X3RyGiqfkDNdOoZ8rXukzBiFHKJH2yo5wKWcSH8.webp?r=970",
@@ -17,7 +34,7 @@
     {
       "name": "Mật danh K2",
       "picture": "https://occ-0-58-325.1.nflxso.net/dnm/api/v6/6gmvu2hxdfnQ55LZZjyzYR4kzGk/AAAABWbzM7yXHMKiDwpMSYPStmcEHVPYgCLUrmeqlHz7f043mSXS_-Wl1CPpzSTsExkbSlrMGSgyhTDsIaXB-oLod-Wem6QjhkCPxlE_.webp?r=28d",
-      "trailer": "https://imdb-video.media-imdb.com/vi2095694361/1434659607842-pgv4ql-1654544442001.mp4?Expires=1683089576&Signature=LBZp30dYTD2XxwtmD0cxSVeZJTLpNOBTJ-xY9XhKUFwvO3c7NCLK3Z10p~3icN4Az2dVySOUfZss70cPgTmoLYWrtRH1CP~4Z2OzeOiUgU5l9BxBG431QwjIdzeaL7natBswUbsk63GYdUSFg8fRAAEuCYkgGrOr8mbSE~LvPRnYEi5IXwPUHMhkpTJCPsSJRvbzSWSyxQf9NEl3og~lpCNSXLcAXQRxWZSBqQ0VhkLyrXHMffxBoLJhD57zQ1N0Egq-xsoclZf48PrdYA06YLcQ569d9eiXaznUNKMwP9Uhppt-mNXJJSrVO9ISr2-klnRHDnULrXHsDZS9eDZYTg__&Key-Pair-Id=APKAIFLZBVQZ24NQH3KA",
+      "trailer":"https://imdb-video.media-imdb.com/vi2095757337/1434659607842-pgv4ql-1517012548728.mp4?Expires=1684757491&Signature=boCA4LMV7KPguCynmhxiFfWDLYN1fQ-f22OUJD5QQTjxyZyzR7kFIjoOJJoAuiEsdfM7wNqToV86z1jZaWo7zeHti4NFZKNpnYCzDwiGI3OvBlxW9CnD1JKu0cowfqztxo6PkAlO~k6QKXOjWnSV1cjKgKbMHh6Dk3gAMEfmJWPkAcDHut9AQWRwdqqxaMb2y7v1P4SHcLppMjnNN8T2fNaGiB~j6CpOfro39cqRCutFJhsIKAC0-l7ALAikUXku39aYU-rzeZ8MuQkqbsgTnthw5ZVQgEkw2aSfI5WvvoZP-l31LjGeBz2WVRAKhfyssJ3sPjb0AsrUWEm-NZJTew__&Key-Pair-Id=APKAIFLZBVQZ24NQH3KA",
       "nature": "Kích thích, Ngọt ngào cay đắng",
       "content": "Một quân nhân đang chạy trốn bị cuốn vào mưu đồ cá nhân và chính trị khi anh ta được thuê làm vệ sĩ cho gia đình của một ứng cử viên tổng thống.",
       "title": "https://occ-0-58-325.1.nflxso.net/dnm/api/v6/tx1O544a9T7n8Z_G12qaboulQQE/AAAABfZpGvwaxIk3VzEGmyX0vpD_t5UrVDtCd1r4X7mtsVlda5jmkKleC2sS1Yv3O5FvvITHFlAoOVP1KiUz9czHApYkOqbr2BPFsXo2XFw1PEA.webp?r=e2b",
@@ -31,7 +48,7 @@
     {
       "name": "Stand by me 2",
       "picture": "https://occ-0-58-325.1.nflxso.net/dnm/api/v6/6gmvu2hxdfnQ55LZZjyzYR4kzGk/AAAABXQcl6LyIH22X9hB23CtSFtHK79A0STrTX7Pkzf-VhSUr1Qg0tkX0m16savnWjecLFrHgko82QbeZ4ybLkPfMunAhBNB30WZO1M.webp?r=b57",
-      "trailer": "https://imdb-video.media-imdb.com/vi1081787417/1434659607842-pgv4ql-1682437385502.mp4?Expires=1683093356&Signature=VAjWc3jSPGtFSxXUd9GLyqobyTmDlRMH1sqhGWOihz3i7rt4KF7H8Q2SgRX3ki4zQUbxIq-f35h9tjXdiDYS7kOnSyxWzR1UNvDCLCBv1OTtlrer8C8LePUs83I5ItdAFZJnqVNSu7WJ~Uy~7PKXSVglwjoLkYHmmiP97mZAvudWvKf1QraE3BJoPg~~7xv9ouKPBsHIBaEVdXuHaMATXbAc-8bWq8BEYdLRJuXkCzbiStNguVZxkmXBNt6Xl1HzxSeWvNF1j~Mk6u-Djn9NxcS090fGxwwP7ybbpancGuDj68EerHdREhHQD8lrcrCsfvH5A48-pOPWDz0hfD8fmg__&Key-Pair-Id=APKAIFLZBVQZ24NQH3KA",
+      "trailer":"https://imdb-video.media-imdb.com/vi2095757337/1434659607842-pgv4ql-1517012548728.mp4?Expires=1684757491&Signature=boCA4LMV7KPguCynmhxiFfWDLYN1fQ-f22OUJD5QQTjxyZyzR7kFIjoOJJoAuiEsdfM7wNqToV86z1jZaWo7zeHti4NFZKNpnYCzDwiGI3OvBlxW9CnD1JKu0cowfqztxo6PkAlO~k6QKXOjWnSV1cjKgKbMHh6Dk3gAMEfmJWPkAcDHut9AQWRwdqqxaMb2y7v1P4SHcLppMjnNN8T2fNaGiB~j6CpOfro39cqRCutFJhsIKAC0-l7ALAikUXku39aYU-rzeZ8MuQkqbsgTnthw5ZVQgEkw2aSfI5WvvoZP-l31LjGeBz2WVRAKhfyssJ3sPjb0AsrUWEm-NZJTew__&Key-Pair-Id=APKAIFLZBVQZ24NQH3KA",
       "nature": "Yêu đời, cảm động",
       "poster": "https://i.pinimg.com/originals/b3/52/48/b3524800c333a7c003df62331f183ec2.png",
       "title": "https://occ-0-58-325.1.nflxso.net/dnm/api/v6/tx1O544a9T7n8Z_G12qaboulQQE/AAAABenEbvTjI1dkEu_K3g-rPbiw3IYun4EWSuMrMcsSqBaqirEJ6mZmFOMBhZrz5TV7N9OGK-sxfYdWZwhC1OofoVkJNZ0j_rNB8MB9qfBqXiY.webp?r=5fc",
@@ -50,7 +67,7 @@
       "category": "Phim gia đình, Phim trẻ em và gia đình, Phim Nhật, Phim Anime",
       "nature": "Cảm động",
       "rate": "7+",
-      "trailer": "https://imdb-video.media-imdb.com/vi3605017/1434659607842-pgv4ql-1616203155006.mp4?Expires=1683093589&Signature=g-zwvm5Q69CADwaX3VAVHZIHyqjdNt2LqqsfK8ClRFIGsMcQgKPE8TNE9If72jKnKvC5XfS0F3zjNsx8qBpLm~0zVutYRZiKXR-vkEy6vDsr06hha~XW84KR-NoSXT5pqtUXToFYTsxCg7FaIHiaBBzn6tuV5s28eA4zNzojOBI0FtTAErDgQc73zKaE4u~wcoKrBjExtXkjW22MtLPpPLDvaDlEv~wLR39l-0SA1EX1rAbSulEf7dNb3fSrTPIfQ0mAkuJWjHlq9g6waaRk7yY426VQLiaDoNAJv0c4OuJHv7DoPNi5m9pGNpcPYh~28sLalOwBf8Hd8VKlBUnZ7g__&Key-Pair-Id=APKAIFLZBVQZ24NQH3KA",
+      "trailer":"https://imdb-video.media-imdb.com/vi2095757337/1434659607842-pgv4ql-1517012548728.mp4?Expires=1684757491&Signature=boCA4LMV7KPguCynmhxiFfWDLYN1fQ-f22OUJD5QQTjxyZyzR7kFIjoOJJoAuiEsdfM7wNqToV86z1jZaWo7zeHti4NFZKNpnYCzDwiGI3OvBlxW9CnD1JKu0cowfqztxo6PkAlO~k6QKXOjWnSV1cjKgKbMHh6Dk3gAMEfmJWPkAcDHut9AQWRwdqqxaMb2y7v1P4SHcLppMjnNN8T2fNaGiB~j6CpOfro39cqRCutFJhsIKAC0-l7ALAikUXku39aYU-rzeZ8MuQkqbsgTnthw5ZVQgEkw2aSfI5WvvoZP-l31LjGeBz2WVRAKhfyssJ3sPjb0AsrUWEm-NZJTew__&Key-Pair-Id=APKAIFLZBVQZ24NQH3KA",
       "content": "Cậu bé năm tuổi Sosuke làm bạn với Ponyo cô công chúa cá vàng tha thiết muốn trở thành con người.",
       "title": "https://occ-0-325-58.1.nflxso.net/dnm/api/v6/LmEnxtiAuzezXBjYXPuDgfZ4zZQ/AAAABfZg1ifOO0FGbCOAspD7ZO4jp2UGe9o5e2wuvk2Md60ibG2nI6aceoLWkB2gVAtujWVilquj1mMrzL7pTtJsl_374eIMeVLvnQ70Ili0WW6y.webp?r=9a5",
       "picture": "https://occ-0-58-325.1.nflxso.net/dnm/api/v6/6gmvu2hxdfnQ55LZZjyzYR4kzGk/AAAABZefMee1MtjGkLQlRGQ40PuHkzFhrH__RSNlfYZz5hngoxoUPXXazcwECeiJoWKr2RGAIgNIO-92dYj2j9ZPh6ZGmhkBtcnBP5s.webp?r=628",
@@ -59,7 +76,7 @@
     {
       "id": 5,
       "name": "Lính bắn tỉa: Hồi kết sát thủ",
-      "trailer": "https://imdb-video.media-imdb.com/vi87539225/1434659607842-pgv4ql-1591117439452.mp4?Expires=1683094126&Signature=K-hnZqP8MvDYWNrVg44d5f3ibWg5SoXPL8MVfE92CZbVNAYAgK-kkTtPMybrD0oLpo~SXuk-nbD9LqP1yrZOmHoN~cJ-TuLYuue0Anali7Wq7rwn2EQ-PtuxF6vMnajBuKuVAjrtBykqmmxrRh41CsMfLBaypjNrkptPX3GRsjLffDO8ZTSpVO24f-~IqNYOeXYAvhjvN4nwnfGaqJXNvuNMEmB1k0-Qq0EvVrLN6V8kPN5t27~Wgfq~K1fevV0~apcMQIBOjexl0MsNmnhOSaNLtnhY3caE45r4NcEqooMwkiYp0AyizyDyhq332q51oMiVe58abAgUo9SbEGWLFw__&Key-Pair-Id=APKAIFLZBVQZ24NQH3KA",
+      "trailer":"https://imdb-video.media-imdb.com/vi2095757337/1434659607842-pgv4ql-1517012548728.mp4?Expires=1684757491&Signature=boCA4LMV7KPguCynmhxiFfWDLYN1fQ-f22OUJD5QQTjxyZyzR7kFIjoOJJoAuiEsdfM7wNqToV86z1jZaWo7zeHti4NFZKNpnYCzDwiGI3OvBlxW9CnD1JKu0cowfqztxo6PkAlO~k6QKXOjWnSV1cjKgKbMHh6Dk3gAMEfmJWPkAcDHut9AQWRwdqqxaMb2y7v1P4SHcLppMjnNN8T2fNaGiB~j6CpOfro39cqRCutFJhsIKAC0-l7ALAikUXku39aYU-rzeZ8MuQkqbsgTnthw5ZVQgEkw2aSfI5WvvoZP-l31LjGeBz2WVRAKhfyssJ3sPjb0AsrUWEm-NZJTew__&Key-Pair-Id=APKAIFLZBVQZ24NQH3KA",
       "content": "Bị đổ oan tội ám sát, một quân nhân đặc nhiệm nhờ bố mình là một tay súng bắn tỉa huyền thoại giúp tìm ra thủ phạm giết người thực sự.",
       "title": "https://occ-0-58-325.1.nflxso.net/dnm/api/v6/LmEnxtiAuzezXBjYXPuDgfZ4zZQ/AAAABZis8j_WbL8CJYVmdzmCEiyDPC8c1BYzZsZi9-Jvg5V49HtZEJDVW2kBjKRts7UINE4ZXXV85fJFx_FC7003vBJysH-expUHQx5wXpOQOAMv.webp?r=093",
       "picture": "https://occ-0-58-325.1.nflxso.net/dnm/api/v6/6gmvu2hxdfnQ55LZZjyzYR4kzGk/AAAABUBkZhtbCkTPGIbGGqHQZBfUp0zqfZHgp4ezZu0vHs-5-XbcRDjv5nRl0O3LpRcJbCvgq16iPC63jGcK2Ag_V38jijpHU1nb0rM.webp?r=19f",
@@ -78,7 +95,7 @@
       "rate": "7+",
       "id": 6,
       "name": "KungFu Panda 3",
-      "trailer": "https://imdb-video.media-imdb.com/vi3597971993/1434659607842-pgv4ql-1450714147471.mp4?Expires=1683093760&Signature=rP5tXF4O~vGIEVjSlGZ-UDn5y1fjzFjdsvE6xF81gUiV14H3I1I0xtUShdqQtsKRgvTWpWMok23uu5K6eejq62NrHaOLqDIlQ6FQopBjLLm~V6gc-WylFmCF5kQirr5mTusBIyo~J2LU812kFt2UuZjGf66VNArmgVl6OkuFLop4HcWalUn5jvZMfyw61z4MyyG3B84zhU3q00wZYrJjBzcSum2G83WO0qWX0UGM~-T-BgL3Vbrr-wWTuBF~IlfyG0Ef-oVgNtGQiNjv0rY~3ixD3z5mbxE0DbdLcLOp6R~nkUexJ~5eHx4wL~DRK06hVflZZBBb1xB5EaYk2GBfHA__&Key-Pair-Id=APKAIFLZBVQZ24NQH3KA",
+      "trailer":"https://imdb-video.media-imdb.com/vi2095757337/1434659607842-pgv4ql-1517012548728.mp4?Expires=1684757491&Signature=boCA4LMV7KPguCynmhxiFfWDLYN1fQ-f22OUJD5QQTjxyZyzR7kFIjoOJJoAuiEsdfM7wNqToV86z1jZaWo7zeHti4NFZKNpnYCzDwiGI3OvBlxW9CnD1JKu0cowfqztxo6PkAlO~k6QKXOjWnSV1cjKgKbMHh6Dk3gAMEfmJWPkAcDHut9AQWRwdqqxaMb2y7v1P4SHcLppMjnNN8T2fNaGiB~j6CpOfro39cqRCutFJhsIKAC0-l7ALAikUXku39aYU-rzeZ8MuQkqbsgTnthw5ZVQgEkw2aSfI5WvvoZP-l31LjGeBz2WVRAKhfyssJ3sPjb0AsrUWEm-NZJTew__&Key-Pair-Id=APKAIFLZBVQZ24NQH3KA",
       "title": "https://occ-0-58-325.1.nflxso.net/dnm/api/v6/LmEnxtiAuzezXBjYXPuDgfZ4zZQ/AAAABT6HiypzFjLYhSNkPuvTT7IMTGDNW-SHSexgXxhHsQAZwQMGEN0C8TE5Z21Lrl6WKr6bqhvbBzdImXo_jRllR9RL6DlvsS8IjOnx2QjepfAd.webp?r=a7e",
       "picture": "https://occ-0-58-325.1.nflxso.net/dnm/api/v6/6gmvu2hxdfnQ55LZZjyzYR4kzGk/AAAABc0O3F9VRFlPNbiMi5mS_bLlUx3N7hZ3X8oEgsgsDxJSrykN5NFpQV3c0vit8xfzb9rOOHDyNPBxJCazHSwJUsRguP5nrqDlClg.webp?r=202",
       "content": "Trong khi Po và bố đến ngôi làng gấu trúc bí mật, một linh hồn xấu xa đe dọa toàn xứ Thần Châu, buộc cậu phải thành lập một đội quân chắp vá để chống trả.",
@@ -92,7 +109,7 @@
       "rate": "7+",
       "name": "Pan và vùng đất NeverLand",
       "picture": "https://occ-0-325-58.1.nflxso.net/dnm/api/v6/6gmvu2hxdfnQ55LZZjyzYR4kzGk/AAAABZJEfvOQ0DAngihoENZuK_wju7JZwFm7DPFGe7W1oW20LNxYYc4HS4ne7IzT1f9BXRrSjhhjM1FCY9mUIypCyecYO4VgWfeXuks.webp?r=d04",
-      "trailer": "https://imdb-video.media-imdb.com/vi1081787417/1434659607842-pgv4ql-1682437385502.mp4?Expires=1683093356&Signature=VAjWc3jSPGtFSxXUd9GLyqobyTmDlRMH1sqhGWOihz3i7rt4KF7H8Q2SgRX3ki4zQUbxIq-f35h9tjXdiDYS7kOnSyxWzR1UNvDCLCBv1OTtlrer8C8LePUs83I5ItdAFZJnqVNSu7WJ~Uy~7PKXSVglwjoLkYHmmiP97mZAvudWvKf1QraE3BJoPg~~7xv9ouKPBsHIBaEVdXuHaMATXbAc-8bWq8BEYdLRJuXkCzbiStNguVZxkmXBNt6Xl1HzxSeWvNF1j~Mk6u-Djn9NxcS090fGxwwP7ybbpancGuDj68EerHdREhHQD8lrcrCsfvH5A48-pOPWDz0hfD8fmg__&Key-Pair-Id=APKAIFLZBVQZ24NQH3KA",
+      "trailer":"https://imdb-video.media-imdb.com/vi2095757337/1434659607842-pgv4ql-1517012548728.mp4?Expires=1684757491&Signature=boCA4LMV7KPguCynmhxiFfWDLYN1fQ-f22OUJD5QQTjxyZyzR7kFIjoOJJoAuiEsdfM7wNqToV86z1jZaWo7zeHti4NFZKNpnYCzDwiGI3OvBlxW9CnD1JKu0cowfqztxo6PkAlO~k6QKXOjWnSV1cjKgKbMHh6Dk3gAMEfmJWPkAcDHut9AQWRwdqqxaMb2y7v1P4SHcLppMjnNN8T2fNaGiB~j6CpOfro39cqRCutFJhsIKAC0-l7ALAikUXku39aYU-rzeZ8MuQkqbsgTnthw5ZVQgEkw2aSfI5WvvoZP-l31LjGeBz2WVRAKhfyssJ3sPjb0AsrUWEm-NZJTew__&Key-Pair-Id=APKAIFLZBVQZ24NQH3KA",
       "title": "https://occ-0-58-325.1.nflxso.net/dnm/api/v6/LmEnxtiAuzezXBjYXPuDgfZ4zZQ/AAAABYrORc1Q8sQ1mXu7tznf4jVuJ97IdcBB02dFNO0u01Db2Dk8pv3PHbH03hePqXAIFkcJ9VhcICfNMvahGKycqsoxhQa0NR8XxYXs2QlM5jdH.webp?r=b96",
       "poster": "https://occ-0-58-325.1.nflxso.net/dnm/api/v6/6AYY37jfdO6hpXcMjf9Yu5cnmO0/AAAABan44V2YdtmqkTxTgSHpyOUzIuryZ4O0GgGUIEOD3FxGdi1Cqyz_IRrV2VnPbidXo21Yru2FmAwwgddMA0o4dmTOdHx7TZFkj3l9.webp?r=2b3",
       "content": "Cuộc phiêu lưu mở ra khi một cậu bé mồ côi nổi loạn được chuyển đến hòn đảo thần tiên Neverland và phát hiện ra định mệnh đích thực của mình.",
@@ -106,7 +123,7 @@
       "rate": "18+",
       "name": "Bridgerton",
       "picture": "https://occ-0-325-58.1.nflxso.net/dnm/api/v6/6gmvu2hxdfnQ55LZZjyzYR4kzGk/AAAABWsud0-Es4oeZgXAXa4ngQH_NDw4NmvOtLVO8z8pTbK2rgSiPHox6ViYMN7eQG8X4QXM4VoEqYF-Nk1dSV75o9xg7_q920Puk5V_F3Ad0hnE1_XalVPvZD-kBdTqY_2_2w8X.jpg?r=45d",
-      "trailer": "https://imdb-video.media-imdb.com/vi1817821977/1434659607842-pgv4ql-1646837710255.mp4?Expires=1683093721&Signature=KHAbseCuF-9qP0WqixxSHUVGzoKus1SpnJRmQCfIXo4510wGtUmyxpFCNeqJlaZ6hB7Jrw48SmHXxrwmJNQy6BuoiU7IctXmzg72xJ1aXe-QqHRZlJIu~bqi6QdT6hgpn~OZcLkZYFfPwmu7s6XVxRtI~Ybi8KhHUY5CPyzqD8-U3U7Wv0QDdCY8pAfEccz5A4ADeuj1wu3oWgi3QllW5Latb9-ji7sLS9f4VXz8OQCH1nzybcx5Xi-bC2NEBAuKfQPlzSmJcTbEFoErD1YOZBa5yhsJDvYsF5fIbls~31Vkmx9gpa0-FUjHI2VbwHO4LdmdFgKVXE-VricUHQwI7Q__&Key-Pair-Id=APKAIFLZBVQZ24NQH3KA",
+      "trailer":"https://imdb-video.media-imdb.com/vi2095757337/1434659607842-pgv4ql-1517012548728.mp4?Expires=1684757491&Signature=boCA4LMV7KPguCynmhxiFfWDLYN1fQ-f22OUJD5QQTjxyZyzR7kFIjoOJJoAuiEsdfM7wNqToV86z1jZaWo7zeHti4NFZKNpnYCzDwiGI3OvBlxW9CnD1JKu0cowfqztxo6PkAlO~k6QKXOjWnSV1cjKgKbMHh6Dk3gAMEfmJWPkAcDHut9AQWRwdqqxaMb2y7v1P4SHcLppMjnNN8T2fNaGiB~j6CpOfro39cqRCutFJhsIKAC0-l7ALAikUXku39aYU-rzeZ8MuQkqbsgTnthw5ZVQgEkw2aSfI5WvvoZP-l31LjGeBz2WVRAKhfyssJ3sPjb0AsrUWEm-NZJTew__&Key-Pair-Id=APKAIFLZBVQZ24NQH3KA",
       "title": "https://occ-0-58-325.1.nflxso.net/dnm/api/v6/LmEnxtiAuzezXBjYXPuDgfZ4zZQ/AAAABfFYAuF6oqq6EGW8LvOt9At6vEJJ8Kgz-I9PcJRhrpfBC7pvnk8PcBI_vZMmIXfjxEobtzq3ILz101Yz2936Eqv_vj0r4NEQaZ_dLhI8k5-J6PYYwH4yZCZUVP7i-Bi_jJ6jRyrzzE_pMTTAAWttYdS79FWsWyEkr5v1AK6u65A1R-wVa2wCdg.webp?r=84d",
       "poster": "https://occ-0-58-325.1.nflxso.net/dnm/api/v6/6AYY37jfdO6hpXcMjf9Yu5cnmO0/AAAABXdThZr7OoGNh8Tt0qvY5sX2X-IeEWmivEqaI2OwXy5JwzAnMdrm6PV5J3x_uBhqigCUO3aryLfO3pbuUK4wLnHD-Q9prEyEkSAg.webp?r=fe1",
       "content": "Tám anh chị em thân thiết của gia đình Bridgerton tìm kiếm tình yêu và hạnh phúc trong xã hội thượng lưu London. Lấy cảm hứng từ bộ tiểu thuyết bán chạy của Julia Quinn.",
@@ -120,7 +137,7 @@
       "rate": "13+",
       "name": "Chú bé mang Pyiama sọc",
       "picture": "https://occ-0-325-58.1.nflxso.net/dnm/api/v6/6gmvu2hxdfnQ55LZZjyzYR4kzGk/AAAABSf9m2-Glm_jIQ9RQK8RfwArJyiio9q9tpZ7iz6tfnbkaFKw7wurAM9RUhzyka8MTHEcPC1zrV7_KlD5sMdQ-dBQN0B2PmGwtcM.webp?r=0c5",
-      "trailer": "https://imdb-video.media-imdb.com/vi751566873/1434659607842-pgv4ql-1616202484343.mp4?Expires=1683093900&Signature=g~E2RpnBNIqT7m3w4VBsmpkswUaw3ZSkS1YNiBPq8eoRi34ZSXLIF~SeMuLd-eSPioBnchZJmEe8nxx8sfAHUKthyrfW6dZU6Lqy-2nuE-DkzTx2IVfXfZsXD8z8rZPBZYUV-TZFFMGh1tzrRddQtstU50bAuCMHoQmA43PXZ2xypEi0niFpvZC-OHSaMpvhSZaSVJ~wctivSELrHsCM4PhWVQ7nizqu0elt95gOotBPlDlUclkaPTc3vT~dK9zHZDgeNSYDB4gFQav0IoMss-xk5mTIwY0t19Nh~EtO2CkNF0IIbs4yrQadKIVgoE~vaCgLRMHpYL4x6ZY5VTMZYA__&Key-Pair-Id=APKAIFLZBVQZ24NQH3KA",
+      "trailer":"https://imdb-video.media-imdb.com/vi2095757337/1434659607842-pgv4ql-1517012548728.mp4?Expires=1684757491&Signature=boCA4LMV7KPguCynmhxiFfWDLYN1fQ-f22OUJD5QQTjxyZyzR7kFIjoOJJoAuiEsdfM7wNqToV86z1jZaWo7zeHti4NFZKNpnYCzDwiGI3OvBlxW9CnD1JKu0cowfqztxo6PkAlO~k6QKXOjWnSV1cjKgKbMHh6Dk3gAMEfmJWPkAcDHut9AQWRwdqqxaMb2y7v1P4SHcLppMjnNN8T2fNaGiB~j6CpOfro39cqRCutFJhsIKAC0-l7ALAikUXku39aYU-rzeZ8MuQkqbsgTnthw5ZVQgEkw2aSfI5WvvoZP-l31LjGeBz2WVRAKhfyssJ3sPjb0AsrUWEm-NZJTew__&Key-Pair-Id=APKAIFLZBVQZ24NQH3KA",
       "title": "https://occ-0-325-58.1.nflxso.net/dnm/api/v6/LmEnxtiAuzezXBjYXPuDgfZ4zZQ/AAAABclMdRbNONvkgTv-fEGM4kmUgjFjg8jRACcurrY-djNughdw5_k4ueJIu05hteB93PYEDgMlmdXokOX6wriERLE8-Hd4xSFM7wUfJfj7HMQo.webp?r=6b4",
       "poster": "https://occ-0-325-58.1.nflxso.net/dnm/api/v6/6AYY37jfdO6hpXcMjf9Yu5cnmO0/AAAABarDo2qIdvYZF4PWoSIefcdPRZg0OGZHLaqkrDdkQBoERsycVxeDHlZNgzzfYg2z_koAdht_tB86jg99gQux6X-NvVKjd6YqXA_S.webp?r=a71",
       "content": "Khi gia đình chuyển từ Berlin đến Ba Lan, cậu bé nọ kết bạn với một cậu bé ở phía bên kia hàng rào mà không biết rằng người bạn ấy là một tù nhân Do Thái.",
@@ -134,7 +151,7 @@
       "rate": "7+",
       "name": "Gia đình Crood",
       "picture": "https://occ-0-325-58.1.nflxso.net/dnm/api/v6/6gmvu2hxdfnQ55LZZjyzYR4kzGk/AAAABYixfAUbfRDYmEvFzxazym1C8xAbGuHdjxkbEe1aCWi5vttilMHchofwLxG566fuvFyFbCh71GkBaUY6W-y1kPgCnyX4NDh7uFM.webp?r=885",
-      "trailer": "https://imdb-video.media-imdb.com/vi1294975257/1434659607842-pgv4ql-1608136646988.mp4?Expires=1683094035&Signature=e0xFFRuO6G0D45Bw61iwpKdPYV4kr0zRepeke3zRiz-48-Wy4HcG65r5ONRMLDM6o8-gPtRCcQaQmjLJMnmpN04SL4fshuBUMTLnfnwcEwKaT-XZqlzUi3bl66kpicPNN3tmksl03xhG7dg3oOYyuAnp5hpWxtC~-z3xGPtqgExuW3HyF2NORJdXM5t9H23vad~aG8-QiJ9q4XfE7JLjTyjSEsEN2AreNiLevZLCO8jllN3dusVu520AKKawO7YOtwo4aoVLAlGvrPs4eq2UMUmdBzZ9pp1bynrhRcQkSZTZ~XB8QpkshlKspJxoB~iw-C0~Z5xvl3RyZxLV6Zayew__&Key-Pair-Id=APKAIFLZBVQZ24NQH3KA",
+      "trailer":"https://imdb-video.media-imdb.com/vi2095757337/1434659607842-pgv4ql-1517012548728.mp4?Expires=1684757491&Signature=boCA4LMV7KPguCynmhxiFfWDLYN1fQ-f22OUJD5QQTjxyZyzR7kFIjoOJJoAuiEsdfM7wNqToV86z1jZaWo7zeHti4NFZKNpnYCzDwiGI3OvBlxW9CnD1JKu0cowfqztxo6PkAlO~k6QKXOjWnSV1cjKgKbMHh6Dk3gAMEfmJWPkAcDHut9AQWRwdqqxaMb2y7v1P4SHcLppMjnNN8T2fNaGiB~j6CpOfro39cqRCutFJhsIKAC0-l7ALAikUXku39aYU-rzeZ8MuQkqbsgTnthw5ZVQgEkw2aSfI5WvvoZP-l31LjGeBz2WVRAKhfyssJ3sPjb0AsrUWEm-NZJTew__&Key-Pair-Id=APKAIFLZBVQZ24NQH3KA",
       "title": "https://occ-0-325-58.1.nflxso.net/dnm/api/v6/LmEnxtiAuzezXBjYXPuDgfZ4zZQ/AAAABcarqUVv75ydTcJpTX50jWYKvjpiVDYxqB9yCTheR-uf5FZ_20WQWtzI0wzh1qJJOQeZp5Z7YI46rYMpjB-7H5KuIQ7pPZMVpgb79MJTP1rR.webp?r=301",
       "poster": "https://occ-0-325-58.1.nflxso.net/dnm/api/v6/6AYY37jfdO6hpXcMjf9Yu5cnmO0/AAAABTgKfSATIuh_VowciT5Gh5G6_LpP8iWLh4mgTlnKKPwHIidqqzXAFBjTaF-JzuTnAdv-aPeBQVESwqFK1ZnsW21PX5v5B5C1SMY5.webp?r=e1a",
       "content": "Khi trận động đất xóa sổ hang động mình nương náu, gia đình gà mờ thời tiền sử buộc phải bôn ba qua những vùng đất lạ lẫm, mong muốn kiếm tìm mái nhà mới.",
@@ -146,7 +163,7 @@
       "title": "https://occ-0-58-325.1.nflxso.net/dnm/api/v6/tx1O544a9T7n8Z_G12qaboulQQE/AAAABXr84Hg9oyiAISV0pM0n0oQBYS6oMad07HYvVHdVVPp-IqyhXKBkkjIHM7p58f-i7sg6crANUi-1SF2RXuuAbdFZxPKsC--0SbfAnKm95Q8.webp?r=ae3",
       "poster": "https://occ-0-58-325.1.nflxso.net/dnm/api/v6/E8vDc_W8CLv7-yMQu8KMEC7Rrr8/AAAABWiwYS2e-SY-cY82e_72sPKpY2VdH8VX5Io3Ai2qCA09_JhtfOiu54COk5Tq9ZdJDG4CQhpX7nWOWJZimRef7E-_VNV8W5fqgvtW.webp?r=942",
       "content": "Các điệp viên chim cánh cụt ưu tú Skipper, Kowalski, Rico và Private bắt tay với các đặc vụ khéo léo của Gió phương Bắc để hạ thiên tài cuồng quyền lực Trùm Xúc Tu Biển.",
-      "trailer": "https://imdb-video.media-imdb.com/vi1959767833/MV5BMjc4OWQ5ZTctYTM0ZC00NDBmLTlhZDctYjg2NjY0NmYxNmM0XkExMV5BbXA0XkFpbWRiLWV0cy10cmFuc2NvZGU@.mp4?Expires=1683094527&Signature=AHevWrSRNhYvrZoaXp5Do2VN-m7-4bscctjVusuwWt2xy~PwAZstWVIXGA7yLIRpFsDX2GteHxL17vhER6I-IQy9gu15Nt--ta2jecbXyqa9Lsy1L6RWGddC-H9CoUHQc1h9LNe2j-bqSDXtf9kTybGRja5FoltUgQmBfRoVcVn7LruIYk7u88ApRmbkHIThG7srd~lhMjnC-mJMKfHHuhLiKkboyaXAxN5NegusgUedvSN9v19TOVDboFAYnxRNQtQM5JT63gGhj2WnNohBDxgcJ4GS6LdwL8Sbs-PTcact66IdcKQp3LUqPswQADOeBQLOL-05850FxoBvMiM7-g__&Key-Pair-Id=APKAIFLZBVQZ24NQH3KA",
+      "trailer":"https://imdb-video.media-imdb.com/vi2095757337/1434659607842-pgv4ql-1517012548728.mp4?Expires=1684757491&Signature=boCA4LMV7KPguCynmhxiFfWDLYN1fQ-f22OUJD5QQTjxyZyzR7kFIjoOJJoAuiEsdfM7wNqToV86z1jZaWo7zeHti4NFZKNpnYCzDwiGI3OvBlxW9CnD1JKu0cowfqztxo6PkAlO~k6QKXOjWnSV1cjKgKbMHh6Dk3gAMEfmJWPkAcDHut9AQWRwdqqxaMb2y7v1P4SHcLppMjnNN8T2fNaGiB~j6CpOfro39cqRCutFJhsIKAC0-l7ALAikUXku39aYU-rzeZ8MuQkqbsgTnthw5ZVQgEkw2aSfI5WvvoZP-l31LjGeBz2WVRAKhfyssJ3sPjb0AsrUWEm-NZJTew__&Key-Pair-Id=APKAIFLZBVQZ24NQH3KA",
       "id": 11,
       "author": "Chris Van Dusen",
       "category": "Chương trình truyền hình cho trẻ em, Phim hài truyền hình, Phim hoạt hình truyền hình",
@@ -165,13 +182,13 @@
       "title": "https://occ-0-58-325.1.nflxso.net/dnm/api/v6/tx1O544a9T7n8Z_G12qaboulQQE/AAAABWeXySPhDrRgqAhCKYTQOtioDq-lEJOm3_6RnLUniyTQIweuYkNEtsC0gyV6qO4224lK1pulRtJRZP7fHxyBzieJZrbnOksv68olWElIgq8.webp?r=faa",
       "poster": "https://occ-0-58-325.1.nflxso.net/dnm/api/v6/E8vDc_W8CLv7-yMQu8KMEC7Rrr8/AAAABcmpKGscq0m7fuK-d7oCnrcBAn9PrCdqaPT-eR46mAC4QjzJf_IB6nHoi4ItlBNmO8wyaCV5iBKbXvyZVhPfYSOAzf5N0kccWU9R.webp?r=052",
       "content": "Bộ phim là câu chuyện ấm lòng về chuyến du hành bằng tàu hỏa đến Bắc Cực trong đêm Giáng Sinh và niềm tin vào ngày lễ được thắp sáng trở lại của một cậu bé.",
-      "trailer": "https://imdb-video.media-imdb.com/vi2324349977/1434659607842-pgv4ql-1677528569215.mp4?Expires=1683095008&Signature=NaF1VaCQSwhCJM9XyHym6xzHqGMb74I74YIRz289Zt~o7UKFmYagxSiL3Ghxcqffl0tBt-~lheGMnNOEro6EEXJTbZAkAoTXL-Wrif8KXQO10x5Odst4oFy9~jXTJ5ArbA7l-2dwu0vJdgjyLuIInawv9sEOPz8JhWXn-uo3ihqbqoqwL9846ZjiyxhidblD7l2VPUKYkgyS0hBapkSSe3LWlh23sToLaLKnyj8CjaxSOPkBAdDfuAHzR0LwfE-wjEmKXXPDn5RUZvdj7X~hsnGe0qs~HupGWjX~q9sb5dMqIgK1REtpPjKkFDvFIHmDSXmcJOoSEv2PHNtWfmJTCw__&Key-Pair-Id=APKAIFLZBVQZ24NQH3KA",
+      "trailer":"https://imdb-video.media-imdb.com/vi2095757337/1434659607842-pgv4ql-1517012548728.mp4?Expires=1684757491&Signature=boCA4LMV7KPguCynmhxiFfWDLYN1fQ-f22OUJD5QQTjxyZyzR7kFIjoOJJoAuiEsdfM7wNqToV86z1jZaWo7zeHti4NFZKNpnYCzDwiGI3OvBlxW9CnD1JKu0cowfqztxo6PkAlO~k6QKXOjWnSV1cjKgKbMHh6Dk3gAMEfmJWPkAcDHut9AQWRwdqqxaMb2y7v1P4SHcLppMjnNN8T2fNaGiB~j6CpOfro39cqRCutFJhsIKAC0-l7ALAikUXku39aYU-rzeZ8MuQkqbsgTnthw5ZVQgEkw2aSfI5WvvoZP-l31LjGeBz2WVRAKhfyssJ3sPjb0AsrUWEm-NZJTew__&Key-Pair-Id=APKAIFLZBVQZ24NQH3KA",
       "id": 12
     },
     {
       "name": "Lệnh truy nã đỏ",
       "picture": "https://occ-0-325-58.1.nflxso.net/dnm/api/v6/6gmvu2hxdfnQ55LZZjyzYR4kzGk/AAAABUkqM_t6H87cjwS0KIvGld9vtFnCvcK9M3OA0JE-IzIA6LAxw-MTAEOfeVpXDEKmOPHRPq9IizIXqZ-qU9AVig-aYjnUwTbx7_AB1b7pb_SxBRLEAWRbjuj_MdH5cxxac-K9.jpg?r=89a",
-      "trailer": "https://imdb-video.media-imdb.com/vi612877081/1434659607842-pgv4ql-1634822259823.mp4?Expires=1683098369&Signature=bBWROIo~UL8ukFesr-U6IZcN1XgZ~ilLwVC-2T5yrq1ehY7BRAAw72g-aqslajg~hAQ6NvYwlbO8cqbrVxmrupm8SSnBOwBv5GcwIyZ7wGglShRfJ98sg5wiKC0qO61WWlPTks-8nS3yMtRsJ33wBETKIqw5NcooLcg34H5YRRQm2zZkv0swegyaS~fcvadxLLdH~6FkOcSFwC55ClXXbGtbSXjsIgPTgfDAmi1alsajPNI9fhx9CaL6BvZt35H-9amWXOFeLhb8WJ5A-ifczLyK~Ve97MtV87hsOuOsWonQoOXqVF8CpZAI-HSDqmUh4hYe5FVaV~yfYe4y95XzQA__&Key-Pair-Id=APKAIFLZBVQZ24NQH3KA",
+      "trailer":"https://imdb-video.media-imdb.com/vi2095757337/1434659607842-pgv4ql-1517012548728.mp4?Expires=1684757491&Signature=boCA4LMV7KPguCynmhxiFfWDLYN1fQ-f22OUJD5QQTjxyZyzR7kFIjoOJJoAuiEsdfM7wNqToV86z1jZaWo7zeHti4NFZKNpnYCzDwiGI3OvBlxW9CnD1JKu0cowfqztxo6PkAlO~k6QKXOjWnSV1cjKgKbMHh6Dk3gAMEfmJWPkAcDHut9AQWRwdqqxaMb2y7v1P4SHcLppMjnNN8T2fNaGiB~j6CpOfro39cqRCutFJhsIKAC0-l7ALAikUXku39aYU-rzeZ8MuQkqbsgTnthw5ZVQgEkw2aSfI5WvvoZP-l31LjGeBz2WVRAKhfyssJ3sPjb0AsrUWEm-NZJTew__&Key-Pair-Id=APKAIFLZBVQZ24NQH3KA",
       "nature": "Khiếm nhã, Lý thú",
       "content": "Chuyên gia FBI đang tìm bắt kẻ trộm tranh bị truy nã gắt gao nhất thế giới thì trở thành cộng sự bất đắc dĩ của hắn để tóm tên tội phạm luôn đi trước họ một bước.",
       "title": "https://occ-0-58-325.1.nflxso.net/dnm/api/v6/tx1O544a9T7n8Z_G12qaboulQQE/AAAABUqZc817Vg1cC61q9t-keetkC6OTjbAJnTZHnxqQmyld3u1wTO17ETe7DLXaFg7djMUL37BMrW5CDfgdb6K7uGqYNgL8vFZjFG7BsOfPeRZyVH926JsSgtqKj_rqW9NluDrK6LpNtbED8-6G9j6GOiS4qMCx1lx3B1PjCMAbfUCN3np3SXNV.webp?r=c92",
@@ -185,7 +202,7 @@
     {
       "name": "Bóng ma Anh quốc",
       "picture": "https://occ-0-325-58.1.nflxso.net/dnm/api/v6/6gmvu2hxdfnQ55LZZjyzYR4kzGk/AAAABZteCkyxke_SR1N6_mE_LREqAoGeg24iBLRogP7T_bHD8wqY_PybhBmUcZ-J0NgRuIJtnx4zWE7nEulagyEbsY5mfqllCsh7fMXjWTlqaY7fFgjIfngzD1a91il5WDFIJu3A.jpg?r=8bf",
-      "trailer": "https://imdb-video.media-imdb.com/vi4265067289/1434659607842-pgv4ql-1641215673093.mp4?Expires=1683098669&Signature=qzGj-uWxYngE3cUkXouTbJ5H7xJyGDVFiB5GSe5nsRVMTW~dX~CqLO5gEZZizX9P~YHXYZlHCKi-Zo9QE0oDmeI3vhjtpCWncoI9FXuhWqHN649P2kaOBzHurXllIAGhVVSXS7wZwneZdmltro48oUOYtDW3-sd4QZxOTnR1SsiWhNvUdm9g3WndqjnPwDM2LGeEQ3s~olt9xvbDK3j69AZqfRhd42rjPM3KitAcZSc7wqAFzThDK6V2itkiEOL1W5coLpCk39OFhtSCmrh1bwCywZQmJsEbbv3WkTANDENnFBCNRjfagkWW3teodh36SgaPHINj7GhxjiSjL1-hnQ__&Key-Pair-Id=APKAIFLZBVQZ24NQH3KA",
+      "trailer":"https://imdb-video.media-imdb.com/vi2095757337/1434659607842-pgv4ql-1517012548728.mp4?Expires=1684757491&Signature=boCA4LMV7KPguCynmhxiFfWDLYN1fQ-f22OUJD5QQTjxyZyzR7kFIjoOJJoAuiEsdfM7wNqToV86z1jZaWo7zeHti4NFZKNpnYCzDwiGI3OvBlxW9CnD1JKu0cowfqztxo6PkAlO~k6QKXOjWnSV1cjKgKbMHh6Dk3gAMEfmJWPkAcDHut9AQWRwdqqxaMb2y7v1P4SHcLppMjnNN8T2fNaGiB~j6CpOfro39cqRCutFJhsIKAC0-l7ALAikUXku39aYU-rzeZ8MuQkqbsgTnthw5ZVQgEkw2aSfI5WvvoZP-l31LjGeBz2WVRAKhfyssJ3sPjb0AsrUWEm-NZJTew__&Key-Pair-Id=APKAIFLZBVQZ24NQH3KA",
       "nature": "Bạo lực",
       "content": "Thủ lĩnh băng nhóm xã hội đen giàu tham vọng Thomas Shelby nhìn thấy cơ hội tiến thân nhờ một thùng súng bị mất tích.",
       "title": "https://occ-0-58-325.1.nflxso.net/dnm/api/v6/tx1O544a9T7n8Z_G12qaboulQQE/AAAABb4AQqZsbjqeRNI72VEhISNcTO3HEJEc52AR-gokphu0vCSaVqUAqj1s8nLgYTISBXPsCfSfYDtMvKqpkKlTtDBJdc-6JdDQ00A7jyLETYQBVMTXTV6IqyWGCmn0sUoGOA3cmPL6zOqHw5h18DdHD7QgEA4hoqfZIVLEfVPq53ZDAONld9wT.webp?r=33d",
@@ -199,7 +216,7 @@
     {
       "name": "The Mother",
       "picture": "https://occ-0-325-58.1.nflxso.net/dnm/api/v6/6gmvu2hxdfnQ55LZZjyzYR4kzGk/AAAABafRxZ1Jn6whkFf5JhvQ7oWPShnbRsinx4ZpIhVkhvU3jZKigB3Hg3BL8lFSXM4qjFNXwfKLAHuE395NWOln8Sd_UA-h0-4ib6XWLHElXSiMZToBAg0AcQU17xFXs13H10n_.jpg?r=ec6",
-      "trailer": "https://imdb-video.media-imdb.com/vi1292420121/1434659607842-pgv4ql-1681223412604.mp4?Expires=1683099256&Signature=Hy1EeQXhqu1bn9HEcq~F~7GaupLNajfdrXU3Z3054Jwx2DUP5cytiRrBQ2gWMb2HO8RZbmvbwW8T1vswnmw~1Sp50uFkdY5WHJpOecK2gQGKYL-trpCuPErY-gZcS~k7nhV~~yH5KNmPy~VrSk7bUv5SFIOaE8UVdNvcSlHaw0yz6clJHAoqXaYxrhPG-5BgXroEvHQ35E8N7l07pq2d90U6Oe4XoE4IjjuexR1lkNVVUZaR~ldcDwLNfzOr2pOAyC45ZA3Igp-~n0zhOcy~90CejY3MHnycxgKQPIBlv9DNM~YgdS~evBa-s3AKxB4V9PReZ8m-QsaJR2h~MWTsCg__&Key-Pair-Id=APKAIFLZBVQZ24NQH3KA",
+      "trailer":"https://imdb-video.media-imdb.com/vi2095757337/1434659607842-pgv4ql-1517012548728.mp4?Expires=1684757491&Signature=boCA4LMV7KPguCynmhxiFfWDLYN1fQ-f22OUJD5QQTjxyZyzR7kFIjoOJJoAuiEsdfM7wNqToV86z1jZaWo7zeHti4NFZKNpnYCzDwiGI3OvBlxW9CnD1JKu0cowfqztxo6PkAlO~k6QKXOjWnSV1cjKgKbMHh6Dk3gAMEfmJWPkAcDHut9AQWRwdqqxaMb2y7v1P4SHcLppMjnNN8T2fNaGiB~j6CpOfro39cqRCutFJhsIKAC0-l7ALAikUXku39aYU-rzeZ8MuQkqbsgTnthw5ZVQgEkw2aSfI5WvvoZP-l31LjGeBz2WVRAKhfyssJ3sPjb0AsrUWEm-NZJTew__&Key-Pair-Id=APKAIFLZBVQZ24NQH3KA",
       "nature": "Bạo lực",
       "content": "Một sát thủ được đào tạo trong quân đội phải ra mặt để bảo vệ cô con gái mà cô chưa từng gặp khỏi bọn tội phạm tàn nhẫn muốn trả thù.",
       "title": "https://occ-0-325-58.1.nflxso.net/dnm/api/v6/tx1O544a9T7n8Z_G12qaboulQQE/AAAABab2DOxwt6q-oG8QHr9X8oio-MHYbfsFYfZ6OiwFpbA2_q3v_N8v_xSG91HMOUzM7DznhC-Yh1HpOUaSi9G9oI-3Z5f4qNEqnXPMSQCtm5Bm113kkeorZ9qSryOEpB4pHwe18qcuhGld-Z36Ag6pkwRfLhsjNueMcmyvXhxW7u4KAbqrHru5.webp?r=f5d",
@@ -213,7 +230,7 @@
     {
       "name": "Yêu đi đừng sợ",
       "picture": "https://occ-0-325-58.1.nflxso.net/dnm/api/v6/6gmvu2hxdfnQ55LZZjyzYR4kzGk/AAAABZhvQs4DIOKadLUXsFvqVqhWVxipk-HwElQ7oU3NQAFk_6hqaYInV1VN6PAoCxYyfGEUMC5pICxhy8ocJdJZpafqtHQ5COyG-wg.webp?r=dd7",
-      "trailer": "https://imdb-video.media-imdb.com/vi2997467929/1434659607842-pgv4ql-1527210652053.mp4?Expires=1683099397&Signature=XO9eBF17mj761dLhXnF6TxhMKFzNsUtKprHgel6I1aEPs~iYBHBN1Hk1PfLGXqrGkHmh3b7wH13j70l0rsj8bQlcgshjSHKokt~XrOr8j6dNh0F7s5syW1n-IMEhMiUqGNSNzevILhtFOZN0c7R8r7561vIZFvT-mlQB6LvwATC82f7VpQPWK2hIyJxtUWPy6lURpVuMSc-JqLy0o7vuFPxCRLENYWzPBOy-~z~OlX~gdxHA05oAJAulnWFosWX0oEdg4cKrJbA3umINF8eZSVF2v0~jrHTFRlhcL-4H0EzTNDXv333~8POTFVJEviPo7hlqAHK0hfttjxsPyfL6Dw__&Key-Pair-Id=APKAIFLZBVQZ24NQH3KA",
+      "trailer":"https://imdb-video.media-imdb.com/vi2095757337/1434659607842-pgv4ql-1517012548728.mp4?Expires=1684757491&Signature=boCA4LMV7KPguCynmhxiFfWDLYN1fQ-f22OUJD5QQTjxyZyzR7kFIjoOJJoAuiEsdfM7wNqToV86z1jZaWo7zeHti4NFZKNpnYCzDwiGI3OvBlxW9CnD1JKu0cowfqztxo6PkAlO~k6QKXOjWnSV1cjKgKbMHh6Dk3gAMEfmJWPkAcDHut9AQWRwdqqxaMb2y7v1P4SHcLppMjnNN8T2fNaGiB~j6CpOfro39cqRCutFJhsIKAC0-l7ALAikUXku39aYU-rzeZ8MuQkqbsgTnthw5ZVQgEkw2aSfI5WvvoZP-l31LjGeBz2WVRAKhfyssJ3sPjb0AsrUWEm-NZJTew__&Key-Pair-Id=APKAIFLZBVQZ24NQH3KA",
       "nature": "Lãng mạn",
       "content": "Một ảo thuật gia tài ba nhưng nhát cáy trình diễn ảo thuật kinh dị với một người phụ nữ có thể nhìn thấy ma. Nhưng khi lời nguyền của cô trở nên tệ hơn, liệu tình yêu có cứu rỗi?",
       "title": "https://occ-0-325-58.1.nflxso.net/dnm/api/v6/tx1O544a9T7n8Z_G12qaboulQQE/AAAABYm4k0iTZGPdjLvBFvxLfkhroZ0ueJOGtgG2DxTtg46l3GN67fEVK8KUl_p3k3do3JmspjabyFUeyDSP6DMVjP1xNkoT0OR9IBDtt72W4lw.webp?r=301",
@@ -227,7 +244,6 @@
     {
       "name": "One Piece",
       "picture": "https://occ-0-325-58.1.nflxso.net/dnm/api/v6/6gmvu2hxdfnQ55LZZjyzYR4kzGk/AAAABWt85HFZSup7nrBuMLkcpfW9YtWJctsGfDlL9uhWnKvrvpYnL9e_4-sKXUxTuCAxjgYqxzksdhg-PakiuB01XjtNumepDpEmkuKDnS-HWh0V4t_9wVACiXBrGBCIYoZ0Gyqc.jpg?r=2c6",
-      "trailer": "https://imdb-video.media-imdb.com/vi3920872729/1434659607842-pgv4ql-1665159801660.mp4?Expires=1683099617&Signature=mMk6IgHVnLYuXy4w9e3ibcFa1BzB-04ofeH7jonAALKPba14JQQhBiOvYHr~OzVUhxM~GPDoB4mrMiO~djRAWC7unGUmrALzHEIXjBRz2H6nfULJpAO9cPpv1fRYWsC0yOAVHYYa5fU5eON9fZ1MvW3KV-RN~XamjDL4PU8L1wLyuYhkGm5wxy4y8u0g4jgnciCeLXxY0mEY7JTKDc80FbEObITlB2t9vQBMvvjJikwqFmb6PXGIJwNEFeOwtjceqq7i99tyFUTW~7-cv010mE3vicNR-g9ODdwWzSDzCZFAe8S7BLzNi-bROIPbGrBwN0MGNjx9axjt1l3bHAyIHg__&Key-Pair-Id=APKAIFLZBVQZ24NQH3KA",
       "nature": "Hài hước",
       "content": "Một ảo thuật gia tài ba nhưng nhát cáy trình diễn ảo thuật kinh dị với một người phụ nữ có thể nhìn thấy ma. Nhưng khi lời nguyền của cô trở nên tệ hơn, liệu tình yêu có cứu rỗi?",
       "title": "https://occ-0-325-58.1.nflxso.net/dnm/api/v6/tx1O544a9T7n8Z_G12qaboulQQE/AAAABYcxd-0rn0yX3Y-jotWUhSTbnikFuqPps0usqYzJmJKFGhxnwRllRQ42MnF29LEtEb5D6_vQbRs7DsQTSoy_ANznXmrLtMk-06ahRi7sN4dB2V7TkpG96ldzWhlAX-WqXarKAp1f30k0ZHjAUbSIpuo2-nMnkbMgE0wz5cTkucgK8JlhgbkW.webp?r=1a9",
@@ -236,7 +252,9 @@
       "category": "Hài hước, Phiêu lưu và hành động",
       "rate": "13+",
       "poster": "https://occ-0-325-58.1.nflxso.net/dnm/api/v6/E8vDc_W8CLv7-yMQu8KMEC7Rrr8/AAAABUAiY3sTtyWbPnEO5iel8ngkaAkaynvPAAo8EPkak7RnGbNq1ALwMYuR5FXpmD_Al0SSTBi2O6XHOL7xRJTAG1_LkddmFtH5LlWw.webp?r=444",
-      "id": 17
+      "id": 17,
+      "trailer":"https://imdb-video.media-imdb.com/vi976077081/1434659607842-pgv4ql-1608003930396.mp4?Expires=1684911251&Signature=ZYuUvbzIg~xVqTIxcRB0yX8xe3BWjQ6qROfp-73VbPWRWoTIv6ikrbG-XJb7HY~w2x~e4nh71brRrH4qXcY4Jv7TRRBm2v1SDuhRTzZaJAlQNYP8PXo4iUNJ3pEUVQ~xkR-cks7dr3EqH4g1qLYx~wAzMz9X6hb1NS9SlgxEUUKPjef2IGiq2IBqO50D6DL1K59v6WrlW~97Ydsnbm6PX8F082GYLZZwIgqqkwL2IGQXw8kFb-T5TjS2WBCMa~J8s0KnCdKXxbmsn7d4tLZ97D9xfWF7dwJHgn3rqwzd0OzkAm-gGa5GHgji7ta3IRrq1Qf1u8pyhTinQXVJ~vARhA__&Key-Pair-Id=APKAIFLZBVQZ24NQH3KA"
+
     }
   ]
 }

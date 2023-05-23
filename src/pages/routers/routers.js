@@ -10,6 +10,7 @@ import MyListPage from "../MyListPage/MyListPage";
 import SignUp from "~/pages/SignUp/SignUp";
 import SignIn from "../SignIn/SignIn";
 import SignInScreen from "~/parts/Screen/SignInScreen/SignInScreen";
+import WatchMovie from "~/component/WatchMovie/WatchMovie";
 
 const pages = [
     { path: linkPage.signUp, component: SignUp, layout: SignUpScreen },
@@ -48,6 +49,12 @@ const pages = [
         path: linkPage.myList,
         component: MyListPage,
         layout: HomeScreen,
+        subNav: null,
+    },
+    {
+        path: linkPage.watchMovie,
+        conponent: undefined,
+        layout: WatchMovie,
         subNav: null,
     },
 ];

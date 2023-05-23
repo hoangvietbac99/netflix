@@ -2,12 +2,16 @@ import classNames from "classnames/bind";
 import styles from "./BillBoard.module.scss";
 import icons from "~/assets/svg/icons";
 import { useEffect, useState } from "react";
+import { Link } from "react-router-dom";
+import linkPage from "~/pages/LinkPage/linkPage";
 const cx = classNames.bind(styles);
 function BillBoard({ onClick }) {
     const [items, setItems] = useState([]);
-
+    const handleBillbroad = () => {
+        onClick(items.id);
+    };
     useEffect(() => {
-        const fetchUserData = () => {
+        const fetchMoviesData = () => {
             fetch("http://localhost:3001/movies")
                 .then((response) => {
                     return response.json();
@@ -17,7 +21,7 @@ function BillBoard({ onClick }) {
                     return setItems(rand);
                 });
         };
-        fetchUserData();
+        fetchMoviesData();
     }, []);
 
     return (
@@ -28,27 +32,35 @@ function BillBoard({ onClick }) {
                     autoPlay
                     loop
                     poster={items.poster}
-                    // src={items.trailer}
+                    src={items.trailer}
                 ></video>
                 <div className={cx("info-poster")}>
-                    <img
-                        className={cx("title-logo")}
-                        src={items.title}
-                        alt=""
-                    />
-                    <div className={cx("description")}>{items.content}</div>
+                    <div className={cx("content")}>
+                        <img
+                            className={cx("title-logo")}
+                            src={items.title}
+                            alt=""
+                        />
+                        <div className={cx("description")}>{items.content}</div>
+                    </div>
                     <div className={cx("play-info")}>
-                        <button className={cx("play-video")}>
-                            <img
-                                className={cx("icon-play")}
-                                src={icons.iconPlay}
-                                alt=""
-                            />
-                            <span className={cx("title-play")}>Phát</span>
-                        </button>
+                        <Link
+                            className={cx("link-")}
+                            to={linkPage.watchMovie}
+                            onClick={() => handleBillbroad()}
+                        >
+                            <button className={cx("play-video")}>
+                                <img
+                                    className={cx("icon-play")}
+                                    src={icons.iconPlay}
+                                    alt=""
+                                />
+                                <span className={cx("title-play")}>Phát</span>
+                            </button>
+                        </Link>
                         <button
                             className={cx("information")}
-                            onClick={() => onClick(items.id)}
+                            onClick={() => handleBillbroad()}
                         >
                             <img
                                 className={cx("icon-info")}
@@ -62,13 +74,6 @@ function BillBoard({ onClick }) {
                     </div>
                 </div>
                 <div className={cx("sound-rating")}>
-                    <button className={cx("circle-rotate")}>
-                        <img
-                            className={cx("rotate")}
-                            src={icons.iconRotate}
-                            alt=""
-                        />
-                    </button>
                     <div className={cx("rating")}>
                         <span className={cx("age")}>{items.rate}</span>
                     </div>

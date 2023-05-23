@@ -2,8 +2,6 @@ import styles from "./HeaderMain.module.scss";
 import classNames from "classnames/bind";
 import Notification from "~/component/Notification/Notification";
 import SubMenu from "~/component/SubMenu/SubMenu";
-// import SearchInput from "~/component/SearchInput/SearchInput";
-import avatar from "~/assets/images/avatarAccounts";
 import logo from "~/assets/images/logo/index.js";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
@@ -14,14 +12,14 @@ import {
     faLanguage,
     faList,
     faNewspaper,
-    faSearch,
     faVideo,
 } from "@fortawesome/free-solid-svg-icons";
 import Tippy from "@tippyjs/react/headless";
 import icons from "~/assets/svg/icons";
 import { Link } from "react-router-dom";
 import linkPage from "~/pages/LinkPage/linkPage";
-import { Fragment, useEffect, useRef, useState } from "react";
+import { Fragment, useEffect, useState } from "react";
+import Search from "~/component/Search/Search";
 const cx = classNames.bind(styles);
 const tabNav = [
     {
@@ -55,9 +53,8 @@ const tabNav = [
         icon: faLanguage,
     },
 ];
-function HeaderMain() {
+function HeaderMain({ onClick }) {
     const [addressPage, setAddressPage] = useState();
-    const [valueInput, setValueInput] = useState("");
     const renderNotification = (attrs) => (
         <div tabIndex="-1" {...attrs}>
             <Notification />
@@ -119,18 +116,10 @@ function HeaderMain() {
         });
     }, [addressPage]);
     /////
-    const inputRef = useRef();
-    const handleClick = () => {
-        inputRef.current.focus();
-    };
-    /////
     const handlechange = (e) => {
         setAddressPage(e.target.value);
     };
-    const handleChangeIP = (e) => {
-        const value = e.target.value;
-        setValueInput(value);
-    };
+
     return (
         <Fragment>
             <div className={cx("wrapper-header-main")}>
@@ -184,31 +173,8 @@ function HeaderMain() {
                 </nav>
                 {/* menu right */}
                 <nav className={cx("nav-right")}>
-                    <div className={cx("search-small-nav")}>
-                        <input
-                            className={cx("show-3")}
-                            type="checkbox"
-                            id="show-3"
-                        />
-                        <div className={cx("container")}>
-                            <input
-                                ref={inputRef}
-                                className={cx("input-search")}
-                                placeholder="Tìm kiếm"
-                                value={valueInput}
-                                onChange={(e) => handleChangeIP(e)}
-                            />
-                            <label
-                                onClick={handleClick}
-                                className={cx("show-search")}
-                                htmlFor="show-3"
-                            >
-                                <FontAwesomeIcon
-                                    className={cx("icon-search")}
-                                    icon={faSearch}
-                                />
-                            </label>
-                        </div>
+                    <div className={cx("search")}>
+                        <Search onClick={onClick} />
                     </div>
                     <Tippy
                         // visible
@@ -236,7 +202,7 @@ function HeaderMain() {
                             <div className={cx("account")}>
                                 <img
                                     className={cx("avatar")}
-                                    src={avatar.avatarBlue}
+                                    src="https://avatars.githubusercontent.com/u/6759280?v=4"
                                     alt=""
                                 />
                                 <FontAwesomeIcon

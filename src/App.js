@@ -1,13 +1,13 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-
 import { pages } from "./pages/routers/routers";
 import { useState } from "react";
-import ModalTrailer from "./component/Modal/Modal";
-
+import Modal from "./component/Modal/Modal";
 function App() {
-    const [changeScreen, setChangeScreen] = useState(true);
+    //// state
+    const [typeScreen, setTypeScreen] = useState(true);
     const [md, setMd] = useState(false);
     const [idMovie, setIdMovie] = useState();
+
     const handleShowMd = (id) => {
         setMd(true);
         setIdMovie(id);
@@ -15,8 +15,18 @@ function App() {
     const handleHideMd = () => {
         setMd(false);
     };
-    const handleChangeScreen = () => {
-        setChangeScreen(!changeScreen);
+    const handleTypeScreen = (type, id) => {
+        switch (type) {
+            case "type":
+                setTypeScreen(!typeScreen);
+                break;
+            case "modal":
+                setMd(true);
+                setIdMovie(id);
+                break;
+            default:
+                return;
+        }
     };
     return (
         <div>
@@ -39,17 +49,20 @@ function App() {
                                     path={route.path}
                                     element={
                                         <Layout
+                                            idMovie={idMovie}
                                             subNav={subNav}
-                                            onClick={() => handleChangeScreen()}
+                                            onClick={(type, id) =>
+                                                handleTypeScreen(type, id)
+                                            }
                                         >
                                             <Page
-                                                changeScreen={changeScreen}
+                                                typeScreen={typeScreen}
                                                 onClick={(id) =>
                                                     handleShowMd(id)
                                                 }
                                             />
                                             {md && (
-                                                <ModalTrailer
+                                                <Modal
                                                     idMovie={idMovie}
                                                     onClick={() =>
                                                         handleHideMd()

@@ -18,7 +18,7 @@ function HomePage({ onClick }) {
     }, []);
     return (
         <Fragment>
-            <Screen data={items} changeScreen={true} onClick={onClick} />
+            <Screen data={items} typeScreen={true} onClick={onClick} />
         </Fragment>
     );
 }

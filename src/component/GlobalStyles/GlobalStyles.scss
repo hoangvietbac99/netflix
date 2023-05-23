@@ -22,18 +22,11 @@ body{
     ul{
         list-style: none;
     }
-    // Link{
-    //     text-decoration: none
-    // }
-
 }
 
-/////////////////////////////////////////////////////
 .slick-slide{
 }
 .slick-list {
-    // padding-left: 60px;
-    // padding-right:  60px;
     overflow: visible ;
 }
 
@@ -57,8 +50,4 @@ body{
     width: 10px;
     height: 2px;
     background: var(--text-color);
-}
-.rotate-icon{
-    transition: transform 250ms cubic-bezier(.21,0,.07,1);
-    transform: rotate(180deg);
 }

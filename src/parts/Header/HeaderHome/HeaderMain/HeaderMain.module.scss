@@ -1,8 +1,6 @@
       
 .wrapper-header-main{
     height: 68px;
-    
-    
     .nav-left{
         display: flex;
         width: 90%;
@@ -15,30 +13,6 @@
         }
         .show-mobie-nav:checked ~ .layout-overlay{
             display: block;
-        }
-        .trans-{
-            overflow-x: hidden;
-            position: fixed;
-            top: 0;
-            bottom: 0;
-            left: 0;
-            width: 50%;
-            height: 10000px;
-            z-index: 2;
-            background-color: #ababad;
-            transform: translateX(-100%);
-            .exit{
-                width: 100%;
-                height: 34px;
-                .logo-small-nav{
-                    height: 100%;
-                    .logo{
-                        height: 100%;
-                        object-fit: cover;
-                    }
-                }
-
-            }
         }
         .layout-overlay{
             display: none;
@@ -158,61 +132,6 @@
         right: 5%;
         top: 0px;
         .search-small-nav{
-            display: flex;
-            justify-content: center;
-            right: -25px;
-            .show-3{
-                display: none;
-            }
-            .show-3:checked ~ .container {
-                width: 250px;
-                border: 2px solid rgb(209, 207, 207);
-
-            }
-            .show-3:checked ~ .container .show-search .icon-search{
-                width: 17.5px;
-                height: 17.5px;
-            }
-            .show-3:checked ~ .container input{
-                display: block;
-                padding: 3px 30px 3px 32px;
-
-            }
-            .container{
-                position: relative;
-                display: flex;
-                align-items: center;
-                transition: all .15s linear;
-                width: 40px;
-                height: 40px;
-                border-radius: 20px;
-                border: none;
-                .show-search{
-                    position: absolute;
-                    display: flex;
-                    justify-content: center;
-                    align-items: center;
-                    width: 35px;
-                    height: 35px;
-                    .icon-search{
-                        position: absolute;
-                        width: 25px;
-                        height: 25px;
-                        color:var(--text-color);
-                    }
-                }
-                input{
-                    display: none;
-                    border: none;
-                    border-radius: 20px;
-                    width: 100%;
-                    height: 100%;
-                    font-size: 15px;
-                    background-color: transparent;
-                    color: #FFFFFF; 
-                }   
-            }
-            
         }
         .icon-bell{
             cursor: pointer;

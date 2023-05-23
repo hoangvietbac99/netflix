@@ -4,40 +4,13 @@
     padding: 0 60px;
     .title-slide{
         margin-bottom: -10px;
-        a{
-            height: 30px;
-            text-decoration: none;
-            display: flex;
-            color: var(--text-color);   
             .header-title{
-                font-size: 20px;
+                height: 30px;
+                color: var(--text-color);   
+                font-size: 22px;
                 font-weight: 500;
             }
-            &:hover .header-more-title{
-                opacity: 1;
-            }
-            &:hover .header-more-title .icon-see-link{
-                transform: translateX(0%);
-            }
-            .header-more-title{
-                display: flex;
-                justify-content: center;
-                align-items: center;
-                margin: 5px;
-                opacity: 0;
-                transition: opacity .7s ease;
-                .see-link{
-                    font-size: 15px;
-                }
-                .icon-see-link{
-                    transition: all .4s ease;
-                    transform: translateX(-500%);
-                    margin-left: 3px;
-                    font-size: 10px;
-                }
-            }
         }
-    }
     .slide{
         position: relative;
         margin-top: 10px;
@@ -66,10 +39,9 @@
             height: 100%;
             background-color: hsla(0,0%,8%,.5);
             cursor: pointer;
-            z-index: 2;
+            z-index: 1;
             &:hover{
                 opacity: 1;
-                
             }
             &:hover .icon{
                 transition: all 150ms ease;

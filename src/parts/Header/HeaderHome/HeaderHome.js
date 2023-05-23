@@ -38,7 +38,7 @@ function Header({ subNav, children, onClick }) {
     return (
         <Fragment>
             <header className={cx("wrapper-menu", nav && "black-nav")}>
-                <HeaderMain />
+                <HeaderMain onClick={onClick} />
                 {subNav === true && (
                     <div className={cx("menu-bottom")}>
                         <Category onClick={onClick} />

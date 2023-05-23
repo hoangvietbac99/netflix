@@ -1,6 +1,6 @@
 import classNames from "classnames/bind";
 import styles from "./ScreenItem.module.scss";
-import ItemVideo from "~/component/Slide/ListItem/ItemVideo";
+import ItemVideo from "~/component/CardMovie/CardMovie";
 const cx = classNames.bind(styles);
 
 function ScreenItem({ data, onClick }) {

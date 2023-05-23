@@ -1,7 +1,7 @@
 import Screen from "~/parts/Screen/TypeScreen/Screen";
 import { Fragment, useEffect, useState } from "react";
 
-function MoviePage({ changeScreen, onClick }) {
+function MoviePage({ typeScreen, onClick }) {
     const [items, setItems] = useState([]);
 
     useEffect(() => {
@@ -18,11 +18,7 @@ function MoviePage({ changeScreen, onClick }) {
     }, []);
     return (
         <Fragment>
-            <Screen
-                data={items}
-                changeScreen={changeScreen}
-                onClick={onClick}
-            />
+            <Screen data={items} typeScreen={typeScreen} onClick={onClick} />
         </Fragment>
     );
 }

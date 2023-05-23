@@ -1,0 +1,29 @@
+.list-item{ 
+    position: relative;
+    width: 98%;
+    max-width: 230px;
+    aspect-ratio: 16/9;
+    display: flex;
+    justify-content: center;
+    img{
+        cursor: pointer;
+        width: 100%;
+        object-fit: cover;
+        border-radius: 3px;   
+    }
+    .mini-modal{
+        position: absolute;
+        opacity: 0;
+        visibility: hidden;
+        z-index: 1;
+        top: -120px;
+        transform: scale(.9,.9);
+        transition: all .4s ease;
+    }
+    &:hover .mini-modal{
+        transform: scale(1,1);
+        transition-delay:.7s;
+        visibility:  visible;
+        opacity: 1;
+    }
+}

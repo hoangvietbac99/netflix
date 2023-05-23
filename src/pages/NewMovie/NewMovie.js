@@ -1,6 +1,6 @@
 import classNames from "classnames/bind";
 import styles from "./NewMovie.module.scss";
-import Slide from "~/component/Slide/Slide/Slide";
+import Slide from "~/component/Slider/Slider";
 import { useEffect, useState } from "react";
 
 const cx = classNames.bind(styles);
@@ -22,7 +22,14 @@ function NewMovie({ onClick }) {
     }, []);
     return (
         <div className={cx("wrapper-new-movie-page")}>
-            <Slide data={items} onClick={onClick} />
+            <div className={cx("container")}>
+                <Slide data={items} onClick={onClick} />
+                <Slide data={items} onClick={onClick} />
+                <Slide data={items} onClick={onClick} />
+                <Slide data={items} onClick={onClick} />
+                <Slide data={items} onClick={onClick} />
+                <Slide data={items} onClick={onClick} />
+            </div>
         </div>
     );
 }
