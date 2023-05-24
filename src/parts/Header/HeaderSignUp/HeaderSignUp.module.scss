@@ -32,11 +32,12 @@
         }
         .btn-sign-in{
             margin-left: 30px;
-            width: 80px;
+            width: 90px;
             height: 32px;
             background-color: #E50914 ;
             border: none ;
             border-radius: 5px;
+            transition: all .3s ease;
             &:hover{
                 background-color: #C11119;
             }
@@ -51,6 +52,7 @@
                 text-decoration: none;
             }
             span{
+                font-size: 14px;
                 color: var(--text-color);
                 font-weight: 500;
             }

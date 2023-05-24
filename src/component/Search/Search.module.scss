@@ -21,12 +21,14 @@
         }
     }
     .container{
+
         .show-3{
             display: none;
         }
         .show-3:checked ~ .search {
             width: 300px;
             border: 2px solid rgb(209, 207, 207);
+            background-color: rgba(0,0,0,0.6);
         }
         .show-3:checked ~ .search .show-search .icon-search{
             width: 17.5px;
@@ -47,6 +49,7 @@
             height: 40px;
             border-radius: 20px;
             border: none;
+            
             .show-search{
                 cursor: pointer;
                 position: absolute;

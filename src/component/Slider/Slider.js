@@ -11,7 +11,7 @@ import "slick-carousel/slick/slick-theme.css";
 import { useState } from "react";
 import ItemVideo from "../CardMovie/CardMovie";
 const cx = classNames.bind(styles);
-function Slide({ data, onClick }) {
+function Slide({ title, data, onClick }) {
     const [showDots, setShowDots] = useState(false);
 
     const handleShowDots = () => {
@@ -109,7 +109,7 @@ function Slide({ data, onClick }) {
     return (
         <div className={cx("wrapper-slide")}>
             <div className={cx("title-slide")}>
-                <div className={cx("header-title")}>Title</div>
+                <span className={cx("header-title")}>{title}</span>
             </div>
             <div className={cx("slide")}>
                 <Slider {...settings}>

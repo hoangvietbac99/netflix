@@ -1,20 +1,24 @@
 .wrapper-question{
     display: flex;
     justify-content: center;
-    margin-bottom: 10px ;
+    margin-bottom: 10px;
     .wrapper{
         display: block;
+        &:hover .item-qa .item-question{
+            background-color: rgba(78, 78, 78, 1);
+        }
         .item-qa{
+            display: flex;
+            position: relative;
+            z-index: 1;
+            
             .item-question{
                 background-color:rgba(45, 45, 45, 1);
                 width: 1170px;
                 height: 84px;
                 padding: 24px;
-                margin-bottom: 1px;
+                margin-bottom: 2px;
                 transition-duration: 250ms;
-                &:hover{
-                    background-color: rgba(78, 78, 78, 1);
-                }
                 .question{
                     position: relative;
                     display: flex;
@@ -43,12 +47,22 @@
         .item-answer{
             background-color:rgba(45, 45, 45, 1);
             width: 1170px;
-            padding: 24px;
-            height: auto;
+            padding: 15px;
+            height: 0;
+            opacity: 0;
+            transition: all .2s ease;
+            transform: translateY(-45%);
             .answer{
                 color: var(--text-color);
                 font-size: 25px;
             }
+           
+        }
+        .show{
+            height: auto;
+            transform: translateY(0%);
+            opacity: 1;
+            transform: translateY(0%);
         }
     }
 }

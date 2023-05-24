@@ -7,7 +7,9 @@ function App() {
     const [typeScreen, setTypeScreen] = useState(true);
     const [md, setMd] = useState(false);
     const [idMovie, setIdMovie] = useState();
-
+    window.onbeforeunload = function () {
+        window.scrollTo(0, 0);
+    };
     const handleShowMd = (id) => {
         setMd(true);
         setIdMovie(id);
@@ -28,6 +30,7 @@ function App() {
                 return;
         }
     };
+
     return (
         <div>
             <Router>

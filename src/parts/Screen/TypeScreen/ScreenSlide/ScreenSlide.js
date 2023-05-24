@@ -10,9 +10,9 @@ function ScreenList({ data, onClick }) {
         <div className={cx("wrapper-main-content")}>
             <BillBoard onClick={onClick} />
             <div className={cx("wrapper-slider")}>
-                <Slide data={data} onClick={onClick} />
-                <Slide data={data} onClick={onClick} />
-                <Slide data={data} onClick={onClick} />
+                <Slide title="Dành cho bạn" data={data} onClick={onClick} />
+                <Slide title="Dành cho bạn" data={data} onClick={onClick} />
+                <Slide title="Dành cho bạn" data={data} onClick={onClick} />
             </div>
         </div>
     );

@@ -2,8 +2,8 @@ import classNames from "classnames/bind";
 import styles from "./Category.module.scss";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCaretUp } from "@fortawesome/free-solid-svg-icons";
-import icons from "~/assets/svg/icons";
 import { Link } from "react-router-dom";
+import icons from "~/assets/svg/icons";
 import { useEffect, useState } from "react";
 const cx = classNames.bind(styles);
 const categorys = [

@@ -28,20 +28,14 @@ function InputSignUp() {
                     className={cx("input", valid && "is-valid")}
                     required
                     onBlur={(e) => handleValueEM(e.target.value)}
-                    // onChange={(e) => {
-                    //     handleValueEM(e.target.value);
-                    // }}
                 />
                 <label className={cx("label")}>Địa chỉ Email ...</label>
-                <button
-                    className={cx("btn-get")}
-                    // onClick={() => handleGetValue()}
-                >
+                <button className={cx("btn-get")}>
                     <Link
                         className={cx("link-")}
                         to={nextPage && linkPage.signIn}
                     >
-                        Get Started
+                        Bắt đầu
                         <FontAwesomeIcon
                             className={cx("icon-arrow-right")}
                             icon={faChevronRight}

@@ -23,12 +23,12 @@ function NewMovie({ onClick }) {
     return (
         <div className={cx("wrapper-new-movie-page")}>
             <div className={cx("container")}>
-                <Slide data={items} onClick={onClick} />
-                <Slide data={items} onClick={onClick} />
-                <Slide data={items} onClick={onClick} />
-                <Slide data={items} onClick={onClick} />
-                <Slide data={items} onClick={onClick} />
-                <Slide data={items} onClick={onClick} />
+                <Slide title="Dành cho bạn" data={items} onClick={onClick} />
+                <Slide title="Dành cho bạn" data={items} onClick={onClick} />
+                <Slide title="Dành cho bạn" data={items} onClick={onClick} />
+                <Slide title="Dành cho bạn" data={items} onClick={onClick} />
+                <Slide title="Dành cho bạn" data={items} onClick={onClick} />
+                <Slide title="Dành cho bạn" data={items} onClick={onClick} />
             </div>
         </div>
     );

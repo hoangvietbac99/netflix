@@ -60,13 +60,13 @@
             margin-left: 10px;
             display: flex;
             position: relative;
+            transition: all .3s ease;
             &:hover{
                 background-color: #C11119;
             }
             .link-{
                 font-size: 25px;
                 position: absolute;
-                font-weight: 700;
                 color: #FFFFFF;
                 display: flex;
                 justify-content: center;

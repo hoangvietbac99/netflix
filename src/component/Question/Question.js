@@ -30,11 +30,9 @@ function Question({ question, answer }) {
                         </button>
                     </div>
                 </div>
-                {showAnswer && (
-                    <div className={cx("item-answer")}>
-                        <span className={cx("answer")}>{answer}</span>
-                    </div>
-                )}
+                <div className={cx("item-answer", showAnswer && "show")}>
+                    <p className={cx("answer")}>{answer}</p>
+                </div>
             </div>
         </div>
     );

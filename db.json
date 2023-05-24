@@ -19,13 +19,13 @@
   "movies": [
     {
       "name": "Lời hồi đáp 1988",
-      "trailer":"https://imdb-video.media-imdb.com/vi2095757337/1434659607842-pgv4ql-1517012548728.mp4?Expires=1684757491&Signature=boCA4LMV7KPguCynmhxiFfWDLYN1fQ-f22OUJD5QQTjxyZyzR7kFIjoOJJoAuiEsdfM7wNqToV86z1jZaWo7zeHti4NFZKNpnYCzDwiGI3OvBlxW9CnD1JKu0cowfqztxo6PkAlO~k6QKXOjWnSV1cjKgKbMHh6Dk3gAMEfmJWPkAcDHut9AQWRwdqqxaMb2y7v1P4SHcLppMjnNN8T2fNaGiB~j6CpOfro39cqRCutFJhsIKAC0-l7ALAikUXku39aYU-rzeZ8MuQkqbsgTnthw5ZVQgEkw2aSfI5WvvoZP-l31LjGeBz2WVRAKhfyssJ3sPjb0AsrUWEm-NZJTew__&Key-Pair-Id=APKAIFLZBVQZ24NQH3KA",
+      "trailer":"https://www.youtube.com/embed/qUQBbrS3eGY",
       "picture": "https://occ-0-58-325.1.nflxso.net/dnm/api/v6/6gmvu2hxdfnQ55LZZjyzYR4kzGk/AAAABZTwHKI8-ta8kPwcC2SJ6wrWFiwuXLae6SDHSOkw3-GDzviCnQWQ5qZrfIS_Xbs_e7SSXHUZ5Em8nQhhYu7f2oZ1Ed6cYyzJpEg.webp?r=efd",
       "nature": "Hoài cổ, Cảm động, Tuổi trẻ",
       "content": "Một bộ phim hoài niệm về cuối những năm 1980, xoay quanh cảnh đời của năm gia đình cùng năm cô cậu bé sống tại một khu phố nhỏ ở Seoul.",
       "title": "https://occ-0-58-325.1.nflxso.net/dnm/api/v6/tx1O544a9T7n8Z_G12qaboulQQE/AAAABfrnxc850f3LX_bTnEcCg_-k2NsaiXvJaoL-RxXuUvJQuMLLoL3-w-0BKv047FSojkV1X3RyGiqfkDNdOoZ8rXukzBiFHKJH2yo5wKWcSH8.webp?r=970",
       "author": "Shin Won Ho, Lee woo Jung",
-      "actor": "Le Hyeri, Park Bo Gum, Ryu Jun Yeol, Ko Kyung Pyo, Lee Dong Hwi, Ryu Hye Young, Sung Dong II, Lee II Hwa",
+      "actor": "Le Hyeri, Park Bo Gum, Ryu Jun Yeol, Ko Kyung Pyo, Lee Dong Hwi, Lee II Hwa",
       "category": "Phim truyền hình chính kịch lãng mạn, Phim truyền hình chính kịch , Hàn Quốc, Phim truyền hình, Phim truyền hình lãng mạn",
       "rate": "13+",
       "poster":"https://occ-0-58-325.1.nflxso.net/dnm/api/v6/E8vDc_W8CLv7-yMQu8KMEC7Rrr8/AAAABcWQhJK9VmwozoIL1_1-s0HdDeOe9Z818W7Ht4Q1SN6pnXCIhjOhBsCm4LukCmQ2XWV3M--AXBC3TpWuBRT-DHtzPZIsbraF8DHp.webp?r=751",
@@ -39,7 +39,7 @@
       "content": "Một quân nhân đang chạy trốn bị cuốn vào mưu đồ cá nhân và chính trị khi anh ta được thuê làm vệ sĩ cho gia đình của một ứng cử viên tổng thống.",
       "title": "https://occ-0-58-325.1.nflxso.net/dnm/api/v6/tx1O544a9T7n8Z_G12qaboulQQE/AAAABfZpGvwaxIk3VzEGmyX0vpD_t5UrVDtCd1r4X7mtsVlda5jmkKleC2sS1Yv3O5FvvITHFlAoOVP1KiUz9czHApYkOqbr2BPFsXo2XFw1PEA.webp?r=e2b",
       "author": "",
-      "actor": "Ji Chang Wook, Song Yoon A, Lim Yoon A, Cho Soeng A, Kim Gap So, Lee Jong Jin, Song Tea Jang, Shin Dong Mi",
+      "actor": "Ji Chang Wook, Song Yoon A, Lim Yoon A, Lee Jong Jin, Song Tea Jang, Shin Dong Mi",
       "category": "Phim truyền hình chính kịch lãng mạn, Chương trình truyền hình về chính trị, Phim truyền hình chính kịch, Hàn Quốc, Phim truyền hình hành động và phiêu lưu",
       "rate": "16+",
       "poster": "https://occ-0-58-325.1.nflxso.net/dnm/api/v6/E8vDc_W8CLv7-yMQu8KMEC7Rrr8/AAAABUVwVPp5_xcOOw4sMmV19Z5CNOsztgjgeTHhtNsB43hrxIT_iKYcP7xU22GpWKwShBz2xV1bwk09O3u65p9wX_B4L8yuYPLh_OLO.webp?r=99a",
@@ -62,7 +62,7 @@
     {
       "id": 4,
       "name": "Poynyo",
-      "actor": "Yamaguchi Tomoko, Nagashima Kazushige, Amami Yuki, Tokoro George, Doi Hiroki, Nara Yuria, Yano Akiko, Yoshiyuki Kazuko, Naraoka Tomoko",
+      "actor": "Yamaguchi Tomoko, Nagashima Kazushige, Nara Yuria, Yano Akiko, Yoshiyuki Kazuko, Naraoka Tomoko",
       "author": "Miyazaki Hayao",
       "category": "Phim gia đình, Phim trẻ em và gia đình, Phim Nhật, Phim Anime",
       "nature": "Cảm động",
@@ -81,15 +81,15 @@
       "title": "https://occ-0-58-325.1.nflxso.net/dnm/api/v6/LmEnxtiAuzezXBjYXPuDgfZ4zZQ/AAAABZis8j_WbL8CJYVmdzmCEiyDPC8c1BYzZsZi9-Jvg5V49HtZEJDVW2kBjKRts7UINE4ZXXV85fJFx_FC7003vBJysH-expUHQx5wXpOQOAMv.webp?r=093",
       "picture": "https://occ-0-58-325.1.nflxso.net/dnm/api/v6/6gmvu2hxdfnQ55LZZjyzYR4kzGk/AAAABUBkZhtbCkTPGIbGGqHQZBfUp0zqfZHgp4ezZu0vHs-5-XbcRDjv5nRl0O3LpRcJbCvgq16iPC63jGcK2Ag_V38jijpHU1nb0rM.webp?r=19f",
       "poster": "https://occ-0-58-325.1.nflxso.net/dnm/api/v6/6AYY37jfdO6hpXcMjf9Yu5cnmO0/AAAABfhciIz6cV3NhQXoSmKppJ2yk_IBC_T5khGcg6IjSS_dtLkmg-Cd2m_IZ7jCzjdn_RNOww99JCi4cjlHhRuOCIkGm4Q_nTZ3aQZD.webp?r=d24",
-      "actor": "Chad Michael Collins, Akimoto Sayaka, Tom Berenger, Ryan Robbins, Lochlyn Munro, Emily Tennant, Michael Jonsson, Vincent Gale",
+      "actor": "Chad Michael Collins, Akimoto Sayaka, Tom Berenger, Michael Jonsson, Vincent Gale",
       "author": "Kaare Andrews",
       "category": "Hành động và phiêu lưu, Phim Mỹ",
       "nature": "Bạo lực, Lý thú",
       "rate": "18+"
     },
     {
-      "actor": "Jack Black, Rita Ora, James Hong, Chris Geere, Amy Hill, Nolan North, Della Saba",
-      "author": "",
+      "actor": "Jack Black, Rita Ora, James Hong, Chris Geere, Amy Hill, Della Saba",
+      "author": "Rita Ora",
       "category": "Chương trình truyền hình cho trẻ em, Phim hài truyền hình, Phim hoạt hình truyền hình",
       "nature": "Lý thú",
       "rate": "7+",
@@ -102,7 +102,7 @@
       "poster": "https://occ-0-58-325.1.nflxso.net/dnm/api/v6/6AYY37jfdO6hpXcMjf9Yu5cnmO0/AAAABYn3Frd0JcyNvuOeL1VHNY5g20svjZ333Nm_Kjq-JXCUOLcCpK60fDePHq4bdza_VEfrvVIm_hGjnFGgIpZ7XbiO3bsYglVdDRZC.webp?r=8dd"
     },
     {
-      "actor": "Hugh Jackman, Garrett Hedlund, Rooney Mara, Levi Miller, Adeel Akhtar, Kathy Burke, Nonso Anozie, Amanda Seyfried",
+      "actor": "Rooney Mara, Levi Miller, Adeel Akhtar, Kathy Burke, Nonso Anozie, Amanda Seyfried",
       "author": "Joe Wright",
       "category": "Phim gia đình, Phim trẻ em & gia đình, Phim chuyển thể từ sách, Phim Mỹ",
       "nature": "Trẻ em",
@@ -116,7 +116,7 @@
       "id": 7
     },
     {
-      "actor": "Adjoa Andoh, Julie Andrews, Lorraine Ashbourne, Jonathan Bailey,Adjoa Andoh, Julie Andrews, Lorraine Ashbourne, Jonathan Bailey,Adjoa Andoh, Julie Andrews, Lorraine Ashbourne, Jonathan Bailey",
+      "actor": "Jonathan Bailey,Jonathan Bailey,Adjoa Andoh, Julie Andrews, Lorraine Ashbourne",
       "author": "Chris Van Dusen",
       "category": "Phim truyền hình chính kịch lãng mạn, Phim truyền hình chính kịch, Phim truyền hình chuyển thể từ sách, Thời kỳ lịch sử, Chương trình truyền hình Mỹ",
       "nature": "Hóm hỉnh, xúc động",
@@ -130,7 +130,7 @@
       "id": 8
     },
     {
-      "actor": "Vera Farmiga, David Thewlis, Rupert Friend, David Hayman, Asa Butterfield, Jack Scanlon, Amber Beattie, Sheila Hancock, Richard Johnson",
+      "actor": "Vera Farmiga, Rupert Friend, David Hayman, Asa Butterfield, Jack Scanlon",
       "author": "Mark Herman",
       "category": "Anh, Phim  về quân đội, Phim chính kịch, Phim độc lập, Phim chuyển thể từ sách",
       "nature": "Đen tối, xúc động",
@@ -144,7 +144,7 @@
       "id": 9
     },
     {
-      "actor": "Nicolas Cage, Emma Stone, Ryan Reynolds, Catherine Keener, Cloris Leachman, Clark Duke, Chris Sanders,Randy Thom",
+      "actor": "Ryan Reynolds, Catherine Keener, Cloris Leachman, Clark Duke, Chris Sanders,Randy Thom",
       "author": "Kirk DeMicco",
       "category": "Phim gia đình, Phim trẻ em & gia đình,Hài, Phim Mỹ",
       "nature": "Lý thú",
@@ -169,14 +169,14 @@
       "category": "Chương trình truyền hình cho trẻ em, Phim hài truyền hình, Phim hoạt hình truyền hình",
       "nature": "Trẻ em",
       "rate": "7+",
-      "actor": "Adjoa Andoh, Julie Andrews, Lorraine Ashbourne, Jonathan Bailey,Adjoa Andoh, Julie Andrews, Lorraine Ashbourne, Jonathan Bailey,Adjoa Andoh, Julie Andrews, Lorraine Ashbourne, Jonathan Bailey"
+      "actor": "Adjoa Andoh, Julie Andrews, Lorraine Ashbourne, Jonathan Bailey"
     },
     {
       "author": "Chris Van Dusen",
       "category": "Chương trình truyền hình cho trẻ em, Phim hài truyền hình, Phim hoạt hình truyền hình",
       "nature": "Trẻ em",
       "rate": "7+",
-      "actor": "Adjoa Andoh, Julie Andrews, Lorraine Ashbourne, Jonathan Bailey,Adjoa Andoh, Julie Andrews, Lorraine Ashbourne, Jonathan Bailey,Adjoa Andoh, Julie Andrews, Lorraine Ashbourne, Jonathan Bailey",
+      "actor": "Julie Andrews, Lorraine Ashbourne, Jonathan Bailey,Adjoa Andoh, Adjoa Andoh, Julie Andrews, Lorraine Ashbourne, Jonathan Bailey",
       "name": "Chuyến tàu tốc hành Bắc Cực",
       "picture": "https://occ-0-58-325.1.nflxso.net/dnm/api/v6/6gmvu2hxdfnQ55LZZjyzYR4kzGk/AAAABdtez4Cm6n3ANuuUFbFaPeGVH1qp5r228FpXp9XjYShBVXt2IN8GLmgs3lmMKG44lEsp-Xo02Jylhy4x-H6kqqyLPNcYSNTkc9s.webp?r=69c",
       "title": "https://occ-0-58-325.1.nflxso.net/dnm/api/v6/tx1O544a9T7n8Z_G12qaboulQQE/AAAABWeXySPhDrRgqAhCKYTQOtioDq-lEJOm3_6RnLUniyTQIweuYkNEtsC0gyV6qO4224lK1pulRtJRZP7fHxyBzieJZrbnOksv68olWElIgq8.webp?r=faa",
@@ -207,7 +207,7 @@
       "content": "Thủ lĩnh băng nhóm xã hội đen giàu tham vọng Thomas Shelby nhìn thấy cơ hội tiến thân nhờ một thùng súng bị mất tích.",
       "title": "https://occ-0-58-325.1.nflxso.net/dnm/api/v6/tx1O544a9T7n8Z_G12qaboulQQE/AAAABb4AQqZsbjqeRNI72VEhISNcTO3HEJEc52AR-gokphu0vCSaVqUAqj1s8nLgYTISBXPsCfSfYDtMvKqpkKlTtDBJdc-6JdDQ00A7jyLETYQBVMTXTV6IqyWGCmn0sUoGOA3cmPL6zOqHw5h18DdHD7QgEA4hoqfZIVLEfVPq53ZDAONld9wT.webp?r=33d",
       "author": "Steven Knight",
-      "actor": "Dwayne Johnson,Ryan Reynolds,Gal Gadot, Ritu Arya, Chris Diamantopoulos,Dwayne Johnson,Ryan Reynolds,Gal Gadot, Ritu Arya, Chris Diamantopoulos,Dwayne Johnson,Ryan Reynolds,Gal Gadot, Ritu Arya, Chris Diamantopoulos",
+      "actor": "Chris Diamantopoulos, Ritu Arya, Chris Diamantopoulos, Ritu Arya, Chris Diamantopoulos",
       "category": "Phim truyền hình chính kịch, Anh, Thời kỳ lịch sử",
       "rate": "18+",
       "poster": "https://occ-0-58-325.1.nflxso.net/dnm/api/v6/E8vDc_W8CLv7-yMQu8KMEC7Rrr8/AAAABT_uDyKx4UN-FkQeyfC7pgm0ER5wIFztIR2qDFKCYtsEJfYkr9sA7eu7iZyJFy2jOnsctY44NwFMCYzTYBGBoFXejiDk9nKPDO3n.webp?r=961",
@@ -221,7 +221,7 @@
       "content": "Một sát thủ được đào tạo trong quân đội phải ra mặt để bảo vệ cô con gái mà cô chưa từng gặp khỏi bọn tội phạm tàn nhẫn muốn trả thù.",
       "title": "https://occ-0-325-58.1.nflxso.net/dnm/api/v6/tx1O544a9T7n8Z_G12qaboulQQE/AAAABab2DOxwt6q-oG8QHr9X8oio-MHYbfsFYfZ6OiwFpbA2_q3v_N8v_xSG91HMOUzM7DznhC-Yh1HpOUaSi9G9oI-3Z5f4qNEqnXPMSQCtm5Bm113kkeorZ9qSryOEpB4pHwe18qcuhGld-Z36Ag6pkwRfLhsjNueMcmyvXhxW7u4KAbqrHru5.webp?r=f5d",
       "author": "Steven Knight",
-      "actor": "Dwayne Johnson,Ryan Reynolds,Gal Gadot, Ritu Arya, Chris Diamantopoulos,Dwayne Johnson,Ryan Reynolds,Gal Gadot, Ritu Arya, Chris Diamantopoulos,Dwayne Johnson,Ryan Reynolds,Gal Gadot, Ritu Arya, Chris Diamantopoulos",
+      "actor": "Dwayne Johnson,Ryan Reynolds,Gal Gadot, Ritu Arya, Chris Diamantopoulos",
       "category": "Phim truyền hình chính kịch, Hành động và phiêu lưu, Phim Mỹ",
       "rate": "16+",
       "poster": "https://occ-0-325-58.1.nflxso.net/dnm/api/v6/E8vDc_W8CLv7-yMQu8KMEC7Rrr8/AAAABb1UBY-KqJNKOREjOlW7nqNABIS93eCeNazNioIm5n5R6fqVTdjzBxKNohZ6o00gr2ahxFafyK4tf8du1ZsMqfm9IeFolF95OMhp.webp?r=e51",
@@ -235,7 +235,7 @@
       "content": "Một ảo thuật gia tài ba nhưng nhát cáy trình diễn ảo thuật kinh dị với một người phụ nữ có thể nhìn thấy ma. Nhưng khi lời nguyền của cô trở nên tệ hơn, liệu tình yêu có cứu rỗi?",
       "title": "https://occ-0-325-58.1.nflxso.net/dnm/api/v6/tx1O544a9T7n8Z_G12qaboulQQE/AAAABYm4k0iTZGPdjLvBFvxLfkhroZ0ueJOGtgG2DxTtg46l3GN67fEVK8KUl_p3k3do3JmspjabyFUeyDSP6DMVjP1xNkoT0OR9IBDtt72W4lw.webp?r=301",
       "author": "Stephane Gauger",
-      "actor":"Ngô Kiến Huy, Nhã Phương, Kiều Minh Tuấn, Puka, Ái Phương, Cao Thái Hà, Lê Hạ Anh,Công Dương",
+      "actor":"Ngô Kiến Huy, Nhã Phương, Kiều Minh Tuấn, Puka, Ái Phương, Cao Thái Hà, Lê Hạ Anh, Công Dương",
       "category": "Hài hước, Phim Việt Nam",
       "rate": "13+",
       "poster": "https://occ-0-325-58.1.nflxso.net/dnm/api/v6/E8vDc_W8CLv7-yMQu8KMEC7Rrr8/AAAABS2KiNIt3GXtY6OeKdQLsFJDFhG-Odb_vWhdnXPOzC2WpQ0MBccyOjuZW563NyHrdeSChtZqYVHMAybClbzKI4DZVjn5kKB7qI9i.webp?r=0d2",
@@ -248,13 +248,13 @@
       "content": "Một ảo thuật gia tài ba nhưng nhát cáy trình diễn ảo thuật kinh dị với một người phụ nữ có thể nhìn thấy ma. Nhưng khi lời nguyền của cô trở nên tệ hơn, liệu tình yêu có cứu rỗi?",
       "title": "https://occ-0-325-58.1.nflxso.net/dnm/api/v6/tx1O544a9T7n8Z_G12qaboulQQE/AAAABYcxd-0rn0yX3Y-jotWUhSTbnikFuqPps0usqYzJmJKFGhxnwRllRQ42MnF29LEtEb5D6_vQbRs7DsQTSoy_ANznXmrLtMk-06ahRi7sN4dB2V7TkpG96ldzWhlAX-WqXarKAp1f30k0ZHjAUbSIpuo2-nMnkbMgE0wz5cTkucgK8JlhgbkW.webp?r=1a9",
       "author": "Steven Knight",
-      "actor": "Dwayne Johnson,Ryan Reynolds,Gal Gadot, Ritu Arya, Chris Diamantopoulos,Dwayne Johnson,Ryan Reynolds,Gal Gadot, Ritu Arya, Chris Diamantopoulos,Dwayne Johnson,Ryan Reynolds,Gal Gadot, Ritu Arya, Chris Diamantopoulos",
+      "actor": "Dwayne Johnson,Ryan Reynolds,Gal Gadot, Ritu Arya, Chris Diamantopoulos",
       "category": "Hài hước, Phiêu lưu và hành động",
       "rate": "13+",
       "poster": "https://occ-0-325-58.1.nflxso.net/dnm/api/v6/E8vDc_W8CLv7-yMQu8KMEC7Rrr8/AAAABUAiY3sTtyWbPnEO5iel8ngkaAkaynvPAAo8EPkak7RnGbNq1ALwMYuR5FXpmD_Al0SSTBi2O6XHOL7xRJTAG1_LkddmFtH5LlWw.webp?r=444",
       "id": 17,
       "trailer":"https://imdb-video.media-imdb.com/vi976077081/1434659607842-pgv4ql-1608003930396.mp4?Expires=1684911251&Signature=ZYuUvbzIg~xVqTIxcRB0yX8xe3BWjQ6qROfp-73VbPWRWoTIv6ikrbG-XJb7HY~w2x~e4nh71brRrH4qXcY4Jv7TRRBm2v1SDuhRTzZaJAlQNYP8PXo4iUNJ3pEUVQ~xkR-cks7dr3EqH4g1qLYx~wAzMz9X6hb1NS9SlgxEUUKPjef2IGiq2IBqO50D6DL1K59v6WrlW~97Ydsnbm6PX8F082GYLZZwIgqqkwL2IGQXw8kFb-T5TjS2WBCMa~J8s0KnCdKXxbmsn7d4tLZ97D9xfWF7dwJHgn3rqwzd0OzkAm-gGa5GHgji7ta3IRrq1Qf1u8pyhTinQXVJ~vARhA__&Key-Pair-Id=APKAIFLZBVQZ24NQH3KA"
-
     }
   ]
 }
+ 

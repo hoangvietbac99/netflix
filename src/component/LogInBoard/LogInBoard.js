@@ -57,10 +57,10 @@ function LogInBoard() {
                     onBlur={(e) => handleValueEmail(e)}
                     type="text"
                 />
-                <label className={cx("title")}>Email hoặc số điện thoại</label>
+                <label className={cx("title")}>Vui lòng nhập Email ...</label>
                 {valid && (
                     <div className={cx("text-valid")}>
-                        Vui lòng nhập Email hoặc số điện thoại hợp lệ
+                        Vui lòng nhập Email hợp lệ
                     </div>
                 )}
             </div>

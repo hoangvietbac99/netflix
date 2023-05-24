@@ -120,7 +120,7 @@ function Modal({ idMovie, onClick }) {
                         </div>
                     </div>
                 </div>
-                <div className={cx("content-similar")}></div>
+                {/* <div className={cx("content-similar")}></div> */}
             </div>
         </div>
     );

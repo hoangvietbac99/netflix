@@ -53,7 +53,7 @@ const pages = [
     },
     {
         path: linkPage.watchMovie,
-        conponent: undefined,
+        conponent: null,
         layout: WatchMovie,
         subNav: null,
     },
